@@ -1,0 +1,164 @@
+#+title: Upward Bound Math-Science Research Group
+#+subtitle: Dr. Marcus Birkenkrahe, Lyon College
+#+options: toc:nil num:nil ^:nil
+* Title of course
+
+"Game and robotics programming with Snap! and Python"
+
+* Instructor name
+
+Dr. Marcus Birkenkrahe, Associate Professor of Computer and Data
+Science, Lyon College, Batesville, AR, and Professor of Business
+Informatics, Berlin School of Economics and Law, Berlin, Germany.
+
+Contact information: email birkenkrahe@lyon.edu, phone (501) 422-4725.
+
+* Course location
+
+Derby Science Center, Computer Lab, Room 239
+
+* Course Begin & End Time
+
+- Classes begin on Monday, June 12th at 9:25 AM
+- Each class starts at 9:25 AM and finishes at 10:55 AM (90 min)
+- No classes from Monday, July 3rd to Friday, July 7th
+- Last class on Thursday, July 13th.
+
+* Course description
+
+In this course, you will complete a series of game, animation and
+robotics projects using the visual, drag-and-drop programming language
+Snap! and Python (for robotics) You will learn basic computer and data
+science principles, and understand how computers help us control the
+world around us. You will graduate from mere consumer and user to
+powerful programmer while playing around with blocks on the
+screen. Acquiring programming skills will help you develop your
+critical thinking. We will meet daily for 90 minutes of practical
+problem solving and interactive exercises. In between classes, you
+will work on small assignments, and you will read short textbook
+chapters or watch short instructional videos. You'll get to present
+your own work and (optionally) publish your finished projects for the
+whole world to see, and if things go well, perhaps we'll go to
+Snap!Con in California next year!
+
+* Learning Objectives
+
+Students who complete "Games and Robotics Programming with Snap! and
+Python" will be able to:
+
+- Create exciting games, animation and media computation
+- Learn computer and data science principles by playing with data
+- Acquire basic sequential programming skills
+- Know how to translate visual Snap! code into procedural Python code
+- Know how to operate robots using simple instructions
+- Understand the relationship of humans and machines better
+- Develop their critical thinking skills
+- Know how to effectively present assignment results
+
+* Textbook / Materials
+
+Textbook: [[https://www.amazon.com/Learn-Concepts-Snap-interactive-programming/dp/1728921716/][Joshi, A.B. (2018). Learn CS Concepts with Snap!: Create
+exciting games and interactive animation in Snap! and learn computer
+science principles.]]
+
+See also: [[https://www.amazon.com/Learn-Python-Snap-introduction-Programming/dp/B094ZQ1J62/][Joshi, A.B. (2021). Learn Python in a Snap!: Rapid
+introduction to Python for those who already know Snap! Programming.]]
+
+Author's website: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]].
+
+All other materials will be available online via GitHub or on the
+Snap! home page at Berkeley U.
+
+* Course Calendar
+
+Tentative content per classroom session:
+#+name: tab:schedule
+| No | DATE       | TESTS   | ASSIGNMENT | READ TEXTBOOK CHAPTER     |
+|----+------------+---------+------------+---------------------------|
+|  1 | Mon-Jun-12 | Test 1  | Program 1  | 1.1 First Look at Snap!   |
+|  2 | Tue-Jun-13 |         |            | 1.2 Sequence and Sounds   |
+|  3 | Wed-Jun-14 | Test 2  | Program 2  | 1.3 Looping and Costumes  |
+|  4 | Thu-Jun-15 |         |            | 1.4 Geometry and Motion   |
+|  5 | Fri-Jun-16 | Test 3  | Program 3  | 1.6 Broadcasting          |
+|  6 | Mon-Jun-19 |         |            | 1.5 Animation project     |
+|  7 | Tue-Jun-20 | Test 4  | Program 4  | 2.1 Events, Concurrency   |
+|  8 | Wed-Jun-21 |         |            | 2.2 Keyboard Interaction  |
+|  9 | Thu-Jun-22 | Test 5  | Program 5  | 3.1 Mouse Interaction     |
+| 10 | Fri-Jun-23 |         |            | 3.2-4.2 Paddle and bricks |
+| 11 | Mon-Jun-26 | Test 6  | Program 6  | 5.1-5.3 Falling objects   |
+| 13 | Tue-Jun-27 |         |            | 6.1-6.2 Flappy Bird       |
+| 14 | Wed-Jun-28 | Test 7  | Program 7  | 7.1-7.4 Traffic Light     |
+| 15 | Thu-Jun-29 |         |            | Beyond the Basics         |
+| 16 | Fri-Jun-30 | Test 8  | Program 8  | From Snap! to Python      |
+| 17 | Mon-Jul-10 |         |            | Sphero Bolt Robotics I    |
+| 18 | Tue-Jul-11 | Test 9  | Program 9  | Sphero Bolt Robotics II   |
+| 19 | Wed-Jul-12 |         |            | Final projects I          |
+| 20 | Thu-Jul-13 | Test 10 | Program 10 | Final projects II         |
+
+* Grading
+
+#+name: tbl:grading
+| REQUIREMENT   | UNITS | PPU | TOTAL | % of TOTAL |
+|---------------+-------+-----+-------+------------|
+| Tests         |    10 |  10 |   100 |        25. |
+| Programs      |    10 |  10 |   100 |        25. |
+| Participation |    20 |   5 |   100 |        25. |
+| Project       |     2 |  50 |   100 |        25. |
+|---------------+-------+-----+-------+------------|
+| TOTAL         |       |     |   400 |       100. |
+|---------------+-------+-----+-------+------------|
+#+TBLFM: @2$4=$2*$3::@2$5=(@2$4/@6$4)*100::@3$4=$2*$3::@3$5=(@3$4/@6$4)*100::@4$4=$2*$3::@4$5=(@4$4/@6$4)*100::@5$4=$2*$3::@5$5=(@5$4/@6$4)*100::@6$4=vsum(@2..@5)::@6$5=vsum(@2..@5)
+
+- The tests are multiple choice quizzes available on Canvas and GitHub
+- The programs have to be uploaded to the student's project repository
+  at snap.berkeley.edu
+- The (group) project needs to be proposed and defended and the
+  results need to be presented in class.
+- Participation is based on presence and engagement in class.
+
+The final grade is computed based on this table:
+|--------+---------------+---------------+--------|
+|      % | MIDTERM GRADE | FINAL GRADE   | POINTS |
+|--------+---------------+---------------+--------|
+| 100-98 | A+            |               |        |
+|  97-96 | A             | A (passed -   |        |
+|  95-90 | A-            | very good)    |   360. |
+|--------+---------------+---------------+--------|
+|  89-86 | B+            |               |        |
+|  85-80 | B             | B (passed -   |        |
+|  79-76 | B-            | good)         |   304. |
+|--------+---------------+---------------+--------|
+|  75-70 | C+            |               |        |
+|  69-66 | C             | C (passed -   |        |
+|  65-60 | C-            | satisfactory) |   240. |
+|--------+---------------+---------------+--------|
+|  59-56 | D+            |               |        |
+|  55-50 | D             | D (passed)    |   200. |
+|--------+---------------+---------------+--------|
+|   49-0 | F             | F (failed)    |        |
+|--------+---------------+---------------+--------|
+#+TBLFM: @4$4=0.9*400::@7$4=0.76*400::@10$4=0.6*400::@12$4=.50*400
+
+* Standards of Student Behavior
+
+- Students are not allowed to wear headphones or use any electronic devices during class.
+- Students are not allowed to bring food or drinks into classrooms (excluding water bottles).
+- Students are expected to follow the policies in the Student &
+  Guardian Summer Session Handbook at all times.
+
+* Make-Up Work Policy
+
+In the event a student is absent due to illness, or if the student
+does not complete an assignment on time, the student should contact
+the course instructor for individual arrangements on how to make
+up/submit missed/late assignments. See also Attendance Policy (below).
+
+* Lyon College standard and course policies
+
+- *Standard Lyon College Policies* are incorporated into this syllabus
+  and can be found at: [[http://www.lyon.edu/standard-course-policies][lyon.edu/standard-course-policies]].
+
+- The *Assignments and Honor Code* and the *Attendance Policy* are
+  incorporated into this syllabus also and can be found at:
+  [[https://tinyurl.com/LyonPolicy][tinyurl.com/LyonPolicy]].
+
