@@ -1,4 +1,4 @@
-#+TITLE:Snap! Programming
+#+TITLE:Game and Robotics Programming with Snap! and Python
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE: UBMS @ Lyon College Summer 2023
 #+OPTIONS: toc:nil
