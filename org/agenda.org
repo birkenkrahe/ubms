@@ -63,10 +63,10 @@
 [[../img/joshi.png]]
 
 - [[https://lyon.instructure.com/courses/1721][Canvas: links, assignments and quizzes & syllabus]]
-- [[https://github.com/birkenkrahe/snap/tree/piHome][GitHub: copies of all lectures, agenda, materials, issues]]
+- [[https://github.com/birkenkrahe/ubms/tree/main][GitHub:]] lectures, agenda, materials, issues
 - Snap!Chat (Google Space) for anything anytime
 - [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][Textbook to read during or ahead (Joshi, 2020)]]
-- [[https://snap.berkeley.edu/][Berkeley U. Snap! Homepage]]
+- [[https://snap.berkeley.edu/][Berkeley U. Snap! Homepage]] for projects and examples
 
 * What should you write (and how)?
 #+attr_html: :width 400px
