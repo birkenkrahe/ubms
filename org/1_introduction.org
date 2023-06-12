@@ -191,7 +191,8 @@ In Snap!, most of these elements (but not all) are hidden from you.
 - It's easy to build animation and games in it
 - It's instantly, freely available online
 - It trains pseudocode and modular design
-- It's suited for data science applications
+- It's suited for data science applications (muldidim arrays)
+- It allows you to define recursive functions ([[https://youtu.be/4Cyer8NwMXw][see here]])
 - I've always wanted to get into it
   
 *But why not just Python?*
@@ -268,8 +269,9 @@ In Snap!, most of these elements (but not all) are hidden from you.
 
 - Berkeley's Snap! is a development of MIT's Scratch, created in HTML5
   (with JavaScript), available online or on your PC for download.
-- In Snap!, you can define multidimensional arrays, which means that
-  you can do anything a high-level language like Python can do, too.
+- In Snap!, you can define multidimensional arrays and recursive
+  functions, which means that you can do anything a high-level
+  language like Python can do, too.
 - Programming can help you understand machines, your own thinking, and
   you can build applications for humans (like games and animations).
 - Programming languages are like natural languages, only much stricter.
