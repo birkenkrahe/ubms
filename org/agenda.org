@@ -1,0 +1,96 @@
+#+TITLE:Game and Robotics Programming with Snap! and Python
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE: UBMS - SUMMER 2023
+#+OPTIONS: toc:1 num:nil ^:nil
+#+STARTUP: overview hideblocks indent inlineimages
+* README
+#+attr_html: :width 400px
+[[../img/readme.png]]
+
+- Agenda overview - what I had planned and what we achieved in each
+  session of the course.
+
+- If we don't manage to finish a topic in one session, it'll be
+  finished in the subsequent session(s) without change of the
+  originally date.
+
+- See the course syllabus for a detailed (tentative) schedule.
+
+* Welcome (June-12)  - Orientation
+#+attr_html: :width 400px
+[[../img/snaplogo.png]]
+
+- [ ] Welcome to the course
+- [ ] Who Am I? Who Are You?
+- [ ] What we're going to do (and where)?
+- [ ] What should you write (for your research paper)?
+
+* Who am I? 
+#+attr_html: :width 400px
+#+caption: Hillside in Tuscany, Italy
+[[../img/italy.jpg]]
+
+1) *One memorable thing about me.*
+
+2) *Why I am in this course.*
+
+3) *What I would really like (for this course)*.
+
+4) *What I would not like (for this course)*.
+
+5) *My word for today.*
+
+* Who are you?
+#+attr_html: :width 400px
+#+caption: Berlin Prenzlauer Berg in Winter
+[[../img/berlin.jpg]]
+
+1) What's your *name*? (And where you're from)
+
+2) What's your main *interest* (at Lyon)?
+
+3) What's your main *interest* (outside of Lyon)?
+
+4) What would you like to *take away* from this course?
+
+5) What would you like to *avoid* in this course?
+
+6) What's your *word* for today?
+
+* What're we going to do (and where)?
+#+attr_html: :width 250px
+#+caption: Cover, Joshi, Learn CS Concepts with Snap! (2020)
+[[../img/joshi.png]]
+
+- [[https://lyon.instructure.com/courses/1721][Canvas: links, assignments and quizzes & syllabus]]
+- [[https://github.com/birkenkrahe/snap/tree/piHome][GitHub: copies of all lectures, agenda, materials, issues]]
+- Snap!Chat (Google Space) for anything anytime
+- [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][Textbook to read during or ahead (Joshi, 2020)]]
+- [[https://snap.berkeley.edu/][Berkeley U. Snap! Homepage]]
+
+* What should you write (and how)?
+#+attr_html: :width 400px
+#+Caption: xkcd - Research Risks (1904)
+[[../img/research_risks.png]]
+
+- [[https://lyon.instructure.com/courses/1721/assignments/syllabus#org08c5883][Pick one topic]] (duplications are allowed)
+- Start researching (but how?)
+- Suggestion: 'How to read?' ([[https://github.com/birkenkrahe/org/blob/master/FAQ.org#how-should-you-read][FAQ]])
+- IMRaD - scientific publications ([[https://youtu.be/dip7UwZ3wUM][YouTube]])
+- SCQA - Thank you, Barbara Minto [[https://vimeo.com/305393045][(video]])
+- [[https://scrum.org][Scrum]] (agile project management)
+- AI assistance (why/why not/how?) - [[https://shareg.pt/QVceRW4][example]]
+
+* TODO Summary
+#+attr_html: :width 400px
+#+caption: Bob Bartlett and local during Bartlett's Arctic expedition (1933)
+[[../img/summary.jpg]]
+
+* References
+#+attr_html: :width 400px
+[[../img/batman_robin.png]]
+
+- xkcd (October 17, 2017). Research Risks. URL: [[https://xkcd.com/1904/][xkcd.com/1904/]]
+- Joshi, A.D. (2020). Learn CS Concepts With Snap! URL: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]]
+- Harrison Metal (2019). Than You, Barbara Minto. URL: [[https://vimeo.com/305393045][vimeo.com]]
+- OpenAI (May 24, 2023). ChatGPT (GPT-4). URL: [[https://chat.openai.com/?model=gpt-4][chat.openai.com]]

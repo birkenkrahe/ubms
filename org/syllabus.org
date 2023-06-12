@@ -1,21 +1,25 @@
-#+title: Upward Bound Math-Science Research Group
-#+subtitle: Dr. Marcus Birkenkrahe, Lyon College
-#+options: toc:nil num:nil ^:nil
+#+title: snap-syllabus
+#+author: Marcus Birkenkrahe
+#+startup: overview hideblocks indent
+#+options: toc:1 num:1 ^:nil
+#+subtitle: COR100 Snap! Programming Syllabus
+#+attr_html: :width 500px
+[[../img/snaplogo.png]]
 * Title of course
 
 "Game and robotics programming with Snap! and Python"
 
 * Instructor name
 
-Dr. Marcus Birkenkrahe, Associate Professor of Computer and Data
-Science, Lyon College, Batesville, AR, and Professor of Business
-Informatics, Berlin School of Economics and Law, Berlin, Germany.
+- Dr. Marcus Birkenkrahe, Associate Professor of Computer and Data
+  Science, Lyon College, Batesville, AR
 
-Contact information: email birkenkrahe@lyon.edu, phone (501) 422-4725.
+- Contact information: email birkenkrahe@lyon.edu, phone (501)
+  422-4725.
 
 * Course location
 
-Derby Science Center, Computer Lab, Room 239
+Lyon Building, Computer Lab, Room 104
 
 * Course Begin & End Time
 
@@ -57,23 +61,20 @@ Python" will be able to:
 
 * Textbook / Materials
 
-Textbook: [[https://www.amazon.com/Learn-Concepts-Snap-interactive-programming/dp/1728921716/][Joshi, A.B. (2018). Learn CS Concepts with Snap!: Create
-exciting games and interactive animation in Snap! and learn computer
-science principles.]]
-
-See also: [[https://www.amazon.com/Learn-Python-Snap-introduction-Programming/dp/B094ZQ1J62/][Joshi, A.B. (2021). Learn Python in a Snap!: Rapid
-introduction to Python for those who already know Snap! Programming.]]
-
-Author's website: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]].
-
-All other materials will be available online via GitHub or on the
-Snap! home page at Berkeley U.
+- Textbook: [[https://www.amazon.com/Learn-Concepts-Snap-interactive-programming/dp/1728921716/][Joshi A.B. (2020)]]. Learn CS Concepts with Snap!: Create
+  exciting games and interactive animation in Snap! and learn computer
+  science principles.
+- See also: [[https://www.amazon.com/Learn-Python-Snap-introduction-Programming/dp/B094ZQ1J62/][Joshi A.B. (2021)]]. Learn Python in a Snap!: Rapid
+  introduction to Python for those who already know Snap! Programming.
+- Author's website: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]].
+- All other materials will be available online via GitHub or on the
+  [[https://snap.berkeley.edu][Snap! home page at Berkeley U]].
 
 * Course Calendar
 
 Tentative content per classroom session:
 #+name: tab:schedule
-| No | DATE       | TESTS   | ASSIGNMENT | READ TEXTBOOK CHAPTER     |
+| No | DATE       | TESTS   | ASSIGNMENT | TEXTBOOK CHAPTER          |
 |----+------------+---------+------------+---------------------------|
 |  1 | Mon-Jun-12 | Test 1  | Program 1  | 1.1 First Look at Snap!   |
 |  2 | Tue-Jun-13 |         |            | 1.2 Sequence and Sounds   |
@@ -97,13 +98,16 @@ Tentative content per classroom session:
 
 * Grading
 
+There will be a 'grade equivalent' in this course based on your
+performance in the following categories:
+
 #+name: tbl:grading
 | REQUIREMENT   | UNITS | PPU | TOTAL | % of TOTAL |
 |---------------+-------+-----+-------+------------|
-| Tests         |    10 |  10 |   100 |        25. |
+| Quizzes       |    10 |  10 |   100 |        25. |
 | Programs      |    10 |  10 |   100 |        25. |
 | Participation |    20 |   5 |   100 |        25. |
-| Project       |     2 |  50 |   100 |        25. |
+| Paper         |     1 | 100 |   100 |        25. |
 |---------------+-------+-----+-------+------------|
 | TOTAL         |       |     |   400 |       100. |
 |---------------+-------+-----+-------+------------|
@@ -112,8 +116,8 @@ Tentative content per classroom session:
 - The tests are multiple choice quizzes available on Canvas and GitHub
 - The programs have to be uploaded to the student's project repository
   at snap.berkeley.edu
-- The (group) project needs to be proposed and defended and the
-  results need to be presented in class.
+- The paper must be based one of five topics suggested by the
+  instructor (see below).
 - Participation is based on presence and engagement in class.
 
 The final grade is computed based on this table:
@@ -139,6 +143,26 @@ The final grade is computed based on this table:
 |--------+---------------+---------------+--------|
 #+TBLFM: @4$4=0.9*400::@7$4=0.76*400::@10$4=0.6*400::@12$4=.50*400
 
+* Research paper topics
+
+Students must select one of these topics for their final 2-3 page
+research paper, complete with references (additional pages).
+
+1) An overview of the Snap! programming language, including its
+   history, features, and uses.
+2) A comparative analysis of Snap! with other programming languages,
+   such as Scratch, Python, and Java, with a focus on the strengths and
+   weaknesses of each language.
+3) A review of existing Snap! projects and extensions, and an
+   evaluation of their effectiveness in engaging students and promoting
+   learning.
+4) An exploration of the use of Snap! in creating games, interactive
+   simulations, and other educational software, and the potential
+   benefits and challenges associated with this approach.
+5) An analysis of the potential applications of Snap! in areas beyond
+   traditional computer science, such as art, music, and storytelling,
+   and the benefits and limitations of using Snap! in these contexts.
+
 * Standards of Student Behavior
 
 - Students are not allowed to wear headphones or use any electronic devices during class.
@@ -151,14 +175,5 @@ The final grade is computed based on this table:
 In the event a student is absent due to illness, or if the student
 does not complete an assignment on time, the student should contact
 the course instructor for individual arrangements on how to make
-up/submit missed/late assignments. See also Attendance Policy (below).
-
-* Lyon College standard and course policies
-
-- *Standard Lyon College Policies* are incorporated into this syllabus
-  and can be found at: [[http://www.lyon.edu/standard-course-policies][lyon.edu/standard-course-policies]].
-
-- The *Assignments and Honor Code* and the *Attendance Policy* are
-  incorporated into this syllabus also and can be found at:
-  [[https://tinyurl.com/LyonPolicy][tinyurl.com/LyonPolicy]].
+up/submit missed/late assignments.
 
