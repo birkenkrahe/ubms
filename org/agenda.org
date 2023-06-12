@@ -1,8 +1,10 @@
-#+TITLE:Game and Robotics Programming with Snap! and Python
+#+TITLE: Game and Robotics Programming with Snap! and Python
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE: UBMS - SUMMER 2023
 #+OPTIONS: toc:1 num:nil ^:nil
 #+STARTUP: overview hideblocks indent inlineimages
+#+attr_html: :width 700px
+[[../img/westworld.jpg]]
 * README
 #+attr_html: :width 400px
 [[../img/readme.png]]
@@ -60,7 +62,8 @@
 * What're we going to do (and where)?
 #+attr_html: :width 250px
 #+caption: Cover, Joshi, Learn CS Concepts with Snap! (2020)
-[[../img/joshi.png]]
+[[../img/joshi.png]] [[../img/github.png]]
+[[../img/canvas.png]] [[../img/berkeley.png]]
 
 - [[https://lyon.instructure.com/courses/1721][Canvas: links, assignments, quizzes, syllabus & zooms]]
 - [[https://github.com/birkenkrahe/ubms/tree/main][GitHub:]] lectures, agenda, materials, issues
@@ -90,7 +93,7 @@
 #+attr_html: :width 400px
 [[../img/batman_robin.png]]
 
-- xkcd (October 17, 2017). Research Risks. URL: [[https://xkcd.com/1904/][xkcd.com/1904/]]
+- xkcd (2017). Research Risks. URL: [[https://xkcd.com/1904/][xkcd.com/1904/]]
 - Joshi, A.D. (2020). Learn CS Concepts With Snap! URL: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]]
 - Harrison Metal (2019). Than You, Barbara Minto. URL: [[https://vimeo.com/305393045][vimeo.com]]
 - OpenAI (May 24, 2023). ChatGPT (GPT-4). URL: [[https://chat.openai.com/?model=gpt-4][chat.openai.com]]
