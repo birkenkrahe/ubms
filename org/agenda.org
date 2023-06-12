@@ -84,11 +84,42 @@
 - [[https://scrum.org][Scrum]] (agile project management)
 - AI assistance (why/why not/how?) - [[https://shareg.pt/QVceRW4][example]]
 
-* TODO Summary
+* Summary
 #+attr_html: :width 400px
 #+caption: Bob Bartlett and local during Bartlett's Arctic expedition (1933)
 [[../img/summary.jpg]]
 
+- [[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
+  
+- Your *interests* included: engineering (incl. aerospace, software),
+  CAD/CAM, art history, fiction writing, video game design, baseball.
+- To avoid *negative* experiences: keep up (don't fall behind), be bold
+  (don't be shy), stay calm (don't panic), keep things interesting
+  (don't get bored).
+- Sometimes, however, "falling behind" can be an important learning
+  (it was for me when, at your age, I was too full of myself).
+- *Words* included: paradox, JavaScript, black hole, game design, Italy.
+- My background: [[https://www.nature.com/subjects/theoretical-particle-physics#:~:text=Theoretical%20particle%20physics%20is%20the,prevailing%20theory%3A%20the%20standard%20model.][theoretical particle physics]] (à la Sheldon Cooper).
+- Johann Wolfgang von Goethe: famous German writer and polymath
+  ([[https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe][Wikipedia]]).
+- [[https://xkcd.com][xkcd]]: daily cartoons for nerds, "a webcomic of romance, sarcasm,
+  math, and language."
+- *Research:* use IMRaD (Introduction = what're you investigating?,
+  Method = how did you do it?, Results = what did you find out, and
+  Discussion = what does it mean? with limitations).
+- *Read* stuff at different levels: from shallow to deep.
+- *[[https://arxiv.org][arxiv.org]]* - preprint server for scientific papers at Stanford
+- *SCQA* = Situation (what you already know) + Complication (what you
+  don't know) + Question (what you want to know) + Answer
+- *Scrum* (term comes from Rugby) - an agile project management method
+  to split a project into different periods each closed by a 'sprint
+  review' where the team discusses progress with the customer.
+- AI assistance (e.g. ChatGPT): yes, as long as you use it for
+  drafting, reference it, and don't believe everything it says.
+- Earliest chatbot (1966): ELIZA, the digital therapist ([[https://web.njit.edu/~ronkowit/eliza.html][try it here]]).
+  #+attr_latex: :width 400px
+  [[../img/eliza.png]]
+  
 * References
 #+attr_html: :width 400px
 [[../img/batman_robin.png]]
