@@ -3,8 +3,6 @@
 #+SUBTITLE: UBMS - SUMMER 2023
 #+OPTIONS: toc:1 num:nil ^:nil
 #+STARTUP: overview hideblocks indent inlineimages
-#+attr_html: :width 700px
-[[../img/westworld.jpg]]
 * README
 #+attr_html: :width 400px
 [[../img/readme.png]]
@@ -18,16 +16,16 @@
 
 - See the course syllabus for a detailed (tentative) schedule.
 
-* Welcome (June-12)  - Orientation
-#+attr_html: :width 400px
-[[../img/snaplogo.png]]
+* Welcome & orientation (June-12)
+#+attr_html: :width 700px
+[[../img/westworld.jpg]]
 
 - [ ] Welcome to the course
 - [ ] Who Am I? Who Are You?
 - [ ] What we're going to do (and where)?
 - [ ] What should you write (for your research paper)?
 
-* Who am I? 
+** Who am I? 
 #+attr_html: :width 400px
 #+caption: Hillside in Tuscany, Italy
 [[../img/italy.jpg]]
@@ -42,7 +40,7 @@
 
 5) *My word for today.*
 
-* Who are you?
+** Who are you?
 #+attr_html: :width 400px
 #+caption: Berlin Prenzlauer Berg in Winter
 [[../img/berlin.jpg]]
@@ -59,7 +57,7 @@
 
 6) What's your *word* for today?
 
-* What're we going to do (and where)?
+** What're we going to do (and where)?
 #+attr_html: :width 250px
 #+caption: Cover, Joshi, Learn CS Concepts with Snap! (2020)
 [[../img/joshi.png]] [[../img/github.png]]
@@ -71,7 +69,7 @@
 - [[https://snap.berkeley.edu/][Berkeley U. Snap! Homepage]] for projects and examples
 - Snap!Chat (Google Space) for anything anytime (new!)
 
-* What should you write (and how)?
+** What should you write (and how)?
 #+attr_html: :width 400px
 #+Caption: xkcd - Research Risks (1904)
 [[../img/research_risks.png]]
@@ -84,7 +82,7 @@
 - [[https://scrum.org][Scrum]] (agile project management)
 - AI assistance (why/why not/how?) - [[https://shareg.pt/QVceRW4][example]]
 
-* Summary
+** Summary
 #+attr_html: :width 400px
 #+caption: Bob Bartlett and local during Bartlett's Arctic expedition (1933)
 [[../img/summary.jpg]]
@@ -99,7 +97,8 @@
 - Sometimes, however, "falling behind" can be an important learning
   (it was for me when, at your age, I was too full of myself).
 - *Words* included: paradox, JavaScript, black hole, game design, Italy.
-- My background: [[https://www.nature.com/subjects/theoretical-particle-physics#:~:text=Theoretical%20particle%20physics%20is%20the,prevailing%20theory%3A%20the%20standard%20model.][theoretical particle physics]] (à la Sheldon Cooper).
+- My background: [[https://www.nature.com/subjects/theoretical-particle-physics#:~:text=Theoretical%20particle%20physics%20is%20the,prevailing%20theory%3A%20the%20standard%20model.][theoretical particle physics]] (à la Sheldon
+  Cooper). For some of my own publications, see researchgate.net.
 - Johann Wolfgang von Goethe: famous German writer and polymath
   ([[https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe][Wikipedia]]).
 - [[https://xkcd.com][xkcd]]: daily cartoons for nerds, "a webcomic of romance, sarcasm,
@@ -118,11 +117,14 @@
   review' where the team discusses progress with the customer.
 - AI assistance (e.g. ChatGPT): yes, as long as you use it for
   drafting, reference it, and don't believe everything it says.
+- *Plagiarism* is when you use someone else's intellectual capital
+  (his/her thoughts, writings, images, code etc.) without giving
+  credit (through direct reference).
 - Earliest chatbot (1966): ELIZA, the digital therapist ([[https://web.njit.edu/~ronkowit/eliza.html][try it here]]).
   #+attr_latex: :width 400px
   [[../img/eliza.png]]
   
-* References
+** References
 #+attr_html: :width 400px
 [[../img/batman_robin.png]]
 
@@ -130,3 +132,17 @@
 - Joshi, A.D. (2020). Learn CS Concepts With Snap! URL: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]]
 - Harrison Metal (2019). Than You, Barbara Minto. URL: [[https://vimeo.com/305393045][vimeo.com]]
 - OpenAI (May 24, 2023). ChatGPT (GPT-4). URL: [[https://chat.openai.com/?model=gpt-4][chat.openai.com]]
+
+* Introduction to Snap!
+#+attr_html: :width 400px
+[[../img/snaplogo.png]]
+
+** Leftovers
+
+- You can check out the summary for yesterday's topics
+- Check out the Google Snap!Chat for interesting things:
+  #+attr_latex: :width 400px
+  [[../img/snapchat.png]]
+
+** Quiz 1 is available in Canvas - complete it now!
+** Today's topic: introduction to Snap!
