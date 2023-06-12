@@ -2,9 +2,16 @@
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
 #+subtitle: UBMS Game and Robo Programming with Snap! and Python
-* INTRODUCTION
-#+attr_latex: :width 400px
-[[../img/library.jpg]]
+* Introduction
+#+attr_html: :width 400px
+[[../img/westworld.jpg]]
+
+- [ ] Snap! vs. Scratch
+- [ ] Scratch interface vs. Snap! interface
+- [ ] Programming - why? how? what?
+- [ ] Programming languages vs. natural languages
+- [ ] Look under the hood: infrastructure you're (not) dealing with
+- [ ] Why Snap! (Why not just Python?)
 
 * Snap! vs. Scratch
 #+attr_latex: :width 400px
@@ -40,11 +47,11 @@
 #+caption: Scratch 3 interface
 [[../img/snap_scratch.png]]
 
-- You can program the Sphero Bolt robot with Scratch ([[https://sphero.com/blogs/news/sphero-edu-implements-scratch][see here]])
-
-#+attr_latex: :width 400px
-#+caption: Sphero Bolt in human hand
-[[../img/bolt.jpg]]
+- You can program the Sphero Bolt robot with Scratch ([[https://sphero.com/blogs/news/sphero-edu-implements-scratch][see here]]) or
+  with Python (we'll do that).
+  #+attr_latex: :width 400px
+  #+caption: Sphero Bolt in human hand
+  [[../img/bolt.jpg]]
 
 * Snap! interface and examples
 #+attr_latex: :width 400px
@@ -61,7 +68,7 @@
   7) Start the simulation and let it run until the end
   8) Leave the full screen
   9) Select ~See Code~
-  10) [[https://snap.berkeley.edu/snap/snap.html#present:Username=qw23&ProjectName=Conway%e2%80%99s%20Life%20infinite%20playing%20field&editMode&noRun][Check out the program]] (we might get back to it) 
+  10) [[https://snap.berkeley.edu/snap/snap.html#present:Username=qw23&ProjectName=Conway%e2%80%99s%20Life%20infinite%20playing%20field&editMode&noRun][Check out the program]] (we might get back to it)
 
 - Check out one of my own creations: a "[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=TimeMachine][Time Machine]]" (of sorts)
   1) Go back to the Snap! home page at snap.berkeley.edu
@@ -110,12 +117,76 @@
 - I recommend maintaining a (digital) notebook for this course. That's
   exactly what I did when working through the textbook, using
   [[https://orgmode.org/][Emacs]]. (Talk to me if you want to know more about Emacs.)
+* Programming languages are languages
+
+- C/C++ is like Latin
+  #+attr_latex: :width 150px
+  #+Caption: "C/C++ is like Latin"
+  [[../img/0_cpp.png]]
+
+- SQL is like English
+  #+attr_latex: :width 200px
+  #+Caption: "SQL is like English"
+  [[../img/0_sqlite.png]]
+
+- Lisp is like French
+  #+attr_latex: :width 150px
+  #+Caption: "Lisp is like French"
+  [[../img/0_lisp.png]]
+  
+- R is like Italian
+  #+attr_latex: :width 150px
+  #+Caption: "R is like Italian"
+  [[../img/0_rlogo.png]]
+
+- Snap! is like Russian
+  #+attr_latex: :width 150px
+  #+Caption: "Snap! is like Russian"
+  [[../img/0_snap.png]]
+
+- FORTRAN is like Hebrew
+  #+attr_latex: :width 150px
+  #+Caption: "FORTRAN is like Hebrew"
+  [[../img/0_fortran.png]]
+
+- HTML is like Gaelic
+  #+attr_latex: :width 150px
+  #+Caption: "HTML is like Gaelic"
+  [[../img/0_html.jpg]]
+
+- Python is like Spanish
+  #+attr_latex: :width 150px
+  #+Caption: "Python is like Spanish"
+  [[../img/0_python.png]]
+  
+* Importance of infrastructure: a look under the hood
+#+attr_latex: :width 400px
+#+caption: Photo by Landon Martin on Unsplash
+[[../img/0_nesting.jpg]]
+
+Some infrastructure that separates you from just "getting on" with it:
+
+1. Network server / network
+2. Keyboard / Screen
+3. Operating system (OS)
+4. OS shell / terminal / console
+5. Python shell / console
+6. File system
+7. Compiler/interpreter
+8. Editor
+9. Middleware and meta data
+10. Graphical user interface
+
+(Most of these infrastructure components are written in C/C++.)
+
+In Snap!, most of these elements (but not all) are hidden from you.
 
 * Why Snap!
 #+attr_latex: :width 400px
 #+caption: Donkey Kong and Pacman arcade games in Snap!
 [[../img/stemdemo_arcade.png]]
 
+*Why Snap!*
 - It's a full-fledged programming language
 - It's easy to build animation and games in it
 - It's instantly, freely available online
@@ -123,6 +194,14 @@
 - It's suited for data science applications
 - I've always wanted to get into it
   
+*But why not just Python?*
+- My intuition (better for beginners and tourists)
+- Much, much steeper learning curve to get to game design
+- Snotty developer community (arrogant nerds aren't nice)
+- Compare Python reference vs. Snap! reference manual:
+  #+attr_latex: :width 300px
+  [[../img/python.png]] [[../img/snapref.png]]
+
 * Next: looping, broadcasting, animation
 
 - [ ] Snap user interface (UI)
@@ -153,6 +232,8 @@
   web site for online shopping). More: [[https://www.freecodecamp.org/news/use-user-reseach-to-create-the-perfect-ui-design/][freecodecamp.org video course]].
 
 * Snap! user interface
+#+attr_latex: :width 400px
+[[../img/snap.png]]
 
 - Connect to /snap.berkeley.edu/ and register using your name and Lyon
   student email address.
@@ -183,4 +264,16 @@
   including movements, sounds, and costumes, but you are also the
   producer, casting director, and editor.
 
+* Summary
 
+- Berkeley's Snap! is a development of MIT's Scratch, created in HTML5
+  (with JavaScript), available online or on your PC for download.
+- In Snap!, you can define multidimensional arrays, which means that
+  you can do anything a high-level language like Python can do, too.
+- Programming can help you understand machines, your own thinking, and
+  you can build applications for humans (like games and animations).
+- Programming languages are like natural languages, only much stricter.
+- Many layers of computing infrastructure separate you from just
+  "getting on with it" - in Snap! you won't have to know most of them.
+- A user interface allows a user to interact with an
+  application. UI/UX design is an important, growing career field.

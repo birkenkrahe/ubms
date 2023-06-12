@@ -10,13 +10,36 @@
 - To build a *script*, you drag and drop the blocks from the commands
   area into the script area and *connect* them like a jigsaw puzzle.
 
-- Scripts are *programs*, sets of instructions for the computer.
+- Scripts are *programs*, sets of instructions for the
+  computer. Programs for /interpreted/ languages are sometimes called
+  /scripts/ (like: R, Python, Snap!, JavaScript).
+
+- Interpreted languages offer instant gratification while compiled
+  languages (C/C++, Java, FORTRAN) need the source code to be
+  translated to machine code, which is then run.
+
+- Python example:
+  #+begin_src python :results output
+    print('Hello, world!')
+  #+end_src
+
+- C example:
+  #+begin_src C :main yes :includes <stdio.h> :results output
+    printf("Hello, world!\n");
+  #+end_src  
 
 - Programs need to be absolutely *flawless*: you need to be 100%
   diligent and careful when programming. Otherwise, the computer will
   refuse to cooperate.
 
+- Modern programming editors (like Emacs here) provide /syntax
+  highlighting/ as a visual aid to help satisfy syntax requirements.
+
 * Saving a Snap! project
+#+attr_latex: :width 400px
+[[../img/projects.png]]
+
+- Open your Snap! editor now to follow along as I explain things.
 
 - A Snap! /project/ is a collection of scripts for sprites.
   #+attr_latex: :width 400px
@@ -25,7 +48,7 @@
   
 - You can save your projects in your cloud account (if you are using
   the cloud version of Snap!), or you can save it locally as an XML
-  file[fn:1].
+  file.
   #+attr_latex: :width 400px
   #+caption: Snap! project example
   [[../img/snap_xml.png]]
@@ -38,6 +61,15 @@
    text-based, tagged files.
   #+end_quote
   
+* The Snap! editor
+#+attr_latex: :width 400px
+[[../img/editor.png]]
+
+- The *code chunks* contain executable code (lines or clauses)
+- The *script* area is where you place the code chunks
+- The *stage* is where you see the results
+- The *modules* area is where you see all your characters and scenes
+
 * Sprites and costumes
 #+attr_latex: :width 400px
 [[../img/turtle.jpg]]
@@ -51,26 +83,38 @@
   #+caption: Snap! sprites.
   [[../img/snap_turtles.png]]
 
-- You can also use your camera to create a sprite.
+- Click on the turtle symbol below the stage to create additional
+  sprites or characters.
+
+- You can also use your /camera/ to create a sprite.
   #+attr_latex: :width 600px
   #+caption: Snap! sprite, created with camera
   [[../img/snap_camera.png]]
 
 - To change the appearance of the standard Turtle sprite, load a new
-  costume. There are readymade costumes provided.
+  costume. There are many ready-made costumes provided.
   #+attr_latex: :width 600px
   #+caption: Snap! costume from the media library
   [[../img/snap_costumes.png]]
 
 - This is where the costumes library resides on my computer at home
   (because I downloaded the Snap! source code):
-  ~/home/pi/Snap-7.3.1/Costumes~[fn:2].
+  ~/home/pi/Snap-7.3.1/Costumes~.
   #+attr_latex: :width 600px
   #+caption: Snap! top menu
   [[../img/snap_library.png]]
 
-- You can also create or modify an existing costume using the paint
-  editor.
+- The computer needs to keep track of all its files. To do this, it
+  uses a hierarchy, like a tree turned upside down, with the /root/ at
+  the top. This particular address, ~/home/pi/Snap-7.3.1/Costumes~ means
+  that the costumes files are located in a directory ~/Snap-7.3.1~
+  (which contains all files for the Snap! version 7.3.1), which is
+  contained in a directory ~/pi~ (that's my username on this computer),
+  which is contained in the directory ~/home~ right below the root
+  directory ~/~.
+  
+- Back to costumes! You can also create or modify an existing costume
+  using the paint editor.
   #+attr_latex: :width 600px
   #+caption: Self-drawn Snap! costume
   [[../img/snap_paint.png]]
@@ -91,18 +135,18 @@
 
 - You can also modify or import backgrounds from your computer.
   #+attr_latex: :width 600px
-  #+caption: Snap! standard background ~woods.gif~
-  [[../img/snap_tuscany.png]]
+  #+caption: Snap! background changed to a painting by Cezanne.
+  [[../img/2_cezanne_with_plane.png]]
 
 * Command blocks and scripts
 
-- Scripts control the action of sprites (characters)
+- /Scripts/ control the action of sprites (characters).
 
-- Scripts are created by dragging command blocks into the
-  script area and snapping them together
+- /Scripts/ are created by dragging command blocks into the
+  script area and snapping them together.
 
 - You can run any command block (aka /programming statement/) by
-  clicking on it. [[https://drive.google.com/file/d/1MKy5Biyshsd9kgh_bsxtWUISclaPtIaX/view?usp=sharing][This Gif shows that]] for ~"turn 90 degrees"~.
+  clicking on it. [[https://github.com/birkenkrahe/ubms/blob/main/img/snap_turn.gif][This Gif shows that]] for ~"turn 90 degrees"~.
   #+attr_latex: :width 200px
   #+caption: Snap! motion command to turn sprite clockwise by 90 degrees
   [[../img/snap_turn90.png]]
@@ -116,6 +160,26 @@
   #+attr_latex: :width 200px
   #+caption: Snap! motion command that runs forever
   [[../img/snap_forever1.png]]
+
+* Summary
+
+- Some programming languages (like Snap!, Python) are interpreted,
+  others are compiled.
+- Interpreted languages are executed directly, command by command or
+  line by line, while compiled languages produce machine code that is
+  executed (the latter are much faster).
+- You can save Snap! "projects" (= collection of programs/scripts) in
+  the cloud or on your local PC.
+- XML (eXtensible Markup Language) is a layout language similar to
+  HTML (Hyper Text Markup Language).
+- The Snap! editor has 5 different areas: code chunks, script, stage,
+  modules, and admin. Script and stage have costume/background/sound
+  tabs.
+- You can create, upload or download sprite costumes, backgrounds and
+  sounds for your project.
+- The computer uses a file tree starting at root (its home) to
+  organize content and find files.
+  
 * *Practice* - first script
 
 1) Register an account with ~snap.berkeley.edu~. Use your Lyon College
@@ -199,6 +263,7 @@
      #+attr_latex: :width 600px
      #+caption: My collection of projects for this course
      [[../img/snap_public.png]]
+
 * Practice solution - first script
 
 - Screenshot:
@@ -208,15 +273,3 @@
 - [[https://youtu.be/Q2jmy1OEFsY][YouTube video]]
 - [[https://drive.google.com/file/d/1ChUnHeeH029J_KDOLFcS8b3ie_RtRiIL/view?usp=sharing][GDrive video]]
 - [[https://snap.berkeley.edu/project?user=birkenkrahe&project=FirstProject][Project URL]]
-
-* Footnotes
-
-
-[fn:2]This is a file address: the computer needs to keep track of all
-its files. To do this, it uses a hierarchy, like a tree turned upside
-down, with the /root/ at the top. This particular address,
-~/home/pi/Snap-7.3.1/Costumes~ means that the costumes files are located
-in a directory ~/Snap-7.3.1~ (which contains all files for the Snap!
-version 7.3.1), which is contained in a directory ~/pi~ (that's my
-username on this computer), which is contained in the directory ~/home~
-right below the root directory ~/~.
