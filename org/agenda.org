@@ -62,11 +62,11 @@
 #+caption: Cover, Joshi, Learn CS Concepts with Snap! (2020)
 [[../img/joshi.png]]
 
-- [[https://lyon.instructure.com/courses/1721][Canvas: links, assignments and quizzes & syllabus]]
+- [[https://lyon.instructure.com/courses/1721][Canvas: links, assignments, quizzes, syllabus & zooms]]
 - [[https://github.com/birkenkrahe/ubms/tree/main][GitHub:]] lectures, agenda, materials, issues
-- Snap!Chat (Google Space) for anything anytime
 - [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][Textbook to read during or ahead (Joshi, 2020)]]
 - [[https://snap.berkeley.edu/][Berkeley U. Snap! Homepage]] for projects and examples
+- Snap!Chat (Google Space) for anything anytime (new!)
 
 * What should you write (and how)?
 #+attr_html: :width 400px
