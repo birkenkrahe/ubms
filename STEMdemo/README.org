@@ -1,0 +1,341 @@
+#+TITLE: Game Programming with Snap!
+#+AUTHOR: Marcus Birkenkrahe
+#+SUBTITLE: STEMonstration, Lyon College Academic Day
+#+STARTUP:overview hideblocks indent
+#+OPTIONS: toc:nil num:nil ^:nil
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_INIT_OPTIONS: transition: 'cube'
+#+REVEAL_THEME: black
+:END:
+* Introduction
+#+attr_html: :width 600px
+[[../img/stemdemo_overview.png]]
+
+View this presentation any time at: [[https://bit.ly/3mfNEaT][bit.ly/3mfNEaT]]
+** Is this your first time?
+#+attr_html: :width 600px
+[[../img/stemdemo_first_time.jpg]]
+
+#+begin_notes
+- Has any of you already programmed?
+- Have you ever created an animation or a game?
+- Have you created a web page or used a "high level" language like
+  Python, C, C++, Java or JavaScript?
+- How would you describe the experience of programming?
+#+end_notes
+** Session overview
+#+attr_html: :width 400px
+[[../img/stemdemo_session.jpg]]
+
+- Introduction (15 min)
+- Getting started with Snap! (30 min)
+- Building a simple animation (30 min)
+- Building a simple game (30 min)
+- Summary and wrap-up (15 min)
+
+#+begin_notes
+- *Why am I teaching this course?* Gamer, programmer, teacher.
+- *Background:* teaching data science and computer science
+- *Funny accent:* I am German, came to Batesville 2 years ago
+#+end_notes
+
+** Why Snap!?
+#+attr_html: :width 600px
+[[../img/stemdemo_arcade.png]]
+
+[[https://docs.google.com/presentation/d/1f_1z4V1_tZ8PPGPil0WEUKGasgpf0jB-/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true]["Snap! Oh Snap!" Lyon College Course - Fall'22]]
+
+#+begin_notes
+- *COR100/Y1*: Lyon's 1hr/week coursse teasers, fall'23 Snap! 12
+  students, weekly meetings of 50 minutes learning Snap!
+  together.
+- Final team projects: Retro Arcade Games - Donkey Kong, Pacman,
+  Space Invaders, and Asteroids.
+- Compared to other programming languages, visual, block-based
+  languages are very forgiving (computers are extremely picky and
+  panic easily) - attention to detail is key
+#+end_notes
+** How I got started
+#+attr_html: :width 600px
+[[../img/stemdemo_timemachine.png]]
+
+Open project: [[https://bit.ly/SnapTimeMachine][bit.ly/SnapTimeMachine]]
+
+** What is Snap?
+#+attr_html: :width 500px
+[[../img/stemdemo_berkeley.png]]
+
+- Web-based HTML5 online application
+- Block-based visual programming language
+- Create animations, games, simulations
+- Open source and free to use
+- [[https://snap.berkeley.edu][Developed at U. Berkeley, bought by SAP]]
+
+#+begin_notes
+- <Right-Mouse> View page source (HTML)
+- <Right-Mouse> Inspect (HTML, CSS, JavaScript, Media)
+- Developed by German programmer Jens Moenig
+- SAP is Germany's largest software company (ERP systems)
+- Unlike MIT's Scratch, Snap! can do anything
+- In programming, everything depends on data structures, e.g. numbers,
+  strings (that make up texts), tables, lists/dictionaries etc.
+- Languages "for anything" allow you to build such structures
+#+end_notes
+* Getting started with Snap!
+#+attr_html: :width 600px
+[[../img/stemdemo_start.jpg]]
+** Download the desktop app
+#+attr_html: :width 500px
+[[../img/stemdemo_desktop.png]]
+
+- In your browser, go to [[https://bit.ly/3kTxX8O][bit.ly/3kTxX8O]]
+- Download the ~.zip~ file
+- Extract the file to ~Downloads~
+- Open ~Downloads/Snap-8.2.0/snap.html~
+
+** Run Snap! in the cloud
+#+attr_html: :width 500px
+[[../img/stemdemo_cloud.png]]
+
+- Go to [[https://snap.berkeley.edu][snap.berkeley.edu]]
+- Click on ~Run Snap!~ to program
+- Click on ~Join~ to keep your projects
+- Pick a simple password
+- Check your email for verification
+** Snap! User Interface (UI)
+#+attr_html: :width 700px
+[[../img/stemdemo_ui.png]]
+
+- Sprites are controlled by scripts
+- Scripts consist of command blocks
+- Sprites (characters) act on stage
+- Settings add control, input and output
+#+begin_notes
+- Drag the "turtle" sprite around a little
+- Drag a "move 10 steps" block to the script area
+- Click the block / change 10 to 100 and click again
+#+end_notes
+** Sprites, costumes, sounds
+#+attr_html: :width 700px
+[[../img/stemdemo_poofie.png]]
+
+- New *sprites* are created as "turtles"
+- You can create sprite *costumes* and *sounds*
+- Every sprite is controlled by its *script*
+- Create your own barking Poofie now!
+#+begin_notes
+- Click on the sprite symbol below the stage
+- Open the *Costumes* tab next to the Scripts tab
+- Open the file menu at the top
+- Open the *Costumes* menu in the file menu
+- Find the *dog* costume (or *cat* if you prefer)
+- Click on the costume and *Import* it
+- Click on the *Sounds* tab
+- Open the *Sounds* menu, find *Dog 1* and *Import* it
+- Rename the sound *wuff*
+- Rename the Sprite *Poofie*
+- Open the *Scripts* tab
+- Open the *Sound* command block section
+- Drag *play sound* into the script area
+- Select *wuff* and click the command block
+#+end_notes
+** Write your first script
+#+attr_html: :width 400px
+[[../img/stemdemo_script.png]]
+** Save your first project
+#+attr_html: :width 600px
+[[../img/stemdemo_project.png]]
+#+attr_html: :width 600px
+[[../img/stemdemo_save.png]]
+** If you're registered
+#+attr_html: :width 700px
+[[../img/stemdemo_saved.png]]
+** Any questions?
+#+attr_html: :width 700px
+[[../img/stemdemo_break.jpg]]
+
+* Animating a character
+#+attr_html: :width 600px
+[[../img/stemdemo_animation.png]]
+** A walk in the park
+#+attr_html: :width 600px
+[[../img/stemdemo_park_project.png]]
+#+begin_notes
+Final project in the cloud: [[http://bit.ly/3J9RAmt][bit.ly/3J9RAmt]]
+#+end_notes
+** The project
+#+attr_html: :width 600px
+[[../img/stemdemo_new.png]]
+
+Start a *New* project!
+#+begin_notes
+- Open a new project
+- Name the project "Avery walking" or "My first animation"
+- Add some notes right away (what this is about)
+#+end_notes
+** The algorithm
+#+attr_html: :width 600px
+[[../img/stemdemo_sequence.jpg]]
+
+What's the algorithm?
+#+begin_notes
+Pseudocode:
+1) Move object in one direction
+2) Swing object's arms and legs
+3) If object hits a wall, bounce back
+#+end_notes
+** The illusion of walking
+#+attr_html: :width 650px
+[[../img/stemdemo_avery_walking.gif]]
+** The sprite
+#+attr_html: :width 600px
+
+[[../img/stemdemo_avery.png]]
+
+Set object *attributes* (aka sprite costumes).
+#+begin_notes
+- Highlight the turtle sprite
+- Pick the costumes tab
+- Find "Avery walking" sequence
+- Highlight one after the other and import them
+- Give the Sprite a name "Avery"
+- Go to the script tab
+#+end_notes
+** The script
+#+attr_html: :width 200px
+[[../img/stemdemo_algorithm.png]]
+
+Set object *methods* (aka sprite actions).
+#+begin_src
+- Find 'Control::forever' and drag it into the script area
+- Find 'Motion::move 10 steps' and drag it into the slot
+- Find 'Looks::next costume' and add it below (with #)
+- Find 'Control::wait 1 secs' and add it below (0.2 secs)
+- Find 'Motion::if on edge, bounce' and add it below
+- Find 'Control::when FLAG clicked' and add it at the top
+#+end_src
+#+begin_notes
+If you ever "lose" your sprite, right-click on the sprite icon and
+activate "show", and it will show up again. Better: reset script.
+#+end_notes
+** The orientation
+#+attr_html: :width 600px
+[[../img/stemdemo_face.png]]
+
+Set the sprite to "only face left/right".
+
+** The background
+#+attr_html: :width 500px
+[[../img/stemdemo_park.jpg]]
+
+- *Download* the park background: [[http://bit.ly/3SQaT7F][bit.ly/3SQaT7F]]
+- *Import* picture as *Stage* background
+- Do a final check then *Save* your project
+- Final project in the cloud: [[http://bit.ly/3J9RAmt][bit.ly/3J9RAmt]]
+** Any questions?
+#+attr_html: :width 700px
+[[../img/stemdemo_beach.jpg]]
+
+* Building a simple game
+#+attr_html: :width 600px
+[[../img/stemdemo_game.jpg]]
+** The project
+#+attr_html: :width 400px
+[[../img/stemdemo_mazegame.gif]]
+
+Create a new project "Mazegame"
+
+** Setup sprite, background, sounds
+#+attr_html: :width 400px
+[[../img/s_maze_setup.png]]
+#+begin_src
+1) Download ZIP file: https://tinyurl.com/5n8xke8z
+2) Extract the file on your PC using File Explorer
+3) Create new Snap! project and save it as mazegame
+4) Set up sprite, backgrounds and sounds:
+   - Set up (draggable) sprite player 
+   - Set up sprite sounds for buzzer (wall), clap (level up)
+   - Set up stage sound for winning the game (yea)
+   - Set up stage backgrounds: three levels and final screen
+#+end_src
+** Make a new Motion block
+#+attr_html: :width 200px
+[[../img/s_maze_block.png]]
+
+- Open the ~Motion~ command block menu
+- Click on ~Make a block~
+- Enter ~MovePlayer~ as ~Command~
+- Click on right ~+~ sign to add ~direction~
+- Apply to all sprites 
+
+** Make start script
+#+attr_html: :width 200px
+[[../img/s_maze_start.png]]
+
+- Make a start script (green flag)
+- Point in dirction 90 degrees
+- Go to starting position (~x = -218~, ~y = 160~)
+
+** Set up keyboard action
+#+attr_html: :width 200px
+[[../img/s_maze_arrows.png]]
+
+- Down arrow: 180 degrees
+- Up arrow: 0 degrees
+- Left arrow: 270 degrees
+- Right arrow: 90 degrees
+
+** Modify the new motion block
+#+attr_html: :width 220px
+[[../img/s_maze_move.png]]
+** Stage script
+#+attr_html: :width 200px
+[[../img/s_maze_level1.png]]
+
+When game starts, switch to ~level1~.
+#+attr_html: :width 200px
+[[../img/s_maze_received.png]]
+
+- When ~next-level~ broadcast is received, change costume.
+- Play winning sound when all levels are finished.
+
+** Refine the game
+#+attr_html: :width 600px
+[[../img/stemdemo_advanced.jpg]]
+
+- Create obstacles for the player
+- Add a monster that follows the player
+- Add prize points and penalties
+- Add a timer and a timeout penalty
+
+[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=mazegame][Link to the final game]]
+
+** Any questions?
+#+attr_html: :width 700px
+[[../img/stemdemo_penguins.jpg]]
+
+* Summary and wrap-Up
+#+attr_html: :width 600px
+[[../img/stemdemo_ending.jpg]]
+** What you learnt (I hope)
+#+attr_html: :width 600px
+[[../img/stemdemo_lions.png]]
+
+- How to use the Snap! UI
+- How to write a simple script
+- How to make an image move
+- How to design a simple game
+  
+** Further learning
+#+attr_html: :width 700px
+[[../img/stemdemo_datascience.png]]
+- Birkenkrahe (2023) Lyon College Data Science Program. URL: [[https://docs.google.com/presentation/d/1dSB-EIMkhJuECEgvQJ45hGODfOoZCo0aIpZ-t3EQSvc/edit?usp=sharing][lyon.edu]]
+- Huegle/Moenig (2020). Get Coding with Snap! URL:
+  [[https://open.sap.com/courses/snap1-1][open.sap.com/courses/snap1-1]] (Free)
+
+* References
+
+- Joshi (2018). Learn CS Concepts with Snap! URL: [[https://amzn.to/3IOzsx9][amzn.to/3IOzsx9]]
+- CSP-Alabama (2014) Mazegame. URL: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=mazegame][snap.berkeley.edu]]
