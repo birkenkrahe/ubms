@@ -139,7 +139,7 @@
   #+Caption: "R is like Italian"
   [[../img/0_rlogo.png]]
 
-- Snap! is like Russian
+- Snap! is like Russian or Japanese
   #+attr_latex: :width 150px
   #+Caption: "Snap! is like Russian"
   [[../img/0_snap.png]]

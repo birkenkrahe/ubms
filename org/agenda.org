@@ -37,7 +37,7 @@
 3) *What I would really like (for this course)*.
 
 4) *What I would not like (for this course)*.
-
+   
 5) *My word for today.*
 
 ** Who are you?
@@ -141,7 +141,7 @@
 #+attr_html: :width 400px
 [[../img/snaplogo.png]]
 
-** Quiz 1 is available in Canvas - complete it now!
+* Quiz 1 is available in Canvas - complete it now!
 #+attr_html: :width 400px
 [[../img/quiz.png]]
 
@@ -152,7 +152,7 @@
 
 - You can check it yourself in the [[https://lyon.instructure.com/courses/1721/grades][gradebook in Canvas]] at any time.
 
-** Leftovers
+* Leftovers
 
 - You can check out the summary for yesterday's topics in this file
   (also in GitHub - go there now: [[https://github.com/birkenkrahe/ubms][github.com/birkenkrahe/ubms]])
@@ -161,7 +161,7 @@
   #+attr_latex: :width 400px
   [[../img/snapchat.png]]
 
-** Today's lecture: introduction to Snap!
+* Today's lecture: introduction to Snap!
 #+attr_latex: :width 400px
 [[../img/lecture.jpg]]
 
