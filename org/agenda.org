@@ -141,7 +141,7 @@
 #+attr_html: :width 400px
 [[../img/snaplogo.png]]
 
-* Quiz 1 is available in Canvas - complete it now!
+** Quiz 1 is available in Canvas - complete it now!
 #+attr_html: :width 400px
 [[../img/quiz.png]]
 
@@ -152,7 +152,7 @@
 
 - You can check it yourself in the [[https://lyon.instructure.com/courses/1721/grades][gradebook in Canvas]] at any time.
 
-* Leftovers
+** Leftovers
 
 - You can check out the summary for yesterday's topics in this file
   (also in GitHub - go there now: [[https://github.com/birkenkrahe/ubms][github.com/birkenkrahe/ubms]])
@@ -161,7 +161,7 @@
   #+attr_latex: :width 400px
   [[../img/snapchat.png]]
 
-* Today's lecture: introduction to Snap!
+** Today's lecture: introduction to Snap!
 #+attr_latex: :width 400px
 [[../img/lecture.jpg]]
 
@@ -171,3 +171,36 @@
 - Sometimes we'll code a programming assignment in class
 - Anything you don't get done you can finish on your own time
 
+** Summary
+#+attr_html: :width 400px
+#+caption: Bob Bartlett and local during Bartlett's Arctic expedition (1933)
+[[../img/summary.jpg]]
+
+[[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
+  
+- Quiz 1, testing retention of yesterday's class content
+- Syllabus: quizzes, gradebook, tentative schedule
+- Snap! vs. Scratch (recursive functions, data structures)
+- Where do data come from? IoT (Internet of Things)
+- Ranking of Programming Languages: TIOBE Index
+- How many programming languages there are
+- Snap! interface, downloading and installing desktop app
+- Snap! online, cellular automata and time machine demo
+- Punch cards, FORTRAN, importance and limits of programming skills
+- Critical thinking skills, what they mean and when they're useful
+
+* First Snap! script (June-14)
+#+attr_latex: :width 400px
+[[../img/snap_FirstProjectSolution.png]]
+
+** Snap! app
+
+- To add Snap! as a browser shortcut (only for online Snap!):
+  1) open snap.berkeley.edu/snap/snap.html in Google Chrome
+  2) click on the three dots in the upper right corner
+  3) select ~More tools~
+  4) select ~Create shortcut~
+  5) name the shortcut ~Snap!~ and check the ~Open as window~ box
+  6) click ~Create~ - this will add a shortcut to desktop and Start Menu
+- You can also add the local copy of ~Snap!~ but you have to do this
+  manually via the File Explorer.

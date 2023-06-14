@@ -6,11 +6,11 @@
 #+attr_html: :width 400px
 [[../img/westworld.jpg]]
 
-- [ ] Snap! vs. Scratch
-- [ ] Scratch interface vs. Snap! interface
-- [ ] Programming - why? how? what?
-- [ ] Programming languages vs. natural languages
-- [ ] Look under the hood: infrastructure you're (not) dealing with
+- [X] Snap! vs. Scratch
+- [X] Scratch interface vs. Snap! interface
+- [X] Programming - why? how? what?
+- [X] Programming languages vs. natural languages
+- [X] Look under the hood: infrastructure you're (not) dealing with
 - [ ] Why Snap! (Why not just Python?)
 
 * Snap! vs. Scratch
@@ -117,6 +117,7 @@
 - I recommend maintaining a (digital) notebook for this course. That's
   exactly what I did when working through the textbook, using
   [[https://orgmode.org/][Emacs]]. (Talk to me if you want to know more about Emacs.)
+  
 * Programming languages are languages
 
 - C/C++ is like Latin
