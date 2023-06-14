@@ -202,7 +202,7 @@ In Snap!, most of these elements (but not all) are hidden from you.
 - Snotty developer community (arrogant nerds aren't nice)
 - Compare Python reference vs. Snap! reference manual:
   #+attr_latex: :width 300px
-  [[../img/python.png]] [[../img/snapref.png]]
+  [[../img/python.png]] _[[../img/snapref.png]]
 
 * Next: looping, broadcasting, animation
 
@@ -265,7 +265,7 @@ In Snap!, most of these elements (but not all) are hidden from you.
 - As a programmer, you are writing the script for each sprite,
   including movements, sounds, and costumes, but you are also the
   producer, casting director, and editor.
-
+  
 * Summary
 
 - Berkeley's Snap! is a development of MIT's Scratch, created in HTML5

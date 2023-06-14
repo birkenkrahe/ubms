@@ -23,10 +23,16 @@
     print('Hello, world!')
   #+end_src
 
+  #+RESULTS:
+  : Hello, world!
+
 - C example:
   #+begin_src C :main yes :includes <stdio.h> :results output
     printf("Hello, world!\n");
   #+end_src  
+
+  #+RESULTS:
+  : Hello, world!
 
 - Programs need to be absolutely *flawless*: you need to be 100%
   diligent and careful when programming. Otherwise, the computer will
@@ -60,7 +66,12 @@
    page display its focus is on wrapping layout information in
    text-based, tagged files.
   #+end_quote
-  
+
+- To save to the cloud, you need to be registered and logged in. To
+  log in or out, click on the cloud symbol in the editor.
+  #+attr_latex: :width 400px
+  [[../img/cloud.png]]
+
 * The Snap! editor
 #+attr_latex: :width 400px
 [[../img/editor.png]]
@@ -212,7 +223,7 @@
    #+attr_latex: :width 400px
    #+caption: New sprite with new background.
    [[../img/snap_puppy.png]]
-
+   
 4) Create a simple script with a standard Turtle:
    - Go back to the /Scripts/ tab. If the ~Motion~ command palette is
      greyed out, then your chosen sprite costume cannot be moved and

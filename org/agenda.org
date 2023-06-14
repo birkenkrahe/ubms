@@ -182,18 +182,34 @@
 - Syllabus: quizzes, gradebook, tentative schedule
 - Snap! vs. Scratch (recursive functions, data structures)
 - Where do data come from? IoT (Internet of Things)
-- Ranking of Programming Languages: TIOBE Index
-- How many programming languages there are
+- Ranking of Programming Languages: [[https://www.tiobe.com/tiobe-index/][TIOBE Index]]
+- "The Importance Of Being Earnest" - Victorian play by Oscar Wilde
+- How many programming languages are there? (ca. 250 in use, more than
+  8,000 known/listed at [[https://hopl.info/][HOPL]]
 - Snap! interface, downloading and installing desktop app
 - Snap! online, cellular automata and time machine demo
 - Punch cards, FORTRAN, importance and limits of programming skills
 - Critical thinking skills, what they mean and when they're useful
 
+From the Snap!Chat (Google Space accessible via your Lyon GMail):
+- See here for a free ebook on Conway's Game of Life and the cellular
+  automata behind it: Johnston/Greene (2022):
+  https://conwaylife.com/book/. Cellular automata have many
+  interesting applications: fluid dynamics simulations in physics,
+  plant growth processes in biology, pseudo random number generation
+  in cryptography, traffic flow modeling, city growth patterns in
+  urban planning, spread of forest fires in ecology, chemical reaction
+  models in chemistry, terrain generation in game development, etc.
+- It's time for you to find out what Germans are really like:
+  https://qr.ae/pyHxgq - image: the [[https://en.wikipedia.org/wiki/Heinzelm%C3%A4nnchen][Heinzelmännchen of Cologne]]
+  #+attr_latex: :width 400px
+  [[../img/heinzelmann.png]]
+  
 * First Snap! script (June-14)
 #+attr_latex: :width 400px
 [[../img/snap_FirstProjectSolution.png]]
 
-** Snap! app
+** Snap! app in the browser/on the desktop
 
 - To add Snap! as a browser shortcut (only for online Snap!):
   1) open snap.berkeley.edu/snap/snap.html in Google Chrome
@@ -202,5 +218,23 @@
   4) select ~Create shortcut~
   5) name the shortcut ~Snap!~ and check the ~Open as window~ box
   6) click ~Create~ - this will add a shortcut to desktop and Start Menu
-- You can also add the local copy of ~Snap!~ but you have to do this
-  manually via the File Explorer.
+- You can also add the local copy of ~Snap!~ but you have to do this manually via the File Explorer.
+
+** Summary
+#+attr_html: :width 400px
+#+caption: Bob Bartlett and local during Bartlett's Arctic expedition (1933)
+[[../img/summary.jpg]]
+
+[[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
+  
+- Why Snap! (and not Python for programming beginners and tourists)
+- Snap! userinterface, UI/UX as a career field in IT/design
+- Building a Snap! script 
+- Saving a Snap! project locally or in the cloud
+- Sharing a project in the cloud
+- Changing a sprite's costume
+- Changing the stage background
+- Making a sprite move around at random, with a time delay
+
+  
+ 
