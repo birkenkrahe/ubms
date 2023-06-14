@@ -2,8 +2,8 @@
 #+subtitle: UBMS Game and Robo Programming with Snap! and Python
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
-  #+attr_latex: :width 400px
-  [[../img/snap_FirstProjectSolution.png]]
+#+attr_latex: :width 400px
+[[../img/snap_FirstProjectSolution.png]]
 
 * Building a script
   
