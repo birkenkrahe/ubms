@@ -237,7 +237,6 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - Making a sprite move around at random, with a time delay
 
   
- 
 * Sequence sounds (June-15)
 #+attr_html: :width 400px
 [[../img/snap_dog.png]]
