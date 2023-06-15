@@ -26,7 +26,7 @@
 - [ ] What we're going to do (and where)?
 - [ ] What should you write (for your research paper)?
 
-** Who am I? 
+** Who am I?
 #+attr_html: :width 400px
 #+caption: Hillside in Tuscany, Italy
 [[../img/italy.jpg]]
@@ -38,7 +38,7 @@
 3) *What I would really like (for this course)*.
 
 4) *What I would not like (for this course)*.
-   
+
 5) *My word for today.*
 
 ** Who are you?
@@ -89,7 +89,7 @@
 [[../img/summary.jpg]]
 
 - [[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
-  
+
 - Your *interests* included: engineering (incl. aerospace, software),
   CAD/CAM, art history, fiction writing, video game design, baseball,
   forensic science, and more.
@@ -128,7 +128,7 @@
 - Earliest chatbot (1966): ELIZA, the digital therapist ([[https://web.njit.edu/~ronkowit/eliza.html][try it here]]).
   #+attr_latex: :width 400px
   [[../img/eliza.png]]
-  
+
 ** References
 #+attr_latex: :width 400px
 [[../img/library.jpg]]
@@ -178,7 +178,7 @@
 [[../img/summary.jpg]]
 
 [[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
-  
+
 - Quiz 1, testing retention of yesterday's class content
 - Syllabus: quizzes, gradebook, tentative schedule
 - Snap! vs. Scratch (recursive functions, data structures)
@@ -205,7 +205,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
   https://qr.ae/pyHxgq - image: the [[https://en.wikipedia.org/wiki/Heinzelm%C3%A4nnchen][Heinzelmännchen of Cologne]]
   #+attr_latex: :width 400px
   [[../img/heinzelmann.png]]
-  
+
 * First Snap! script (June-14)
 #+attr_latex: :width 400px
 [[../img/snap_FirstProjectSolution.png]]
@@ -227,10 +227,10 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 [[../img/summary.jpg]]
 
 [[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
-  
+
 - Why Snap! (and not Python for programming beginners and tourists)
 - Snap! userinterface, UI/UX as a career field in IT/design
-- Building a Snap! script 
+- Building a Snap! script
 - Saving a Snap! project locally or in the cloud
 - Sharing a project in the cloud
 - Changing a sprite's costume
@@ -255,24 +255,48 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 
 - Submit completed exercises (as URLs) in Canvas no later than 10 pm!
 
-* Quiz 1 and quiz 2 results
+** Quiz 1 and quiz 2 results visualized
 
-#+begin_src R :results output graphics file :file ../img/q1.png
-  q1 <- c(7.25,9.5,9.25,7.25,9,9.25,8.25,8.5,8,8.5,8.5,8.25)
-  par(mfrow=c(2,1),pty='s')
-  hist(q1)
-  boxplot(q1,horizontal=TRUE)
-#+end_src
+- Put test results in a vector and print histogram and boxplot next to
+  one another: for quiz 1
+  #+begin_src R :results output graphics file :file ../img/q1.png
+    q1 <- c(7.25,7.25,8.00,8.25,8.25,8.50,8.50,8.50,9.00,9.25,9.25,9.50)
 
-#+RESULTS:
-[[file:../img/q1.png]]
+    par(mfrow=c(1,2),pty='s')
+    hist(q1,main="",xlab="Points")
+    title("Histogram Quiz 1 results")
+    boxplot(q1,horizontal=TRUE,xlab="Points")
+    title("Boxplot Quiz 1 results")
+  #+end_src
 
-#+begin_src R :results output graphics file :file ../img/q2.png
-  q2 <- c(4.5,7.5,4.25,6.75,2,8.5,6,5.75,7.25,6.5,5.75)
-  par(mfrow=c(2,1),pty='s')
-  hist(q2)
-  boxplot(q2,horizontal=TRUE)
-#+end_src
+  #+RESULTS:
+  [[file:../img/q1.png]]
 
-#+RESULTS:
-[[file:../img/q2.png]]
+- And for quiz 2:  
+  #+begin_src R :results output graphics file :file ../img/q2.png
+    q2 <- c(2.00,4.25,4.50,5.75,5.75,6.00,6.50,6.75,7.25,7.50,8.50)
+    
+    par(mfrow=c(1,2),pty='s')
+    hist(q2,main="",xlab="Points")
+    title("Histogram Quiz 2 results")
+    boxplot(q2,horizontal=TRUE,xlab="Points")
+    title("Boxplot Quiz 2 results")
+  #+end_src
+
+  #+RESULTS:
+  [[file:../img/q2.png]]
+
+- Compare the Quiz 1,2 results using the two boxplots (scales aligned):
+  #+begin_src R :results output graphics file :file ../img/q1q2.png
+    par(mfrow=c(2,1))
+    lim = c(min(q1,q2),max(q1,q2))
+    boxplot(q1,horizontal=TRUE,xlab="", col="green",
+            ylim=lim)
+    title("Quiz 1 results")
+    boxplot(q2,horizontal=TRUE,xlab="Points", col = "red",
+            ylim=lim)
+    title("Quiz 2 results")
+  #+end_src
+
+  #+RESULTS:
+  [[file:../img/q1q2.png]]
