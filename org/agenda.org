@@ -238,3 +238,18 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 
   
  
+* Sequence sounds (June-15)
+#+attr_html: :width 400px
+[[../img/snap_dog.png]]
+
+- Using Snap!Chat: Abby's question ("Eliza" chatbot in Snap!)
+  #+attr_latex: :width 400px
+  [[../img/list.png]]
+
+- Quiz 2: first script in Snap! (Five simple multiple choice questions.)
+
+- Programming exercise: "Alonzo in an aquarium" (handout)
+
+- Lecture/codealong/practice: Sequence and sounds (practice handout)
+
+
