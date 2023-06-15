@@ -3,6 +3,7 @@
 #+SUBTITLE: UBMS - SUMMER 2023
 #+OPTIONS: toc:1 num:nil ^:nil
 #+STARTUP: overview hideblocks indent inlineimages
+#+property: header-args:R :results output :session *R*
 * README
 #+attr_html: :width 400px
 [[../img/readme.png]]
@@ -236,7 +237,6 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - Changing the stage background
 - Making a sprite move around at random, with a time delay
 
-  
 * Sequence sounds (June-15)
 #+attr_html: :width 400px
 [[../img/snap_dog.png]]
@@ -245,10 +245,34 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
   #+attr_latex: :width 400px
   [[../img/list.png]]
 
-- Quiz 2: first script in Snap! (Five simple multiple choice questions.)
+- [[https://lyon.instructure.com/courses/1721/assignments/14952/edit?quiz_lti][Quiz 2: first look at Snap!]] - 09:30-09:45 hrs
 
-- Programming exercise: "Alonzo in an aquarium" (handout)
+- [[https://lyon.instructure.com/courses/1721/assignments/14943][Exercise: "Alonzo in an aquarium"]] (Upload XML file) - 09:45-10 hrs
 
-- Lecture/codealong/practice: Sequence and sounds (practice handout)
+- Lecture + codealong + practice: Sequence and sounds ([[https://github.com/birkenkrahe/ubms/blob/main/org/3_sequence_sounds.org][GitHub]])
 
+- [[https://lyon.instructure.com/courses/1721/assignments/14944][Exercise: "Soundbites"]] (Upload URL to cloud location)
 
+- Submit completed exercises (as URLs) in Canvas no later than 10 pm!
+
+* Quiz 1 and quiz 2 results
+
+#+begin_src R :results output graphics file :file ../img/q1.png
+  q1 <- c(7.25,9.5,9.25,7.25,9,9.25,8.25,8.5,8,8.5,8.5,8.25)
+  par(mfrow=c(2,1),pty='s')
+  hist(q1)
+  boxplot(q1,horizontal=TRUE)
+#+end_src
+
+#+RESULTS:
+[[file:../img/q1.png]]
+
+#+begin_src R :results output graphics file :file ../img/q2.png
+  q2 <- c(4.5,7.5,4.25,6.75,2,8.5,6,5.75,7.25,6.5,5.75)
+  par(mfrow=c(2,1),pty='s')
+  hist(q2)
+  boxplot(q2,horizontal=TRUE)
+#+end_src
+
+#+RESULTS:
+[[file:../img/q2.png]]
