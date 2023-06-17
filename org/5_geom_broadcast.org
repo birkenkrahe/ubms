@@ -7,40 +7,40 @@
 
 * XY Geometry and Motion
 
-- [X] Open a new project ~Geometry~
+- [ ] Open a new project ~Geometry~
   
-- [X] To see the grid, change the background to ~XY-grid~
+- [ ] To see the grid, change the background to ~XY-grid~
 
 - Every point on the screen has two coordinates, ~x~ and ~y~
 
 - Every sprite in Snap! has a /center point/ which you can view and
   change in the paint editor
 
-- [X] Open the ~Paint editor~ on the standard turtle sprite
+- [ ] Open the ~Paint editor~ on the standard turtle sprite
 
-- [X] Turn the turtle into a *solid red square* in the center
+- [ ] Turn the turtle into a *solid red square* in the center
 
-- [X] Go to ~Scripts~ and move the sprite to the exact position (0,0)
+- [ ] Go to ~Scripts~ and move the sprite to the exact position (0,0)
 
-- [X] Move it to (-200,100)
+- [ ] Move it to (-200,100)
 
-- [X] Let it ~glide~ in ~2 secs~ to the center position (0,0)
+- [ ] Let it ~glide~ in ~2 secs~ to the center position (0,0)
 
-- [X] Add to the last command by changing the ~x~ position by ~-100~
+- [ ] Add to the last command by changing the ~x~ position by ~-100~
 
-- [X] Add to the last commands and let the square glide ~5~
+- [ ] Add to the last commands and let the square glide ~5~
   times in ~0.5 sec~ between the two positions
 
   [[../img/snap_glide.png]]
 
-- [X] Duplicate the last program and make the square jump up and down
+- [ ] Duplicate the last program and make the square jump up and down
   *smoothly* between the positions (0,0) and (0,10) ten times.
 
   /Tip: smooth motion is a combo of ~repeat~ and ~change~./
 
   [[../img/snap_jump4.png]]
 
-- [X] Add a command to the last program to ~repeat~ the jump ~5~ times -
+- [ ] Add a command to the last program to ~repeat~ the jump ~5~ times -
   this is called a /nested loop/. 
 
   [[../img/snap_jump5.png]]
@@ -71,13 +71,13 @@
 - For 3D effects you need to create illusions
 - Repetition and size change can do that
 
-- [X] Create a new project and call it ~3dim~
+- [ ] Create a new project and call it ~3dim~
   
-- [X] Load the costumes ~dove1 a~ and ~dove1 b~
+- [ ] Load the costumes ~dove1 a~ and ~dove1 b~
 
   [[../img/snap_dove.png]]
 
-- [X] Load any outdoor or indoor background
+- [ ] Load any outdoor or indoor background
 
 - [ ] Create and run the following script
 

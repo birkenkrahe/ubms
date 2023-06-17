@@ -116,4 +116,17 @@
 - You must however take care to NOT use music that has a COPYRIGHT on
   it: either compose yourself, or use free music (e.g. [[https://commons.wikimedia.org/w/index.php?search=audio&title=Special:MediaSearch&go=Go&type=audio][Wikimedia]])
 
+* Summary
+
+- Computers required exact syntactically correct sequences of
+  instructions to work at all.
+- A typical animation sequence includes at least code from: MOTION
+  (sprite movement), CONTROL (program flow), and LOOKS (appearance and
+  messages).
+- You can upload sounds from the web (as long as the copyright permits
+  it), or from the Snap! cloud platform, or record your own directly
+  in the editor.
+- Some commands will have to complete an action until the script can
+  continue, others will cause an action and simply continue even if
+  the action is not completed.
 

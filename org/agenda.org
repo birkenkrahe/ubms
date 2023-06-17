@@ -251,9 +251,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 
 - Lecture + codealong + practice: Sequence and sounds ([[https://github.com/birkenkrahe/ubms/blob/main/org/3_sequence_sounds.org][GitHub]])
 
-- [[https://lyon.instructure.com/courses/1721/assignments/14944][Exercise: "Soundbites"]] (Upload URL to cloud location)
-
-- Submit completed exercises (as URLs) in Canvas no later than 10 pm!
+- [[https://lyon.instructure.com/courses/1721/assignments/14944][Exercise: "Soundbites"]] (Upload URL to cloud location by Friday 9 am)
 
 ** Quiz 1 and quiz 2 results visualized
 
@@ -272,10 +270,10 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
   #+RESULTS:
   [[file:../img/q1.png]]
 
-- And for quiz 2:  
+- And for quiz 2:
   #+begin_src R :results output graphics file :file ../img/q2.png
     q2 <- c(2.00,4.25,4.50,5.75,5.75,6.00,6.50,6.75,7.25,7.50,8.50)
-    
+
     par(mfrow=c(1,2),pty='s')
     hist(q2,main="",xlab="Points")
     title("Histogram Quiz 2 results")
@@ -300,3 +298,106 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 
   #+RESULTS:
   [[file:../img/q1q2.png]]
+
+** Summary
+#+attr_html: :width 400px
+#+caption: Bob Bartlett and local during Bartlett's Arctic expedition (1933)
+[[../img/summary.jpg]]
+
+[[https://drive.google.com/drive/folders/1iBhu3-mnmYxJVrsiqV-WefyZLFR2hoKy?usp=sharing][For whiteboard photos, see here (GDrive)]]
+
+- Computers required exact syntactically correct sequences of
+  instructions to work at all.
+- A typical animation sequence includes at least code from: MOTION
+  (sprite movement), CONTROL (program flow), and LOOKS (appearance and
+  messages).
+- You can upload sounds from the web (as long as the copyright permits
+  it), or from the Snap! cloud platform, or record your own directly
+  in the editor.
+- Some commands will have to complete an action until the script can
+  continue, others will cause an action and simply continue even if
+  the action is not completed.
+- BPMN (Business Process Model and Notation) is a process model
+  language to create model diagrams (like blueprints).
+- You can use BPMN to chart the flow of Snap! scripts.
+  
+* Loops and costumes (June-16)
+#+attr_html: :width 400px
+[[../img/loop.jpg]]
+
+** [[https://lyon.instructure.com/courses/1721/assignments/14953/edit?quiz_lti][Quiz 3 - sequence and sounds]] (9:30-9:45 hrs)
+
+- Quiz is open book: all resources, online or offline are allowed
+
+- The students with the best results used most of the time
+
+- The students who stayed below 5 minutes got below 50%
+
+** Quiz 2 review
+
+1) "Snap" is actually also a term from the Linux world
+   
+2) What is 'exception handling'?
+   #+begin_quote
+   - If the user does something that leads to a wrong input - wrong in
+     the sense that the program reacts with an error. Such an
+     'exception' - e.g. entering a NAME when a NUMBER is required - is
+     handled if the program is prepared for it.
+   - Slow apps on your phone or inability to find something online is
+     not relevant: exception handling is something the coder does to
+     the code.
+   #+end_quote
+
+** Review (program submissions)
+
+- Most programs were okay, very few were perfect. Gotta make sure when
+  you submit the URL to your online project that the program works
+  (e.g. when the sprite doesn't show then it won't work). Missing out
+  on parts of the requirements list cost you points - just like in life!
+
+- There should be enough time to complete these in class. Let me know
+  if not then I'll make the necessary changes.
+
+- What you don't want in programming (or anywhere else): lose touch
+  with the material at the start when it's still easy. Smart students
+  start strong and finish strong, and can take it easier in the
+  middle.
+
+** Research essay topics
+
+- A couple of people asked for special topics: as long as you come up
+  with a good, suitable research question, I'm OK.
+  
+- Put the question that you want to investigate [[https://lyon.instructure.com/courses/1721/pages/put-your-research-essay-topic-here][in this table]] in
+  'Pages' in Canvas, together with your name and any comments you may
+  have.
+  
+- Any other research talk: let's have a conversation in the Snap!Chat.
+
+- Remember that good research questions are very, very
+  specific. E.g. "What is the impact of AI on the world?" is not
+  doable, but "What is the impact of AI on the computer science
+  education in a high school in North Eastern Arkansas? is doable and
+  specific enough to be investigated with pleasure and chance of
+  success.
+
+** Today: controlling animation - looping and rotation
+** Summary
+
+- Object orientation is about classes and methods (things the classes
+  can do, but also about exchanging messages between objects (the
+  ability to send and receive a message is a method, too).
+- In Snap!, this will be mimicked by the ~broadcast~ and ~receive~ commands
+- In BPMN you can model processes for different participants with
+  pools and/or lanes and with sequence or message flow
+- You can make sprites do repetitive actions with looping and gliding
+  motions. You can create the illusion of smooth motions by combining
+  ~repeat~ and motion commands.
+- You can alter rotation style when a sprite hits an edge of the
+  stage. This is a setting for every sprite (in the menu at the top).
+* Animation with costumes, broadcasting (June-19)
+** Back on top! Quiz 3 results visualized using R
+#+attr_latex: :width 400px
+#+caption: Boxplots for quiz 1-3 (N=12,N=12,N=10)
+[[../img/
+
