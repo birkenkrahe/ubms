@@ -36,7 +36,6 @@
 - In Snap!, this will be mimicked by the ~broadcast~ and ~receive~
   commands
   
-  
 * Process model of a conversation
 
 - There are two ways to implement this process in BPMN:
@@ -135,7 +134,7 @@
   #+caption: Many loops, small steps make for smooth motion
   [[../img/snap_move2.png]]
 
-* TODO *Practice* - looping
+* *Practice* - looping
 
 1) Define a new project called "Looping".
 2) Create three ~sprites~ and pick different ~costumes~ for them so that
@@ -172,7 +171,7 @@
   2) middle = sprite turns around instantly when hitting the edge
   3) bottom = sprite doesn't rotate, keeps direction at edge
 
-* TODO *Practice* rotation styles
+* *Practice* rotation styles
 #+attr_latex: :width 400px
 #+caption: Illustrating three rotation styles upon hitting the edge
 [[../img/snap_beetle.png]]
@@ -219,7 +218,7 @@
 
 * TODO *Practice* animation using costumes
 
-1) Define a new project and call it "animation".
+1) Define a new project and call it ~animation~.
 
 2) Make a sprite and name it "walk".
 

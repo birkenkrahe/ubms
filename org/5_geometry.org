@@ -48,7 +48,7 @@
 
 - Can you combine rotating and jumping as shown [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Geometry][in this project]]?
   #+attr_latex: :width 120px
-  [[../img/turnjump.png]]
+  __[[../img/turnjump.png]]
 
 * Absolute motion
 
@@ -80,7 +80,7 @@
 
 - Create a new project and call it ~3-dimensions~
   
-- Load the costumes ~dove1 a~ and ~dove1 b~
+- Load the costumes ~dove1 a~ and ~dove1 b~ on the same sprite
 
   [[../img/snap_dove.png]]
 
@@ -100,7 +100,11 @@
 #+attr_html: :width 400px
 [[../img/flyingbat.png]]
 
-- Write the program
-- Test the program
+- Create a new project called ~Flying_bat~
+- From the Snap! online library, load a bat costume
+- Make the sprite change costume so that it looks as if its wings flap up and down.
+- Add code so that when the script is started, the bat flies to the edge of the screen, bounces back, and changes direction forever.
+- Optionally, combine the 3D effect and make the bat not just fly from
+  left to right but from the background to the foreground as well.
 - Upload the program [[https://lyon.instructure.com/courses/1721/assignments/14945][to Canvas]]
 
