@@ -1,5 +1,5 @@
 #+title: Snap! Events, Concurrency, and Graphical Effects
-#+subtitle: COR100 Snap! Programming Fall 2022
+#+subtitle: UBMS Game and Robo Programming with Snap! and Python
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
 #+attr_html: :width 600px
