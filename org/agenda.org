@@ -395,22 +395,21 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - You can alter rotation style when a sprite hits an edge of the
   stage. This is a setting for every sprite (in the menu at the top).
 
+
 * Costume animation, geometry, broadcasting (June-19)
 #+attr_html: :width 400px
 [[../img/broadcast.jpg]]
 
-- Justin: cannot see your project(s) yet - check sharing
-
-** TODO Back on top! Quiz 3 results visualized (using R)
+* TODO Back on top! Quiz 3 results visualized (using R)
 #+attr_latex: :width 400px
 #+caption: Boxplots for quiz 1-3 (N=12,N=12,N=10)
 [[../img/q1q2q3.png]]
-** TODO Post your essay topic to the Snap!Chat now!
+* TODO Post your essay topic to the Snap!Chat now!
 
 The Canvas page approach apparently did not work...
 [[../img/page.png]]
 
-** TODO Review - last week:
+* TODO Review - last week:
 
 1) What is a model and why do we make models?
    #+begin_quote
@@ -419,7 +418,8 @@ The Canvas page approach apparently did not work...
      of the Alonzo-Space Ranger conversation does not contain the
      waiting times between the statements or visual details.
    - Mathematical models are the most important models that we have,
-     e.g. F = m * a. Which abstractions are involved here?
+     e.g. F[orce] = m[ass] * a[cceleration]. Which abstractions are
+     involved here?
    #+end_quote
 2) Is a Snap! script - e.g. showing a rotating tomato - a model?
    #+begin_quote
@@ -440,7 +440,7 @@ The Canvas page approach apparently did not work...
    - If the effect is set, one of three rotation styles is active.
    #+end_quote
 
-** Today: changing costumes / geometry / broadcasting
+* Today: changing costumes / geometry / broadcasting
 * Events and storytelling (June-20)
 #+attr_html: :width 400px
 [[../img/highground.png]]
@@ -454,3 +454,5 @@ The Canvas page approach apparently did not work...
 * Project: helicopter (June-22)
 * Mouse control - Maze Game (June 23)
 
+* Next week: variables and stuff
+* Week after: robotics
