@@ -35,10 +35,12 @@
 - For most of human history, stories where just like "one thing
   happens, and then another" - a sequence of events between a starting
   and an ending point. Not overly riveting!
+
 - This changed when Jane Auston wrote her novels ("Pride and
   Prejudice", "Emma", "Sense and Sensibility" etc.) - these were the
   first novels with "decision points" in the name of love. Much more
   fun!  
+
 * Snap! events
 #+attr_html: :width 400px
 [[../img/s_events.png]]
@@ -66,6 +68,7 @@ Example:
 * Practice: reset script
 
 1) Create a project "reset"
+
 2) Create a script for a sprite:
 
    #+attr_html: :width 300px
@@ -110,7 +113,10 @@ Example:
 * Practice concurrency
 
 1) Create a new project "concurrency"
-2) Create three scripts for one sprite
+
+2) Pick a sprite with some 'surface area' (to see changes better)
+
+3) Create three scripts for one sprite
 
   #+attr_html: :width 200px
   [[../img/s_con3.png]]
@@ -119,5 +125,5 @@ Example:
   #+attr_html: :width 200px
   [[../img/s_con5.png]]
 
-3) Press the SPACE bar to start the three concurrent actions.
+4) Press the SPACE bar to start the three concurrent actions.
 

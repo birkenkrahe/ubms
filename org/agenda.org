@@ -395,21 +395,20 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - You can alter rotation style when a sprite hits an edge of the
   stage. This is a setting for every sprite (in the menu at the top).
 
-
-* Costume animation, geometry, broadcasting (June-19)
+* Costume animation, geometry (June-19)
 #+attr_html: :width 400px
 [[../img/broadcast.jpg]]
 
-* TODO Back on top! Quiz 3 results visualized (using R)
+** TODO Back on top! Quiz 3 results visualized (using R)
 #+attr_latex: :width 400px
 #+caption: Boxplots for quiz 1-3 (N=12,N=12,N=10)
 [[../img/q1q2q3.png]]
-* TODO Post your essay topic to the Snap!Chat now!
+** TODO Post your essay topic to the Snap!Chat now!
 
 The Canvas page approach apparently did not work...
 [[../img/page.png]]
 
-* TODO Review - last week:
+** TODO Review - last week:
 
 1) What is a model and why do we make models?
    #+begin_quote
@@ -440,12 +439,15 @@ The Canvas page approach apparently did not work...
    - If the effect is set, one of three rotation styles is active.
    #+end_quote
 
-* Today: changing costumes / geometry / broadcasting
-* Events and storytelling (June-20)
+** Today: changing costumes / geometry / broadcasting
+* Broadcasting, events and storytelling (June-20)
 #+attr_html: :width 400px
 [[../img/highground.png]]
 
-** Quiz 4: looping and costumes
+** Quiz 4: looping and costumes (9.30-9.45 am)
+** Broadcasting commands
+** "Circus" program
+** Pair programming: Story animation w/all you've got
 
 * Conditional statements, Keyboard input (June-21)
 #+attr_html: :width 400px
