@@ -446,9 +446,8 @@ The Canvas page approach apparently did not work...
 
 ** Quiz 4: looping and costumes (9.30-9.45 am)
 ** Broadcasting commands
-** "Circus" program
-** Pair programming: Story animation w/all you've got
-
+** "Circus" programming assignment
+** Pair programming: Story with all you've got
 * Conditional statements, Keyboard input (June-21)
 #+attr_html: :width 400px
 [[../img/s6_keyboard.jpg]]

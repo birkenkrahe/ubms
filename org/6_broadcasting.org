@@ -52,6 +52,8 @@
 
 - Duplicate the whole script for each sprite before changing it
 
+- Once completed and tested, SAVE the project to your cloud repo for later reference
+
 - [[https://bit.ly/GreenFlagBroadcast][Practice solution]]
 
 * Program 4: Circus
@@ -61,28 +63,46 @@
   some act. Use at least one animal and one actor, and a suitable
   background.
 
-- The dinosaur should be hidden at the start and appear upon being called.
+- The animal/actor should be hidden at the start and appear upon being
+  called.
 
-- The dinosaur should hide when the performance is over.
+- The actor/animal should hide when the performance is over.
 
 - Upload your solution [[https://lyon.instructure.com/courses/1721/assignments/14946][to Canvas]]  
 
-- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=circus][Sample solution]].
+- [[https://snap.berkeley.edu/project?username=bryceton%20church&projectname=Circus][Sample solution]]: Circus by Bryceton Church (Fall'22)
 
+- Tip: when programming under time pressure, do NOT begin by making
+  yourself feel good (looking for pics, applause sounds, etc.) but
+  first lay down the logic and the code and then customize if you have
+  time to spare (which in class or in a job interview, you don't).
 * Pair programming: project animation
 #+attr_html: :width 400px
 [[../img/highground.png]]
 
-1) Team up with one other partner
-2) Design a short story animation. Something like:
+1) What are the elements of a story? Look at this short (1:20 min)
+   example: "A Warning" - Plotagon animation (2017), URL: [[https://youtu.be/nA4fgn_D9BQ][youtube]].
+   #+begin_quote
+   Must have elements:
+   * Plot (storyline with start and end event)
+   * Characters (participants, more or less developed)
+   * Message (meaning, could be a list of options)
+   Some optional elements:
+   - Climax, denouement (a way of ending/untie the knot)
+   - Mood (humor, tragedy, farce)
+   - 3-stage plot (Aristotelian poetics)
+   #+end_quote
+
+2) Team up with one other partner
+3) Design a short story animation. Something like:
    - a nursery rhyme
    - a folk story
    - your own story
    - a clip from your favorite story or film or game
-3) The story should be narrated as sub-titles or as part of the
+4) The story should be narrated as sub-titles or as part of the
    animation (you can create subtitles with the ~write [..] size [..]~
    code block in the ~Pen~ category.
-4) Requirements:
+5) Requirements:
    - Green flag should start the animation
    - At least 2 sprites
    - Draw at least one background (using the paint editor)
@@ -93,9 +113,24 @@
      animation of that scene should be visible
    - The story should be slow and easy to understand
    - The animation should take at least 10 seconds but not more than a
-     minute.
+     minute or two.
    - Put a short description (or the story itself) in the project notes
 
- Here is a story example "[[https://snap.berkeley.edu/project?username=isaac%2erice&projectname=High%20Ground][High Ground]]" by Isaac Rice and Jakobe Alcorn
-   (Fall 2022)
-5) Upload your solution to Canvas
+   Here is a story example "[[https://snap.berkeley.edu/project?username=isaac%2erice&projectname=High%20Ground][High Ground]]" by Isaac Rice and Jakobe Alcorn
+     (Fall 2022)
+
+6) Upload your solution to Canvas when you're done.
+
+7) This exercise may go over two sessions - if you can't finish on day
+   one, we'll take as much as 1/2 of day 2 to complete.
+
+8) At the end, we'll have a show of each short story!
+
+9) Some of the best games are based on the best stories (check:
+   Fallout 4, The Witcher, Ghost of Tsushima, Red Dead Redemption
+   etc.)
+
+10) You need to organize cooperation yourself: you can either work in
+    one Snap! editor together, or you can split the task up (one of
+    you works on the props/images/sounds, the other one on the code,
+    or two people work on different parts of the code).
