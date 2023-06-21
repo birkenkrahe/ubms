@@ -127,3 +127,24 @@ Example:
 
 4) Press the SPACE bar to start the three concurrent actions.
 
+* TODO Assignment: Bird/Ball
+
+For this programming assignment, pick either option 1 or 2 below. If
+you complete both programs, you get up to 10 bonus points (provided
+the program does what it should). Great opportunity to make up for bad
+quiz scores!
+
+1) Make a *bird* sprite fly around the screen while changing size and
+   color at the same time. Have it make some sound every 5
+   seconds. Insert graphic effects like the ghost, the fisheye or the
+   whirl effect.
+
+2) Make a *ball* roll from left to right of the screen: the ball should
+   appear at the left edge, roll to the right, disappear across the
+   right edge, and reappear again at the left edge. Insert graphic
+   effects like the ghost, the fisheye or the whirl effect.
+
+*Submit* the URL of your final, working program [[roam:https://lyon.instructure.com/courses/1721/assignments/14947][in Canvas]] (if you submit
+two programs, use the text entry option and paste both URLs into the
+text field).
+

@@ -440,7 +440,7 @@ The Canvas page approach apparently did not work...
    #+end_quote
 
 ** Today: changing costumes / geometry / broadcasting
-* Broadcasting, events and storytelling (June-20)
+* Broadcasting and storytelling (June-20)
 #+attr_html: :width 400px
 [[../img/highground.png]]
 
@@ -448,12 +448,20 @@ The Canvas page approach apparently did not work...
 ** Broadcasting commands
 ** "Circus" programming assignment
 ** Pair programming: Story with all you've got
-* Conditional statements, Keyboard input (June-21)
+ 
+* Story presentations, events (June-21)
 #+attr_html: :width 400px
 [[../img/s6_keyboard.jpg]]
 
-* Project: helicopter (June-22)
-* Mouse control - Maze Game (June 23)
-
-* Next week: variables and stuff
+- Quiz results: pretty good but there're some outliers.
+  #+attr_latex: :width 400px
+  [[../img/q1-4box.png]]  [[../img/qDensity.png]]
+- Continue your story animation project until 10:10 AM.
+- At 10:10 AM we'll look at all projects and critique them.
+- We'll continue with "events", "effects" and "concurrency".
+- There will be another quiz tomorrow!
+  
+* Conditional statements, Keyboard input (June 22)
+* Project: helicopter (June-23)
+* Next week: maze game, variables and stuff
 * Week after: robotics
