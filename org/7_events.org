@@ -26,7 +26,7 @@
 - Here is a process model that I made for a webscraping project in
   Python ([[https://bit.ly/searchpypi][bit.ly/searchpypi]]):
   #+attr_latex: :width 400px
-  [[../img/search_full_bpmn.png]]  
+  _[[../img/search_full_bpmn.png]]  
   
 - Events in data science: 
   1) every digital device produces event logs
@@ -68,7 +68,7 @@ Example:
   3) Color (default 0 for first sprite)
   4) Size (default is 100%)
   5) Visibility (default is visible)
-  6) Costume # (default is ???)
+  6) Costume # (default is the turtle at creation)
   7) Graphic effects (default is ???)
 
 * Practice: reset script
