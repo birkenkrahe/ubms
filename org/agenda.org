@@ -487,9 +487,13 @@ The Canvas page approach apparently did not work...
 #+attr_latex: :width 300px
 [[../img/kittyAndAbby.png]]
 
-- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=quiz%205][Kitty and Abby]]
+- Need to know more, or know more deeply?
+  #+attr_latex: :width 400px
+  [[../img/refman.png]]
 
-- What is absolute vs. relative motion?
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=quiz%205][Quiz 5 - geometry and broadcasting]]
+
+- *What is absolute vs. relative motion?*
   #+begin_quote
   Absolute (position/direction independent):
   1) motion commands yield a vector that ends at a fixed point no
@@ -507,6 +511,8 @@ The Canvas page approach apparently did not work...
 
   [[../img/snap_relative.png]]
 
+  This distinction is important for physics because of both special
+  relativity (the laser sword!) and general relativity (E = mc**2).
    #+end_quote
  
 * TODO Conditionals, keyboard input (June 23)
