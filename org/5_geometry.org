@@ -52,8 +52,12 @@
 
 * Absolute motion
 
-- Absolute motion is independent on current position and direction
-
+- Absolute motion is independent on current position and direction:
+  1) motion commands yield a vector that ends at a fixed point no
+     matter where the sprite is before the command.
+  2) The movement looks different depending on where the sprite was
+     before the command.
+   
 - Example: "Go to the Salty Dog" (That's the Lyon College café)
 
 - Snap! commands that describe absolute motion:
@@ -62,12 +66,16 @@
 
 * Relative motion
 
-- Relative motion depends on current position and direction
+- Relative motion depends on current position and direction:
+  1) motion commands yield a vector that could be anywhere in the
+     plane. 
+  2) The movement looks the same no matter where the sprite was
+     before the command.
 
 - Example: "Turn right then left"
 
 - Snap! commands that describe relative motion:
-
+  #+attr_latex: :width 200px
   [[../img/snap_relative.png]]
 
 * Practice 3-D effect using looping

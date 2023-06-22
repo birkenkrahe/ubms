@@ -17,7 +17,7 @@
 
 - See the course syllabus for a detailed (tentative) schedule.
 
-* Welcome & orientation (June-12)
+* DONE Welcome & orientation (June-12)
 #+attr_html: :width 400px
 [[../img/westworld.jpg]]
 
@@ -138,7 +138,7 @@
 - Harrison Metal (2019). Than You, Barbara Minto. URL: [[https://vimeo.com/305393045][vimeo.com]]
 - OpenAI (May 24, 2023). ChatGPT (GPT-4). URL: [[https://chat.openai.com/?model=gpt-4][chat.openai.com]]
 
-* Introduction to Snap! (June-13)
+* DONE Introduction to Snap! (June-13)
 #+attr_html: :width 400px
 [[../img/snaplogo.png]]
 
@@ -206,7 +206,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
   #+attr_latex: :width 400px
   [[../img/heinzelmann.png]]
 
-* First Snap! script (June-14)
+* DONE First Snap! script (June-14)
 #+attr_latex: :width 400px
 [[../img/snap_FirstProjectSolution.png]]
 
@@ -237,7 +237,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - Changing the stage background
 - Making a sprite move around at random, with a time delay
 
-* Sequence sounds (June-15)
+* DONE Sequence sounds (June-15)
 #+attr_html: :width 400px
 [[../img/snap_dog.png]]
 
@@ -321,7 +321,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
   language to create model diagrams (like blueprints).
 - You can use BPMN to chart the flow of Snap! scripts.
   
-* Loops and costumes (June-16)
+* DONE Loops and costumes (June-16)
 #+attr_html: :width 400px
 [[../img/loop.jpg]]
 
@@ -395,7 +395,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - You can alter rotation style when a sprite hits an edge of the
   stage. This is a setting for every sprite (in the menu at the top).
 
-* Costume animation, geometry (June-19)
+* DONE Costume animation, geometry (June-19)
 #+attr_html: :width 400px
 [[../img/broadcast.jpg]]
 
@@ -440,7 +440,7 @@ The Canvas page approach apparently did not work...
    #+end_quote
 
 ** Today: changing costumes / geometry / broadcasting
-* Broadcasting and storytelling (June-20)
+* DONE Broadcasting and storytelling (June-20)
 #+attr_html: :width 400px
 [[../img/highground.png]]
 
@@ -449,19 +449,66 @@ The Canvas page approach apparently did not work...
 ** "Circus" programming assignment
 ** Pair programming: Story with all you've got
  
-* Story presentations, events (June-21)
+* DONE Story presentations (June-21)
 #+attr_html: :width 400px
 [[../img/s6_keyboard.jpg]]
 
 - Quiz results: pretty good but there're some outliers.
   #+attr_latex: :width 400px
   [[../img/q1-4box.png]]  [[../img/qDensity.png]]
-- Continue your story animation project until 10:10 AM.
-- At 10:10 AM we'll look at all projects and critique them.
+
+- Continue your story animation project until +10:10+ 10:25 AM.
+
+- Does "pair programming" even work?
+
+- At +10:10+ 10:25 AM we'll look at all projects and critique them.
+
+  1) [[https://snap.berkeley.edu/project?username=elizabeth%2ereaves&projectname=Gracie_and_the_Nope_Rope][Gracie and the Nope Rope]]
+
+  2) [[https://snap.berkeley.edu/project?username=nico%20baldridge&projectname=Peaches%20][Peaches]]
+
+  3) [[https://snap.berkeley.edu/project?username=ant1010&projectname=Story%20animation][Among Us]]
+
+  4) [[https://snap.berkeley.edu/project?username=jorden%20harrell&projectname=GO%20GO%20PWER%20RANGERS][Power Rangers]]
+
+  5) A New Hope
+
 - We'll continue with "events", "effects" and "concurrency".
+
 - There will be another quiz tomorrow!
   
-* Conditional statements, Keyboard input (June 22)
-* Project: helicopter (June-23)
-* Next week: maze game, variables and stuff
-* Week after: robotics
+* NEXT Events and sensing / Bird or Ball (June 22)
+#+attr_latex: :width 300px
+[[../img/bird.png]]
+
+* Quiz 4 from 9:30-10:00 AM (open book! Use it!)
+
+* Quiz 5 - geometry and broadcasting
+#+attr_latex: :width 300px
+[[../img/kittyAndAbby.png]]
+
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=quiz%205][Kitty and Abby]]
+
+- What is absolute vs. relative motion?
+  #+begin_quote
+  Absolute (position/direction independent):
+  1) motion commands yield a vector that ends at a fixed point no
+     matter where the sprite is before the command.
+  2) The movement looks different depending on where the sprite was
+     before the command.
+   
+   [[../img/snap_absolute.png]]
+
+  Relative (position/direction dependent):
+  1) motion commands yield a vector that could be anywhere in the
+     plane. 
+  2) The movement looks the same no matter where the sprite was
+     before the command.
+
+  [[../img/snap_relative.png]]
+
+   #+end_quote
+ 
+* TODO Conditionals, keyboard input (June 23)
+* Project: helicopter (June-26)
+
