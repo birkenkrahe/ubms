@@ -520,16 +520,18 @@ The Canvas page approach apparently did not work...
 #+caption: Ted Dabney, Ex-Marine and co-creator of the Pong arcade game (1975)
 [[../img/pong.png]]
 
-- Quiz 1-5 results: held the average but some have got work to do
+- *Quiz 1-5 results:* held the average but some have got work to do
   #+attr_latex: :width 400px
   [[../img/quizDensity.png]]
 
-- Sample solutions: bird / ball
+- *Sample solutions: bird / ball* (Yours: Canvas / [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Bird%20and%20Ball][my solution]])
 
-- Today: conditional statements, keyboard input
+- *Today:* conditional statements, keyboard input, mouse interaction
 
-- Programming assignment: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle / color circles]]
-  
+- *Programming assignment:* [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle / color circles]]
+  1) ball and paddle: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ping%20Pong%20%28Tyler%20Landry%29][sample solution by Tyler Landry]] (fall '22)
+  2) color circles: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20%28Isaac%20Rice%29][sample solution by Isaac Rice]] (fall'22)
+
 
 * IN PROGRESS Project helicopter (June 26)
 #+attr_latex: :width 400px
