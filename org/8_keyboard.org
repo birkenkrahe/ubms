@@ -67,13 +67,16 @@
   - When starting the script, it waits in the background forever
   - When you touch the sprite with the mouse, you see the text (2sec)
   #+end_notes
+- Here is a BPMN diagram of this decision:
+  #+attr_latex: :width 400px
+  [[../img/diagram.png]]
 
 - Make a pen-trail:
   #+attr_latex: :width 200px
   [[../img/pentrail.png]]
 
 - Write a small program where the turtle goes around and whenever it
-  collides with the pen trail, it changes color.
+  collides with the pen trail, it changes color or size.
   #+attr_latex: :width 200px
   [[../img/collision.png]]
 
@@ -168,6 +171,8 @@ the program does what it should).
    deflected by a paddle. The user should be able to move the paddle
    horizontally using the arrow keys.
 
+   Sample solutions [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball%20and%20Paddle%20%28Bryceton%20Church%29][by Bryceton Church]] (Fall'22) and by [[https://snap.berkeley.edu/project?username=bdawg69420&projectname=RGB%20Pong][Brayden Burrow]]!
+
 2) Design a program in which there are several separate color circles
    (red, blue, green etc.) on the screen. When the green flag is
    clicked, an animal sprite starts following the mouse
@@ -175,6 +180,8 @@ the program does what it should).
    as the circle's color. Tip: to make the animal sprite follow the
    pointer, use the "point towards" and "move" commands in a "forever"
    loop.
+
+   [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20%28Isaac%20Rice%29][Sample solution by Isaac Rice (Fall'22)]]
 
 Remember to add notes to your program (or lose points).
 
@@ -188,7 +195,7 @@ mentioned in class, you can do so for free at bpmn.ioLinks to an
 external site.. Take a screenshot of your model and send it to me via
 email for 5 bonus points.
 
-* TODO Project idea: visualize Boolean algebra
+* SOMEDAY Project idea: visualize Boolean algebra
 
 - Visualize the basic truth table using animation
 - Visualize De Morgan's logic laws using animation
