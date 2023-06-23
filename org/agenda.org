@@ -563,4 +563,4 @@ The Canvas page approach apparently did not work...
 - Feel free to contact me in the Snap!Chat any time with question on
   Python or on the colab online platform! I won't leave you hanging!
 
-* July 10-13: Robotics / Sphero Bolt with Python
+* July 10-13: Robotics / Finch with Python
