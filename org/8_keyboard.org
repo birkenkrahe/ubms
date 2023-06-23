@@ -12,7 +12,7 @@
   #+attr_html: :width 200px
   [[../img/s7_event.png]]
 
-- Create a new project for practicing material from this lecture
+- Create a new project ~Conditional_statements~ to practice the material
 
 - Save your [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Reset][reset script]] as a script in XML on your computer, import
   and run it while developing a script (link: [[https://tinyurl.com/3pnbn9wh][tinyurl.com/3pnbn9wh]])
@@ -43,8 +43,8 @@
 - You can check if things are touching one another, resulting in a
   Boolean value (TRUE or FALSE)
 
-- The Boolean value can be used to control conditional statements like
-  IF, Wait until, Repeat until etc.
+- The *Boolean* value can be used to control conditional statements like
+  If, Wait until, Repeat until etc.
 
 - The ~touching~ command checks if the sprite is touching the mouse
   pointer, the screen edges, a pen drawing or another sprite
@@ -68,13 +68,21 @@
   - When you touch the sprite with the mouse, you see the text (2sec)
   #+end_notes
 
-* Conditional statements
+- Make a pen-trail:
+  #+attr_latex: :width 200px
+  [[../img/pentrail.png]]
+
+- Write a small program where the turtle goes around and whenever it
+  collides with the pen trail, it changes color.
+  #+attr_latex: :width 200px
+  [[../img/collision.png]]
+
 * The story behind the IF
 
 - A condition is another name for a logic operation
 
 - Do you know examples for such operations?
-
+  
 - The result of the operation determines its truth or falsehood,
   represented as ~TRUE~ or ~FALSE~, represented by ~1~ or ~0~ in the computer
 
@@ -121,6 +129,7 @@
 - The gateway (or the conditional test) question is: "is the sprite
   touching any edge?" If the answer is yes, the sprite stops, if it is
   no, it is moved up in small steps of 5.
+  
 * Stopping scripts
 
 - The ~STOP~ commands (~Control~ tab) permit stopping Snap! scripts
@@ -148,6 +157,7 @@
   include the stopping script:
   #+attr_html: :width 200px
   [[../img/s7_stop_script1.png]]
+
 * Programming assignment: ball and paddle / color circles
 
 For this programming assignment, pick either option 1 or 2 below. If
@@ -177,3 +187,8 @@ If you're curious to try the BPMN process modeling method that I
 mentioned in class, you can do so for free at bpmn.ioLinks to an
 external site.. Take a screenshot of your model and send it to me via
 email for 5 bonus points.
+
+* TODO Project idea: visualize Boolean algebra
+
+- Visualize the basic truth table using animation
+- Visualize De Morgan's logic laws using animation

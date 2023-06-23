@@ -79,7 +79,7 @@ Example:
 
    #+attr_latex: :width 300px
    [[../img/s_change.png]]
-
+   
 3) Run the script. The turtle disappears. It's "expensive" to return
    the sprite to its original state.
 
@@ -119,9 +119,6 @@ Example:
   #+attr_latex: :width 200px
   [[../img/s_con1.png]]
 
-  #+attr_latex: :width 200px
-  [[../img/s_con2.png]]
-
 * Practice concurrency
 
 1) Create a new project "concurrency"
@@ -129,13 +126,8 @@ Example:
 2) Pick a sprite with some 'surface area' (to see changes better)
 
 3) Create three scripts for one sprite
-
   #+attr_latex: :width 200px
-  [[../img/s_con3.png]]
-  #+attr_latex: :width 200px
-  [[../img/s_con4.png]]
-  #+attr_latex: :width 200px
-  [[../img/s_con5.png]]
+  [[../img/snap_concurrency.png]]
 
 4) Try each script before you create the next one.
 
