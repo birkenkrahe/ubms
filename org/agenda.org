@@ -395,6 +395,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - You can alter rotation style when a sprite hits an edge of the
   stage. This is a setting for every sprite (in the menu at the top).
 
+
 * DONE Costume animation, geometry (June-19)
 #+attr_html: :width 400px
 [[../img/broadcast.jpg]]
@@ -477,13 +478,12 @@ The Canvas page approach apparently did not work...
 
 - There will be another quiz tomorrow!
   
-* NEXT Events and sensing / Bird or Ball (June 22)
+* DONE Events and sensing / Bird or Ball (June 22)
 #+attr_latex: :width 300px
 [[../img/bird.png]]
 
-* Quiz 4 from 9:30-10:00 AM (open book! Use it!)
-
-* Quiz 5 - geometry and broadcasting
+** Quiz 4 from 9:30-10:00 AM (open book! Use it!)
+** Quiz 5 - geometry and broadcasting
 #+attr_latex: :width 300px
 [[../img/kittyAndAbby.png]]
 
@@ -515,6 +515,50 @@ The Canvas page approach apparently did not work...
   relativity (the laser sword!) and general relativity (E = mc**2).
    #+end_quote
  
-* TODO Conditionals, keyboard input (June 23)
-* Project: helicopter (June-26)
+* IN PROGRESS Conditionals, keyboard input (June 23)
+#+attr_latex: :width 400px
+#+caption: Ted Dabney, Ex-Marine and co-creator of the Pong arcade game (1975)
+[[../img/pong.png]]
 
+- Quiz 1-5 results: held the average but some have got work to do
+  #+attr_latex: :width 400px
+  [[../img/quizDensity.png]]
+
+- Sample solutions: bird / ball
+
+- Today: conditional statements, keyboard input
+
+- Programming assignment: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle / color circles]]
+  
+
+* IN PROGRESS Project helicopter (June 26)
+#+attr_latex: :width 400px
+[[../img/helicopter.jpg]]
+
+- [[https://lyon.instructure.com/courses/1721/assignments/14957/edit?quiz_lti][Quiz 6: keyboard interaction and conditional statements]]
+  
+- [[https://lyon.instructure.com/courses/1721/assignments/14949][Classrom project: helicopter]]
+
+  
+* TODO Mouse interaction (June 27)
+* TODO Paddle and bricks (June 28)
+* TODO Falling objects (June 29)
+* TODO Traffic Light (June 30)
+
+* READ Over the holidays: introduction to Python
+
+- To get a headstart on Python (we won't have much time), listen to
+  the first 4 hours of [[https://youtu.be/nLRL_NcnK-4][this YouTube course]].
+
+- This is a very engagingly presented course by a Harvard professor
+  but to get the most out of it, don't just listen to it.
+
+- Instead use your Chromebooks to open an IPython notebook at
+  colab.research.google.com and type along with the presenter:
+  #+attr_latex: :width 400px
+  [[../img/cs50.png]]
+
+- Feel free to contact me in the Snap!Chat any time with question on
+  Python or on the colab online platform! I won't leave you hanging!
+
+* July 10-13: Robotics / Sphero Bolt with Python

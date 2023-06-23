@@ -141,7 +141,7 @@ Example:
 
 5) Press the SPACE bar to start the three concurrent actions.
 
-* TODO Programming assignment: Bird/Ball
+* Programming assignment: Bird/Ball
 
 For this programming assignment, pick either option 1 or 2 below. If
 you complete both programs, you get up to 10 bonus points (provided
