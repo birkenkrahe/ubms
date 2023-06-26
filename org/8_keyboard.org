@@ -195,6 +195,79 @@ mentioned in class, you can do so for free at bpmn.ioLinks to an
 external site.. Take a screenshot of your model and send it to me via
 email for 5 bonus points.
 
+** [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball%20and%20paddle][Solution]] - ball and paddle
+
+- We have two sprites but only the ball has interesting code. Here's
+  the paddle (costume straight from the Snap! cloud):
+  [[../img/paddle.png]]
+
+- Here is the flow diagram for the simple solution, a ball that moves
+  up and down and is deflected (opposite) by the paddle: there is a
+  decision implied in the code block.
+  [[../img/ball1bpmn.png]]
+
+- Here is the code: activated with ~<up arrow>~
+  [[../img/ball1snap.png]]
+
+- [[https://screenrec.com/share/enEVmDTb2G][See the screenrecording.]]  
+
+- The action is more interesting if the ball bounces around (not just
+  vertically) though this was not asked in the assignment - here we
+  must program the decision explicitly:
+  [[../img/ball2bpmn.png]]
+
+- Here is the code: activated with ~<enter>~
+  [[../img/ball2snap.png]]
+
+- [[https://screenrec.com/share/NjovisHQFn][See the screenrecording.]]
+    
+- Finally, let's add some physics to the paddle deflection: the exit
+  angle is opposite the entrance angle (direction):
+  #+attr_latex: :width 400px
+  [[../img/ball3.jpg]]
+
+- In the code, we now have multiple conditions:
+  [[../img/ball3snap.png]]
+
+- [[https://screenrec.com/share/BF93ZEk6W8][See screenrecording.]]
+  
+** [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=ColorCircles][Solution]] - color circles
+
+- This script makes the sprite orient itself towards the mouse
+  pointer:
+  [[../img/move.png]]
+
+- We can add a smooth motion block to make the sprite follow the mouse
+  pointer:
+  [[../img/moveMouse.png]]
+
+- To solve the problem, we need color circles to touch.
+  
+- My first attempt was to create a background with color circles and
+  use an approximation to the color for a touch-set-color combo:
+  [[../img/color.png]]
+
+- The resulting script works approximately and not for all colors:
+  [[../img/colorCircles.png]]
+
+- [[https://screenrec.com/share/9YNubROrLC][See screencast.]]
+  
+- I was frustrated with the fact that the color effect picker does not
+  allow you to identify the color. I looked it up in the reference
+  manual and found a color library with a lot of choice that you can
+  import in the ~pen~ command category.
+
+- In the second solution, I use a pen sprite to draw circles in
+  exactly the color I want and make sure that the sprite changes into
+  that color:
+  [[../img/colorPen.png]]
+
+- The full program calls upon the pen to draw the circles and then
+  enables the color change through touching:
+  [[../img/colorCirclesPen.png]]
+
+- [[https://screenrec.com/share/O4xEUZt0Gp][See screenrecording]] (45 sec)
+
 * SOMEDAY Project idea: visualize Boolean algebra
 
 - Visualize the basic truth table using animation
