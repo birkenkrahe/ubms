@@ -539,7 +539,10 @@ The Canvas page approach apparently did not work...
 
 - [[https://lyon.instructure.com/courses/1721/assignments/14957/edit?quiz_lti][Quiz 6: keyboard interaction and conditional statements]] (9:30-9:45 am)
 
-- Programming assignment: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle OR color circles]] (09:45-10:15 am)
+- Programming assignment: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle OR color circles]] (09:45-10:15 am):
+  1) You do NOT need *variables* for either of these programs.
+  2) You should not need to *'borrow'* other people's code.
+  3) Ball: don't just use 'random' bounces but think about *physics*.
   
 - [[https://lyon.instructure.com/courses/1721/assignments/14949][Classroom project: helicopter]] in groups of 3 (10:15-10:45 am):
 
@@ -551,18 +554,27 @@ The Canvas page approach apparently did not work...
      - Show gravity: if you do nothing, the helicopter move down.
      - Helicopter should be able to land on a helipad: a landing is
        successful only if the landing gear touches the helipad.
-     - Show moving clouds.
-     - Have some indication that the helicopter is running (like
-       blinking lights or spinning fans).
   3) Sprites:
      - Helicopter (costume is in library).
      - Landing pad
-     - Clouds
-     - Optional: landscape
+     - Cloud(s)
+  4) Optional improvements:
+     - Landscape - something like this:
+       #+attr_latex: :width 400px
+       [[../img/helicopter_landscape.png]]
+     - Moving clouds.
+     - Have some indication that the helicopter is running (like
+       blinking lights or spinning fans).
+     - Gravity effect: helicopter doesn't just move down but
+       accelerates down.
+     - Damage: helicopter explodes when it misses the landing pad.
+     - Title screen with instructions, final screen with "Yay" message
 
 - Upload and present your project(s) (10:45-10:55 am)
 
 - Preview: introduction to Python / course / Colab notebooks
+
+- Tomorrow: discuss some helicopter improvements!
   
 * TODO Mouse interaction and variables (June 27)
 * TODO Game of maze (June 28)
@@ -570,7 +582,11 @@ The Canvas page approach apparently did not work...
 * TODO Game of bricks (June 30)
 
 
-* READ Over the holidays: introduction to Python
+* July 10-13: Robotics (Snap! and/or Python)
+#+attr_latex: :width 400px
+[[../img/finchsnap.png]] [[../img/finchpython.png]]
+
+* READ Over the holidays: Introduction to Python
 
 - To get a headstart on Python (we won't have much time), listen to
   the first 4 hours of [[https://youtu.be/nLRL_NcnK-4][this YouTube course]].
@@ -585,8 +601,5 @@ The Canvas page approach apparently did not work...
 
 - Feel free to contact me in the Snap!Chat ANY TIME with question on
   Python or on the colab online platform! I won't leave you hanging!
-
-
-* July 10-13: Robotics / Finch bot with Python
 
 
