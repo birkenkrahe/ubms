@@ -515,7 +515,7 @@ The Canvas page approach apparently did not work...
   relativity (the laser sword!) and general relativity (E = mc**2).
    #+end_quote
  
-* IN PROGRESS Conditionals, keyboard input (June 23)
+* DONE Conditionals, keyboard input (June 23)
 #+attr_latex: :width 400px
 #+caption: Ted Dabney, Ex-Marine and co-creator of the Pong arcade game (1975)
 [[../img/pong.png]]
@@ -524,7 +524,7 @@ The Canvas page approach apparently did not work...
   #+attr_latex: :width 400px
   [[../img/quizDensity.png]]
 
-- *Sample solutions: bird / ball* (Yours: Canvas / [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Bird%20and%20Ball][my solution]])
+- *Sample solutions: bird / ball* ([[https://lyon.instructure.com/courses/1721/assignments/14947][Canvas]] / my solution: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball][ball]] and [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Bird][bird]])
 
 - *Today:* conditional statements, keyboard input, mouse interaction
 
@@ -533,19 +533,42 @@ The Canvas page approach apparently did not work...
   2) color circles: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20%28Isaac%20Rice%29][sample solution by Isaac Rice]] (fall'22)
 
 
-* IN PROGRESS Project helicopter (June 26)
+* NEXT Project helicopter (June 26)
 #+attr_latex: :width 400px
 [[../img/helicopter.jpg]]
 
-- [[https://lyon.instructure.com/courses/1721/assignments/14957/edit?quiz_lti][Quiz 6: keyboard interaction and conditional statements]]
-  
-- [[https://lyon.instructure.com/courses/1721/assignments/14949][Classrom project: helicopter]]
+- [[https://lyon.instructure.com/courses/1721/assignments/14957/edit?quiz_lti][Quiz 6: keyboard interaction and conditional statements]] (9:30-9:45 am)
 
+- Programming assignment: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle OR color circles]] (09:45-10:15 am)
   
-* TODO Mouse interaction (June 27)
-* TODO Paddle and bricks (June 28)
-* TODO Falling objects (June 29)
-* TODO Traffic Light (June 30)
+- [[https://lyon.instructure.com/courses/1721/assignments/14949][Classroom project: helicopter]] in groups of 3 (10:15-10:45 am):
+
+  1) Get in three groups of three
+  2) Action:
+     - Use arrow keys to fly the helicopter: left/right arrows flip
+       the helicopter from one side to the other, up/down arrows move
+       it up/down.
+     - Show gravity: if you do nothing, the helicopter move down.
+     - Helicopter should be able to land on a helipad: a landing is
+       successful only if the landing gear touches the helipad.
+     - Show moving clouds.
+     - Have some indication that the helicopter is running (like
+       blinking lights or spinning fans).
+  3) Sprites:
+     - Helicopter (costume is in library).
+     - Landing pad
+     - Clouds
+     - Optional: landscape
+
+- Upload and present your project(s) (10:45-10:55 am)
+
+- Preview: introduction to Python / course / Colab notebooks
+  
+* TODO Mouse interaction and variables (June 27)
+* TODO Game of maze (June 28)
+* TODO Operators, remote control (June 29)
+* TODO Game of bricks (June 30)
+
 
 * READ Over the holidays: introduction to Python
 
@@ -560,7 +583,10 @@ The Canvas page approach apparently did not work...
   #+attr_latex: :width 400px
   [[../img/cs50.png]]
 
-- Feel free to contact me in the Snap!Chat any time with question on
+- Feel free to contact me in the Snap!Chat ANY TIME with question on
   Python or on the colab online platform! I won't leave you hanging!
 
-* July 10-13: Robotics / Finch with Python
+
+* July 10-13: Robotics / Finch bot with Python
+
+
