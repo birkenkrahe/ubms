@@ -1,7 +1,7 @@
 #+title: Snap! Keyboard interaction, stopping scripts, helicopter
-#+subtitle: COR100 Snap! Programming Fall 2022
+#+subtitle: UBMS Snap! Programming Summer 2023
 #+options: toc:nil num:nil ^:nil
-#+startup: overview hideblocks indent inlineimages
+#+startup: overview hideblocks indent inlineimages entitiespretty
 #+attr_html: :width 600px
 #+attr_html: :width 400px
 [[../img/s6_keyboard.jpg]]
@@ -161,7 +161,7 @@
   #+attr_html: :width 200px
   [[../img/s7_stop_script1.png]]
 
-* Programming assignment: ball and paddle / color circles
+* Assignments: ball and paddle / color circles
 
 For this programming assignment, pick either option 1 or 2 below. If
 you complete both programs, you get up to 10 bonus points (provided
@@ -179,7 +179,9 @@ the program does what it should).
    pointer. Whenever it touches a circle, its color becomes the same
    as the circle's color. Tip: to make the animal sprite follow the
    pointer, use the "point towards" and "move" commands in a "forever"
-   loop.
+   loop:
+   [[../img/s8_follow.png]]
+
 
    [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20%28Isaac%20Rice%29][Sample solution by Isaac Rice (Fall'22)]]
 
@@ -195,7 +197,7 @@ mentioned in class, you can do so for free at bpmn.ioLinks to an
 external site.. Take a screenshot of your model and send it to me via
 email for 5 bonus points.
 
-** [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball%20and%20paddle][Solution]] - ball and paddle
+** Solutions - ball and paddle
 
 - We have two sprites but only the ball has interesting code. Here's
   the paddle (costume straight from the Snap! cloud):
@@ -222,16 +224,18 @@ email for 5 bonus points.
 - [[https://screenrec.com/share/NjovisHQFn][See the screenrecording.]]
     
 - Finally, let's add some physics to the paddle deflection: the exit
-  angle is opposite the entrance angle (direction):
+  angle is opposite the entrance angle (direction): to compute it, we
+  must take a look at the relationship of entrance angle (\gamma), the
+  direction recorded by Snap! (\delta), and the desired exit angle (\epsilon):
   #+attr_latex: :width 400px
-  [[../img/ball3.jpg]]
+  [[../img/ballPaddle.jpg]]
 
-- In the code, we now have multiple conditions:
-  [[../img/ball3snap.png]]
+- Here is the code:
+  [[../img/ball4snap.png]]
 
-- [[https://screenrec.com/share/BF93ZEk6W8][See screenrecording.]]
-  
-** [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=ColorCircles][Solution]] - color circles
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball%20and%20paddle][Code link]]
+
+** Solutions - color circles
 
 - This script makes the sprite orient itself towards the mouse
   pointer:
@@ -250,7 +254,7 @@ email for 5 bonus points.
 - The resulting script works approximately and not for all colors:
   [[../img/colorCircles.png]]
 
-- [[https://screenrec.com/share/9YNubROrLC][See screencast.]]
+- [[https://screenrec.com/share/9YNubROrLC][See screencast.]] Here is the [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20circles%20III][code link]].
   
 - I was frustrated with the fact that the color effect picker does not
   allow you to identify the color. I looked it up in the reference
@@ -266,8 +270,14 @@ email for 5 bonus points.
   enables the color change through touching:
   [[../img/colorCirclesPen.png]]
 
-- [[https://screenrec.com/share/O4xEUZt0Gp][See screenrecording]] (45 sec)
+- [[https://screenrec.com/share/O4xEUZt0Gp][See screenrecording]] (45 sec) and [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20I][code link]].
 
+- Another solution is to create sprites that are color balls or
+  circles and then upon touching copy the color of the sprite, Alonzo
+  changes to one of his (colored) pre-programmed costumes:
+  [[../img/colorCirclesII.png]]
+
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20circles%20II][Code link.]]
 * SOMEDAY Project idea: visualize Boolean algebra
 
 - Visualize the basic truth table using animation

@@ -533,32 +533,44 @@ The Canvas page approach apparently did not work...
   2) color circles: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20%28Isaac%20Rice%29][sample solution by Isaac Rice]] (fall'22)
 
 
-* NEXT Project helicopter (June 26)
+* DONE Project helicopter (June 26)
 #+attr_latex: :width 400px
 [[../img/helicopter.jpg]]
 
-- [[https://lyon.instructure.com/courses/1721/assignments/14957/edit?quiz_lti][Quiz 6: keyboard interaction and conditional statements]] (9:30-9:45 am)
+- How to deal with programming problems:
+  1) Fulfil the customer requirements (problem as stated) first,
+     i.e. what you were asked to do - only then add improvements.
+  2) Do look at other people's code a lot to learn and try to
+     understand it, run it, improve it, mess with it.
+  3) Do not copy and paste other people's code (but if you have to,
+     as long as you're allowed to do it) credit them properly.
 
-- Programming assignment: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball and paddle OR color circles]] (09:45-10:15 am):
+- [[https://lyon.instructure.com/courses/1721/assignments/14957/edit?quiz_lti][Quiz 6: keyboard interaction/conditional statements]] (9:30-9:45 am)
+
+- We're going to go through the quiz (unless everybody had 100%)
+
+- Programming: [[https://lyon.instructure.com/courses/1721/assignments/14948][ball/paddle OR color circles]] (09:45-10:15 am):
   1) You do NOT need *variables* for either of these programs.
   2) You should not need to *'borrow'* other people's code.
   3) Ball: don't just use 'random' bounces but think about *physics*.
+  4) Color circles: can use painted background, or pen art, or colored
+     sprites.
   
-- [[https://lyon.instructure.com/courses/1721/assignments/14949][Classroom project: helicopter]] in groups of 3 (10:15-10:45 am):
+- [[https://lyon.instructure.com/courses/1721/assignments/14949][Classroom project: helicopter]] in groups of 1-3 (10:15-10:45 am):
 
-  1) Get in three groups of three
-  2) Action:
+  1) Get in three groups of one, two or three (?)
+  2) *Action:*
      - Use arrow keys to fly the helicopter: left/right arrows flip
        the helicopter from one side to the other, up/down arrows move
        it up/down.
      - Show gravity: if you do nothing, the helicopter move down.
      - Helicopter should be able to land on a helipad: a landing is
        successful only if the landing gear touches the helipad.
-  3) Sprites:
+  3) *Sprites:*
      - Helicopter (costume is in library).
      - Landing pad
      - Cloud(s)
-  4) Optional improvements:
+  4) *Optional improvements:*
      - Landscape - something like this:
        #+attr_latex: :width 400px
        [[../img/helicopter_landscape.png]]
@@ -570,13 +582,24 @@ The Canvas page approach apparently did not work...
      - Damage: helicopter explodes when it misses the landing pad.
      - Title screen with instructions, final screen with "Yay" message
 
+- Helicopter tips:
+  1) To make the helicopter turn left/right, mirror it in the paint
+     editor, then change costumes depending on direction.
+  2) To make the clouds move, use the 'rolling ball' trick
+  3) To design the helicopter controls, remember the 'ball and paddle'.
+  
 - Upload and present your project(s) (10:45-10:55 am)
-
-- Preview: introduction to Python / course / Colab notebooks
 
 - Tomorrow: discuss some helicopter improvements!
   
 * TODO Mouse interaction and variables (June 27)
+#+attr_latex: :width 400px
+[[../img/helicopterCouple.jpg]]
+
+- Helicopter examples and added improvements
+- Mouse interaction and push buttons (cat and mouse animation)
+- Preview: introduction to Python / course / Colab notebooks
+
 * TODO Game of maze (June 28)
 * TODO Operators, remote control (June 29)
 * TODO Game of bricks (June 30)

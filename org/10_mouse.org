@@ -1,8 +1,8 @@
 #+title: Snap! Mouse interaction, push-buttons on stage
-#+subtitle: COR100 Snap! Programming Fall 2022
+#+subtitle: UBMS Snap! Programming Summer 2023
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
-* UNIT 3: GAME DESIGN
+* Game design
 #+attr_html: :width 600px
 [[../img/s_unit3.jpg]]
 
@@ -13,79 +13,66 @@
 - [ ] Keyboard events (polling)
 - [ ] User input with buttons
 
-** Mouse interaction
+* Mouse interaction
 #+attr_html: :width 400px
 [[../img/s8_mouse.jpg]]
 
-** Mouse events for sprite and stage
+* Mouse events for sprite and stage
+[[../img/mouseMoves.png]]
 
-1) Clicked mouse
-2) Pressed mouse
-3) Dropped sprite/stage with mouse
-4) Entered sprite/stage with mouse
-5) Departed sprite/stage with mouse
+- Write a short script for each of these interactions:
+  1) create a new project ~MouseMoves~,
+  2) import the ~reset~ script
+  3) write the first script, duplicate and alter accordingly.
+  4) Distinguish the examples with an action and a sound.
+  5) Add a short note on the purpose of this project for later.
 
-Examples:
-- create a new project,
-- import the ~reset~ script
-- write the first script,
-- duplicate and alter accordingly.
-- Switch ~mouse x~ and ~mouse y~ buttons on (~Sensing~)
-- Remember to ~clean up~ once you're done
-- Remember to write a short note on the purpose of this project,
-  e.g. "~Testing mouse interaction~"
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=MouseMoves][My sample solution]]:
+  [[../img/mouseMoves1.png]]
+  1) Alonzo: mouse clicked/pressed/dropped.
+  2) Apple: moused-entered/mouse-departed.
+  3) Dino: scrolled-up/scrolled-down.
+  4) STOP: stopped.
 
-- Clicked mouse:
-  [[../img/s8_clicking.png]]
-
-- Pressed mouse:
-  [[../img/s8_pressed.png]]
-
-- Dropped sprite/stage with mouse:
-  [[../img/s8_dropped.png]]
-
-- Entered sprite/stage with mouse:
-  [[../img/s8_entered.png]]
-
-- Departed sprite/stage with mouse:
-  [[../img/s8_departed.png]]
-
-- Test each script with a sprite and then with a stage
-
-** Make mouse follow the pointer
-
-- You can make a sprite follow the mouse pointer using the script
-  below
-
-- Create a new sprite for this script
-  [[../img/s8_follow.png]]
-
-** Cat-and-mouse
+* Cat-and-mouse
 
 Use this same idea to make one sprite follow another:
 1) create a new sprite ~hunter~ and another sprite ~prey~
-2) add costumes ~cat~ and ~mouse~
-3) write the code and test the script
-4) ways to refine script:
-   - make ~cat~ sneak up on ~mouse~
-   - make ~cat~ eat ~mouse~
-   - make ~mouse~ eat ~cat~
+2) add costumes ~cat~ and ~mouse~ - initially both are looking to the
+   right.
+   [[../img/catAndMouse.png]]
+   
+3) import reset script for quick experimentation (add ~stop all~)
+4) remember that you need a reset script for both sprites
+5) write the code and test the script for these actions:
+   1. Start the script with the ~Green Flag~.
+   2. When mouse is ~dropped~ somewhere: cat pounces and sits on mouse!
+      (Tip: the sprites on the stage are 'layered'.)
+   3. Reset with ~r key~.
+   4. When ~scrolled-up~, mouse turns to cat and glides towards
+      it. When it is close, the mouse says "Hello". Then the cat turns
+      to the mouse, says "Go away", and the mouse slowly disappears.
+   4. Reset with ~stop~ button.
+     
+[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=CatAndMouse][See: sample solution]]
 
-[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=mouse_interaction][See: sample solution]]
+* Use push-buttons on the stage
 
-** Use push-buttons on the stage
-
-- Click or push-buttons have a specific shape and a label
+- Click or push-buttons have a specific shape and a label:
   #+attr_html: :width 200px
   [[../img/s8_buttons.jpg]]
 
-- Make a new project to implement a click-button:
-  1) Get a button sprite (no built-in buttons)
-  2) Use the ~When sprite clicked~ event to activate button
-  3) Send ~broadcast~ message to sprite carrying out an action
+- Copy the Cat-and-Mouse animation project and implement
+  three click-buttons:
+  1) Make three buttons: START, STOP and CONTINUE (you can copy
+     images or - better - make your own).
+  2) Use ~START~ sprite and the ~When sprite clicked~ event to activate
+     the cat-pounces-and-sits-on-mouse action.
+  3) Use the ~STOP~ sprite to stop the script and reset all scripts.
+  4) Use the ~CONTINUE~ sprite to run the
+     mouse-says-hello-and-disappears action.
 
-- Interesting actions include ~Pen~ art (make a drawing)
+- The action should look like shown [[https://screenrec.com/share/ncJLCKfOeT][in this screencast]].
 
-** TODO Numeric variables
-** TODO Change variable values
-** TODO Switch on variable slider
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=CatAndMouse%20II][Link to sample solution:]]
+  [[../img/catAndMouse2.png]]
