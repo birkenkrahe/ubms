@@ -62,8 +62,9 @@
 
 1) Costumes/navigation: helicopter points in the direction it is
    flying. We need to turn it around and allow for an angle when the
-   helicopter is rising or falling. Let's begin with the direction of
-   the helicopter:
+   helicopter is rising or falling.
+
+   Let's begin with the direction of the helicopter:
    - Import helicopter costume from the costume library and name it
      ~heli_right~
    - Duplicate costume, edit it in the paint editor, flip it
@@ -71,7 +72,7 @@
      #+attr_latex: :width 400px
      [[../img/heli_flip.png]]
 
-2) Improved gravity:
+2) Improved gravity ([[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Gravity][demo script]]):
 
    - Open a new project ~Gravity~ in your browser to test this.
 
@@ -115,6 +116,12 @@
      #+attr_latex: :width 400px
      [[../img/gravity_up.png]] [[../img/gravity_down.png]]
 
+   - When you transfer this script to the helicopter, you'll have to
+     re-balance the navigation values and/or change the events.
+
+3) Engine is running when the helicopter script is active:
+   - When script starts, send ~broadcast~ to run sound script.
+     
 * Links / Sources
 
 - [[https://youtu.be/30QzJKCUekQ][Ride of the Valkyries by Richard Wagner / Apokalypse Now]] (Francis
