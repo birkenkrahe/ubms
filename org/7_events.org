@@ -144,15 +144,19 @@ quiz scores!
    color at the same time. Have it make some sound every 5
    seconds. Insert graphic effects like the ghost, the fisheye or the
    whirl effect.
-
-   [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Bird%20%28Tyler%20Landry%29][Solution by Tyler Landry (Fall '22)]]
+   
+   [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Bird%20%28Tyler%20Landry%29][Solution by Tyler Landry (Fall '22)]] / [[https://snap.berkeley.edu/snap/snap.html#present:Username=birkenkrahe&ProjectName=Bird][My sample solution]]
+   #+attr_latex: :width 400px
+   [[../img/birdFlying.png]]
 
 2) Make a *ball* roll from left to right of the screen: the ball should
    appear at the left edge, roll to the right, disappear across the
    right edge, and reappear again at the left edge. Insert graphic
    effects like the ghost, the fisheye or the whirl effect.
 
-   [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Rolling%20Ball%20%28Bryceton%20Church%29][Solution by Bryceton Church (Fall '22)]]
+   [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Rolling%20Ball%20%28Bryceton%20Church%29][Solution by Bryceton Church (Fall '22)]] / [[https://snap.berkeley.edu/snap/snap.html#present:Username=birkenkrahe&ProjectName=Ball][My sample solution]] 
+   #+attr_latex: :width 400px
+   [[../img/ballRolling.png]]
 
 *Submit* the URL of your final, working program [[roam:https://lyon.instructure.com/courses/1721/assignments/14947][in Canvas]] (if you submit
 two programs, use the text entry option and paste both URLs into the

@@ -1,44 +1,16 @@
 #+title: Snap! Keyboard interaction, stopping scripts, helicopter
-#+subtitle: COR100 Snap! Programming Fall 2022
+#+subtitle: UBMS Snap! Programming Summer 2023
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
-#+attr_html: :width 600px
-#+attr_html: :width 400px
-[[../img/helicopter.jpg]]
 * Practice: project helicopter
 #+attr_html: :width 400px
 [[../img/s_heli.png]]
 
-- Get into 3 groups:
-  1) Isaac & Rylan & Smriti
-  2) Ty & Clay & Bryceton
-  3) Jakobe & Tyler & Matthew
 
-- In a new project: create background, get helicopter costume(s) and
-  draw the helipad (sprite or part of background)
-
-- Task (modified from textbook ch. 2.3, p. 73):
-  #+begin_quote
-  Action:
-  - Use arrow keys to fly a helicopter.
-  - Show gravity: if you do nothing, the helicopter moves down.
-  - The helicopter should be able to land on a helipad: it should land
-    only if its landing gear touches the helipad.
-  - Show moving clouds.
-  - When the helicopter touches a cloud, it says "Ouch!" and turns
-    away.
-  - Have some indication like blinking lights or spinning fans to show
-    that the helicopter engine is running.
-
-  Sprites:
-  - Helicopter
-  - Landing pad
-  - Clouds    
-  #+end_quote
 
 * Helicopter - tips and links
 
-- [[https://snap.berkeley.edu/project?username=tasikass2024&projectname=Helicopter][Solution in Snap! by Tasikass2024]]
+- [[https://snap.berkeley.edu/project?username=tasikass2024&projectname=Helicopter][Solution in the Snap! cloud by Tasikass2024]]
 
 - [[https://youtu.be/OJ2XCoALPcU][Compare with: video solution in Scratch (not Snap!)]]
 
