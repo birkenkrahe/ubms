@@ -533,7 +533,7 @@ The Canvas page approach apparently did not work...
   2) color circles: [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20Circles%20%28Isaac%20Rice%29][sample solution by Isaac Rice]] (fall'22)
 
 
-* DONE Project helicopter (June 26)
+* DONE Start project helicopter (June 26)
 #+attr_latex: :width 400px
 [[../img/helicopter.jpg]]
 
@@ -587,6 +587,9 @@ The Canvas page approach apparently did not work...
      editor, then change costumes depending on direction.
   2) To make the clouds move, use the 'rolling ball' trick
   3) To design the helicopter controls, remember the 'ball and paddle'.
+  4) To make the helicopter follow gravity, make a concurrent script
+     that runs forever, starts with the Green Flag and makes the
+     helicopter glide down (negative y values).
   
 - Upload and present your project(s) (10:45-10:55 am)
 
@@ -594,8 +597,10 @@ The Canvas page approach apparently did not work...
   
 * TODO Mouse interaction and variables (June 27)
 #+attr_latex: :width 400px
-[[../img/helicopterCouple.jpg]]
+[[../img/apokalypseNow.jpg]]
 
+- [[https://youtu.be/30QzJKCUekQ][Ride of the Valkyries by Richard Wagner / Apokalypse Now]] (Francis
+  Ford Coppola's adaptation of Joseph Conrad's [[https://en.wikipedia.org/wiki/Heart_of_Darkness][Heart of Darkness]])
 - Helicopter examples and added improvements
 - Mouse interaction and push buttons (cat and mouse animation)
 - Preview: introduction to Python / course / Colab notebooks
