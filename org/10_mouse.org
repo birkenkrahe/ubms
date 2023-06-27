@@ -34,14 +34,16 @@
   3) Dino: scrolled-up/scrolled-down.
   4) STOP: stopped.
 
+- The ~When I am stopped~ event is a little tricky: in particular, the
+  ~say...~ commands do not work with this event (I don't know why).
+     
 * Cat-and-mouse
 
-Use this same idea to make one sprite follow another:
+Use the mouse interaction events to make one sprite follow another:
 1) create a new sprite ~hunter~ and another sprite ~prey~
 2) add costumes ~cat~ and ~mouse~ - initially both are looking to the
    right.
    [[../img/catAndMouse.png]]
-   
 3) import reset script for quick experimentation (add ~stop all~)
 4) remember that you need a reset script for both sprites
 5) write the code and test the script for these actions:
