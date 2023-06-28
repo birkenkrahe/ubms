@@ -29,6 +29,8 @@
 
 * [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Helicopter%20%28minimal%29][Minimal helicopter]]
 
+[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Helicopter%20%28minimal%29][Link to the finished project.]]
+
 1) Background: standard background ~Night city with street~.
 
 2) Costumes: download the ~helicopter~ costume from the library.
@@ -58,7 +60,9 @@
    (-55 in my case):
    [[../img/heli_land.png]]
 
-* Improved helicopter
+* [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Helicopter%20%28improved%29][Improved helicopter]]
+
+[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Helicopter%20%28improved%29][Link to the (unfinished) project.]]
 
 1) Costumes/navigation: helicopter points in the direction it is
    flying. We need to turn it around and allow for an angle when the

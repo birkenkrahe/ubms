@@ -78,3 +78,66 @@ Use the mouse interaction events to make one sprite follow another:
 
 - [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=CatAndMouse%20II][Link to sample solution:]]
   [[../img/catAndMouse2.png]]
+
+* ~Wait until...~ command
+
+- Use this command if you want a sprite to wait for a condition to
+  become true. It waits as long as the condition is false.
+
+- For example, this block in the [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Helicopter%20%28minimal%29][minimal helicopter project]] will be
+  activated only when the helicopter has landed on the helipad:
+  [[../img/heli_wait_until.png]] [[../img/heli_wait_until_output.png]] 
+
+* Keyboard events ('polling')
+
+- The CPU has two ways to control events: 'handling' or 'polling'.
+
+- When it handles an event, it starts a process when the event has
+  been triggered:
+  [[../img/handling.png]]
+
+- This is easy on the CPU but it is less responsive than 'polling'
+  where the CPU runs continuously waiting for a signal:
+  [[../img/polling.png]]
+
+- The condition has to be wrapped in a ~forever~ loop to be tested
+  continuously.
+
+- Unlike event handlers (which always start a script), polling
+  commands can be compounded. For example, this script checks if both
+  the 'f' and the 'right arrow' key are pressed before it runs:
+  [[../img/poling1.png]]
+
+* Making blocks
+
+- Snap allows you to define your own procedures using the ~Make a block~
+  command (in the sidebar or via right-click in the script area).
+
+- In the dialog, you can specify:
+  1) ~Command~ = procedure without a return value, like a greeting that
+     only prints a string like "hello" on the screen.
+  2) ~Reporter~ = function with a return value, like a computation of F
+     = m * a that takes mass (m) and acceleration (a) as parameters
+     and returns the value of F.
+  3) ~Predicate~ = function that return Boolean (True or False) values
+     only.
+
+ - Make a ~Command~ block, name it ~Greeting~ and add a ~Looks~ command:
+   [[../img/MakeBlock.png]] [[../img/BlockEditor.png]]
+
+ - You can now use the block, which appears in the ~Looks~ menu,
+   anywhere in the project:
+   [[../img/greetings.png]]
+
+ - Another example: make a block ~Square~ in the ~Motion~ category and
+   instruct it to draw a square:
+   [[../img/square.png]]
+
+ - If you want to draw squares of different sizes, you can use the
+   ~Input name~ dialog: click on the plus on the right of the block name
+   and enter the variable ~size~, then exchange the constant ~100~ steps
+   by the variable ~size~:
+   [[../img/size.png]] [[../img/pen.png]]
+
+
+   
