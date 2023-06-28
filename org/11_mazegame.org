@@ -40,17 +40,17 @@ usual to Canvas for practice points.
 
 1) Open the ~player~ script editor
 
-2) Make a new ~Motion~ block and call it ~MovePlayer~
+2) Make a new ~Motion~ block and call it ~MovePlayer~:
    #+attr_html: :width 300px
    [[../img/s_maze_block.png]]
 
 3) Make a start script (green flag) that moves the ~player~ back to the
    starting position (x = -218, y = 160)
-   #+attr_html: :width 200px
+   #+attr_html: :width 150px
    [[../img/s_maze_start.png]]
    
 4) Set up keyboard actions for arrows
-   #+attr_html: :width 250px
+   #+attr_html: :width 200px
    [[../img/s_maze_arrows.png]]
 
 5) Modify the ~MovePlayer~ block
@@ -75,7 +75,7 @@ usual to Canvas for practice points.
  - Moving obstacles
  - A monster follows the player
  - Add a variable to track prize points and penalties
- - Add a timer
+ - Add a timer and end the game when time's up
   
 * Sources
 
