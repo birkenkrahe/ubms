@@ -50,11 +50,12 @@ Use the mouse interaction events to make one sprite follow another:
    1. Start the script with the ~Green Flag~.
    2. When mouse is ~dropped~ somewhere: cat pounces and sits on mouse!
       (Tip: the sprites on the stage are 'layered'.)
-   3. Reset with ~r key~.
-   4. When ~scrolled-up~, mouse turns to cat and glides towards
-      it. When it is close, the mouse says "Hello". Then the cat turns
-      to the mouse, says "Go away", and the mouse slowly disappears.
-   4. Reset with ~stop~ button.
+   3. Stop with ~stop~ button and restart with ~Green flag~.
+   4. When ~scrolled-up~, mouse turns to cat and glides towards it.
+      - When it is close, the mouse says "Hello".
+      - The cat turns to the mouse, says "Go away"
+      - The mouse responds with "Good-bye" and slowly disappears.
+   5. Reset with ~stop~ button.
      
 [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=CatAndMouse][See: sample solution]]
 

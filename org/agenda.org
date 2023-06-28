@@ -619,14 +619,16 @@ The Canvas page approach apparently did not work...
 * More games?
 
 - My students have created cool, working arcade games in Snap!: Donkey
-  Kong, Asteroids, Space Invaders and Pacman. Links are
-  [[https://docs.google.com/presentation/d/1f_1z4V1_tZ8PPGPil0WEUKGasgpf0jB-/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][in this presentation]].
+  Kong, Asteroids, Space Invaders, Pacman. Links [[https://docs.google.com/presentation/d/1f_1z4V1_tZ8PPGPil0WEUKGasgpf0jB-/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][in this presentation]]
+  (2023).
+
+- Here is a [[https://youtu.be/khqYAbOBI4Q][tutorial to build an "apple catcher"]] game in Snap! (2021)
 
 - This [[https://www.youtube.com/watch?v=5sUpqyDgFMo][brick breaker game tutorial (30 min)]] is in Scratch, but you can
-  re-engineer it for Snap!
+  re-engineer it for Snap! (2022)
 
 - This [[https://youtu.be/MAjobdDNqKY][platformer game tutorial (30 min)]] is in Scratch, but you can
-  re-engineer it for Snap!
+  re-engineer it for Snap! (2022)
 
 * TODO From Snap! to Python (June 29)
 #+attr_latex: :width 400px
