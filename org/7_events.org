@@ -2,7 +2,7 @@
 #+subtitle: UBMS Game and Robo Programming with Snap! and Python
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
-#+attr_latex: :width 600px
+#+attr_latex: :width 400px
 [[../img/bird.png]]
 
 * Events

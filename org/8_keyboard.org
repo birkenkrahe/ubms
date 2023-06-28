@@ -278,7 +278,3 @@ email for 5 bonus points.
   [[../img/colorCirclesII.png]]
 
 - [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Color%20circles%20II][Code link.]]
-* SOMEDAY Project idea: visualize Boolean algebra
-
-- Visualize the basic truth table using animation
-- Visualize De Morgan's logic laws using animation

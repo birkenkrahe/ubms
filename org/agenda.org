@@ -595,7 +595,7 @@ The Canvas page approach apparently did not work...
 
 - Tomorrow: discuss some helicopter improvements!
   
-* TODO Mouse interaction and variables (June 27)
+* DONE Mouse interaction and variables (June 27)
 #+attr_latex: :width 400px
 [[../img/apokalypseNow.jpg]]
 
@@ -605,16 +605,48 @@ The Canvas page approach apparently did not work...
 - Mouse interaction and push buttons (cat and mouse animation)
 - Preview: introduction to Python / course / Colab notebooks
 
-* TODO Game of maze (June 28)
-* TODO Operators, remote control (June 29)
-* TODO Game of bricks (June 30)
+* TODO Cat-and-mouse and Game of maze (June 28)
+#+attr_latex: :width 400px
+[[../img/maze.png]]
+
+- Quiz 7: 10 questions on events, conditional statements, variables
+  (9:30-9:50 am) + post-mortem
+- Any cool helicopters?
+- Practice mouse events: cat-and-mouse animation 
+- Wait until and keyboard events (polling)
+- Maze game (guided implementation)
+
+* More games?
+
+- My students have created cool, working arcade games in Snap!: Donkey
+  Kong, Asteroids, Space Invaders and Pacman. Links are
+  [[https://docs.google.com/presentation/d/1f_1z4V1_tZ8PPGPil0WEUKGasgpf0jB-/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][in this presentation]].
+
+- This [[https://www.youtube.com/watch?v=5sUpqyDgFMo][brick breaker game tutorial (30 min)]] is in Scratch, but you can
+  re-engineer it for Snap!
+
+- This [[https://youtu.be/MAjobdDNqKY][platformer game tutorial (30 min)]] is in Scratch, but you can
+  re-engineer it for Snap!
+
+* TODO From Snap! to Python (June 29)
+#+attr_latex: :width 400px
+[[../img/monty_python.png]]
+
+* TODO Snap! & Python: Guessing Game (June 30)
+#+attr_latex: :width 200px
+[[../img/python2.png]]
+
+- Project game of bricks (guided implementation)
+- Summary and outlook
 
 
-* July 10-13: Robotics (Snap! and/or Python)
+* July 10-13: Robotics (Snap! and Python)
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
 
-* READ Over the holidays: Introduction to Python
+* DONE Over the holidays: Introduction to Python
+
+- Introduced on Tuesday, 27-June (see also Snap!Chat in Google).
 
 - To get a headstart on Python (we won't have much time), listen to
   the first 4 hours of [[https://youtu.be/nLRL_NcnK-4][this YouTube course]].

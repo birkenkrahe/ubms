@@ -11,6 +11,7 @@
 * Objective
 #+attr_html: :width 400px
 [[../img/maze.png]]
+
 We're going to code a game of maze together - you can
 then refine and finish the game on your own at will.
 
@@ -24,7 +25,8 @@ usual to Canvas for practice points.
 1) Download the sprite, background and sounds as a ZIP file:
    [[https://tinyurl.com/5n8xke8z][tinyurl.com/5n8xke8z]]
 
-2) Extract the file on your PC
+2) Extract the file on your PC:
+   [[../img/maze_zip.png]]
 
 3) Create new Snap! project and save it as ~mazegame~
    

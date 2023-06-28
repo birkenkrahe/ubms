@@ -1,5 +1,0 @@
-#+title: Snap! Game of Maze Project
-#+subtitle: COR100 Snap! Programming Fall 2022
-#+options: toc:nil num:nil ^:nil
-#+startup: overview hideblocks indent inlineimages
-

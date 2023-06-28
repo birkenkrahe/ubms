@@ -216,7 +216,7 @@
   #+attr_latex: :width 200px
   [[../img/snap_animation.png]]
 
-* TODO *Practice* animation using costumes
+* *Practice* animation using costumes
 
 1) Define a new project and call it ~animation~.
 
