@@ -21,11 +21,11 @@
 #+attr_html: :width 200px
 [[../img/10_spaceinvaders.gif]]
 
-Link to Snap! cloud.
+[[https://snap.berkeley.edu/project?username=bryceton%20church&projectname=SpaceInvaders][Link to Snap! cloud.]]
 
 * Donkey Kong (by Ty, Clay and Smriti
 #+attr_html: :width 300px
 [[../img/10_kong.jpg]]
 
-Link to Snap! cloud.
+[[https://snap.berkeley.edu/project?username=tyferguson&projectname=Donkey%20Kong][Link to Snap! cloud.]]
 
