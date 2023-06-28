@@ -638,10 +638,6 @@ The Canvas page approach apparently did not work...
 #+attr_latex: :width 200px
 [[../img/python2.png]]
 
-- Project game of bricks (guided implementation)
-- Summary and outlook
-
-
 * July 10-13: Robotics (Snap! and Python)
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
