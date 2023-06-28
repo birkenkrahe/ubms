@@ -57,7 +57,9 @@ Use the mouse interaction events to make one sprite follow another:
       - The mouse responds with "Good-bye" and slowly disappears.
    5. Reset with ~stop~ button.
      
-[[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=CatAndMouse][See: sample solution]]
+
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=CatAndMouse][Sample solution]]
+- Free music scripts: [[https://bit.ly/434BbGT][bit.ly/434BbGT]] (max 10MB)
 
 * Use push-buttons on the stage
 
