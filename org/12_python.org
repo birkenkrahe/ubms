@@ -67,11 +67,35 @@ You find the solution [[https://gist.github.com/birkenkrahe/2921e5c3afc0ee495bd6
 [[../img/choice.jpg]]
 
 1) In the command line terminal (Python must be installed)
+   #+attr_latex: :width 400px
+   [[../img/cmd.png]]
 2) In Google Colaboratory (interactive Jupyter notebook)
+   #+attr_latex: :width 400px
+   [[../img/colaboratory.png]]
 3) In replit.com (REPL)
+   #+attr_latex: :width 400px
+   [[../img/replit.png]]
 4) In the browser (extension)
+   #+attr_latex: :width 400px
+   [[../img/chrome.png]]
 5) In the Python IDLE (Integrated Development Learning Environment)
 6) In an IDE (Integrated Development Environment): Emacs, VSCode etc.
+5) In the Python IDLE (Integrated Development Learning Environment)
+   #+attr_latex: :width 400px
+   [[../img/idle.png]]
+   #+attr_latex: :width 400px
+   [[../img/turtleDemo.png]]
+6) In an IDE (Integrated Development Environment): Emacs, VSCode,
+   PyCharm etc.
+   #+attr_latex: :width 400px
+   #+caption: Emacs IDE: Org-mode (top) and Python shell (bottom)
+   [[../img/emacs.png]]
+   #+attr_latex: :width 400px
+   #+caption: 'Hello world' in the Visual Studio Code editor (Microsoft)
+   [[../img/vscode.png]]
+   #+attr_latex: :width 400px
+   #+caption: Turtle racing game in PyCharm
+   [[../img/pycharm.png]]
    
 * References
 
