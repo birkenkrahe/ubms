@@ -320,7 +320,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 - BPMN (Business Process Model and Notation) is a process model
   language to create model diagrams (like blueprints).
 - You can use BPMN to chart the flow of Snap! scripts.
-  
+
 * DONE Loops and costumes (June-16)
 #+attr_html: :width 400px
 [[../img/loop.jpg]]
@@ -336,7 +336,7 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 ** Quiz 2 review
 
 1) "Snap" is actually also a term from the Linux world
-   
+
 2) What is 'exception handling'?
    #+begin_quote
    - If the user does something that leads to a wrong input - wrong in
@@ -367,11 +367,11 @@ From the Snap!Chat (Google Space accessible via your Lyon GMail):
 
 - A couple of people asked for special topics: as long as you come up
   with a good, suitable research question, I'm OK.
-  
+
 - Put the question that you want to investigate [[https://lyon.instructure.com/courses/1721/pages/put-your-research-essay-topic-here][in this table]] in
   'Pages' in Canvas, together with your name and any comments you may
   have.
-  
+
 - Any other research talk: let's have a conversation in the Snap!Chat.
 
 - Remember that good research questions are very, very
@@ -429,7 +429,7 @@ The Canvas page approach apparently did not work...
      the code for 'motion' or 'looks' or 'sensing' only represents a
      reduced version of real motion, appearance or sensing.
    - You can combine mathematical models and scripting, e.g. by
-     implementing physics: [[https://bit.ly/newtonSnap][bit.ly/newtonSnap]] 
+     implementing physics: [[https://bit.ly/newtonSnap][bit.ly/newtonSnap]]
    #+end_quote
    #+attr_latex: :width 300px
    [[../img/newton.png]]
@@ -449,7 +449,7 @@ The Canvas page approach apparently did not work...
 ** Broadcasting commands
 ** "Circus" programming assignment
 ** Pair programming: Story with all you've got
- 
+
 * DONE Story presentations (June-21)
 #+attr_html: :width 400px
 [[../img/s6_keyboard.jpg]]
@@ -477,7 +477,7 @@ The Canvas page approach apparently did not work...
 - We'll continue with "events", "effects" and "concurrency".
 
 - There will be another quiz tomorrow!
-  
+
 * DONE Events and sensing / Bird or Ball (June 22)
 #+attr_latex: :width 300px
 [[../img/bird.png]]
@@ -500,12 +500,12 @@ The Canvas page approach apparently did not work...
      matter where the sprite is before the command.
   2) The movement looks different depending on where the sprite was
      before the command.
-   
-   [[../img/snap_absolute.png]]
+
+     [[../img/snap_absolute.png]]
 
   Relative (position/direction dependent):
   1) motion commands yield a vector that could be anywhere in the
-     plane. 
+     plane.
   2) The movement looks the same no matter where the sprite was
      before the command.
 
@@ -513,8 +513,8 @@ The Canvas page approach apparently did not work...
 
   This distinction is important for physics because of both special
   relativity (the laser sword!) and general relativity (E = mc**2).
-   #+end_quote
- 
+  #+end_quote
+
 * DONE Conditionals, keyboard input (June 23)
 #+attr_latex: :width 400px
 #+caption: Ted Dabney, Ex-Marine and co-creator of the Pong arcade game (1975)
@@ -555,7 +555,7 @@ The Canvas page approach apparently did not work...
   3) Ball: don't just use 'random' bounces but think about *physics*.
   4) Color circles: can use painted background, or pen art, or colored
      sprites.
-  
+
 - [[https://lyon.instructure.com/courses/1721/assignments/14949][Classroom project: helicopter]] in groups of 1-3 (10:15-10:45 am):
 
   1) Get in three groups of one, two or three (?)
@@ -590,11 +590,11 @@ The Canvas page approach apparently did not work...
   4) To make the helicopter follow gravity, make a concurrent script
      that runs forever, starts with the Green Flag and makes the
      helicopter glide down (negative y values).
-  
+
 - Upload and present your project(s) (10:45-10:55 am)
 
 - Tomorrow: discuss some helicopter improvements!
-  
+
 * DONE Mouse interaction and variables (June 27)
 #+attr_latex: :width 400px
 [[../img/apokalypseNow.jpg]]
@@ -605,14 +605,14 @@ The Canvas page approach apparently did not work...
 - Mouse interaction and push buttons (cat and mouse animation)
 - Preview: introduction to Python / course / Colab notebooks
 
-* TODO Cat-and-mouse and Game of maze (June 28)
+* IN PROGRESS Cat-and-mouse and Game of maze (June 28)
 #+attr_latex: :width 400px
 [[../img/maze.png]]
 
 - Quiz 7: 10 questions on events, conditional statements, variables
   (9:30-9:50 am) + post-mortem
 - Any cool helicopters?
-- Practice mouse events: cat-and-mouse animation 
+- Practice mouse events: cat-and-mouse animation
 - Wait until and keyboard events (polling vs. handling)
 - Maze game (guided implementation)
 
@@ -621,7 +621,7 @@ The Canvas page approach apparently did not work...
 - My students have created cool, working arcade games in Snap!: Donkey
   Kong, Asteroids, Space Invaders, Pacman. Links [[https://docs.google.com/presentation/d/1f_1z4V1_tZ8PPGPil0WEUKGasgpf0jB-/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][in this presentation]]
   or on GitHub.
-  
+
 - Here is a [[https://youtu.be/khqYAbOBI4Q][tutorial to build an "apple catcher"]] game in Snap! (2021)
 
 - This [[https://www.youtube.com/watch?v=5sUpqyDgFMo][brick breaker game tutorial (30 min)]] is in Scratch, but you can
@@ -630,9 +630,32 @@ The Canvas page approach apparently did not work...
 - This [[https://youtu.be/MAjobdDNqKY][platformer game tutorial (30 min)]] is in Scratch, but you can
   re-engineer it for Snap! (2022)
 
+- To make games with Python (or Scratch/Snap!), check out these free
+  books by Al Sweigart: [[https://inventwithpython.com/][inventwithpython.com/]], [[https://inventwithscratch.com/][inventwithscratch.com/]]
+
+* TODO Sprint Review on Friday
+  #+attr_latex: :width 400px
+  X[[../img/sprintreview.png]]
+
+  - What did you achieve so far?
+  - What're you going to do next?
+  - Anything you're proud of?
+  - Anything else you want to share?
+  - Any questions for the "product owner"? (Me)
+  
 * TODO From Snap! to Python (June 29)
 #+attr_latex: :width 400px
 [[../img/monty_python.png]]
+
+- Let's finish the Game of Maze!
+
+- Then I'll throw you into Python (at the deep end):
+  1) Demo of Google Colab with pandas and plotting.
+  2) First Python program: 'hello world'.
+
+- Tomorrow we'll code a couple of games in Python:
+  1) guessTheNumber game 
+  2) hungrySnake game
 
 * TODO Snap! & Python: Guessing Game (June 30)
 #+attr_latex: :width 200px
@@ -659,5 +682,3 @@ The Canvas page approach apparently did not work...
 
 - Feel free to contact me in the Snap!Chat ANY TIME with question on
   Python or on the colab online platform! I won't leave you hanging!
-
-
