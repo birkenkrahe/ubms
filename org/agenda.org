@@ -605,7 +605,7 @@ The Canvas page approach apparently did not work...
 - Mouse interaction and push buttons (cat and mouse animation)
 - Preview: introduction to Python / course / Colab notebooks
 
-* IN PROGRESS Cat-and-mouse and Game of maze (June 28)
+* DONE Cat-and-mouse and Game of maze (June 28)
 #+attr_latex: :width 400px
 [[../img/maze.png]]
 
@@ -616,7 +616,7 @@ The Canvas page approach apparently did not work...
 - Wait until and keyboard events (polling vs. handling)
 - Maze game (guided implementation)
 
-* More games?
+** More games?
 
 - My students have created cool, working arcade games in Snap!: Donkey
   Kong, Asteroids, Space Invaders, Pacman. Links [[https://docs.google.com/presentation/d/1f_1z4V1_tZ8PPGPil0WEUKGasgpf0jB-/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][in this presentation]]
@@ -633,9 +633,9 @@ The Canvas page approach apparently did not work...
 - To make games with Python (or Scratch/Snap!), check out these free
   books by Al Sweigart: [[https://inventwithpython.com/][inventwithpython.com/]], [[https://inventwithscratch.com/][inventwithscratch.com/]]
 
-* TODO Sprint Review on Friday
+** Sprint Review on Friday
   #+attr_latex: :width 400px
-  X[[../img/sprintreview.png]]
+  [[../img/sprintreview.png]]
 
   - What did you achieve so far?
   - What're you going to do next?
@@ -643,7 +643,7 @@ The Canvas page approach apparently did not work...
   - Anything else you want to share?
   - Any questions for the "product owner"? (Me)
   
-* TODO From Snap! to Python (June 29)
+* DONE From Snap! to Python (June 29)
 #+attr_latex: :width 400px
 [[../img/monty_python.png]]
 
@@ -655,11 +655,42 @@ The Canvas page approach apparently did not work...
 
 - Tomorrow we'll code a couple of games in Python:
   1) guessTheNumber game 
-  2) hungrySnake game
+  2) hungrySnake game (?)
 
 * TODO Snap! & Python: Guessing Game (June 30)
 #+attr_latex: :width 200px
-[[../img/python2.png]]
+[[../img/0_snap.png]] [[../img/python2.png]]
+
+- Quiz 8: Snap & Python
+
+- Exercise: explore and plot babynames dataset
+
+- Python 'hello world' program
+
+- 6 free ways to code in Python on your computer
+
+- Colab notebook for the Guess-the-Number game: [[https://tinyurl.com/guessUBMS][tinyurl.com/guessUBMS]]
+
+- Links to explore making games in Python:
+
+  1) Al Sweigart's "Invent your own computer games with Python" (4e),
+     2016 - URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
+
+  2) The Python Arcade Library - lots of example code. This will
+     enable you do create a lot of the stuff that Snap! comes with
+     (like sprites). The tutorials are very nice and easy to follow.
+
+  3) Turtle is the built-in graphics and gaming library. There are
+     animation examples with code available via IDLE (look under the
+     HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
+     [[https://www.freecodecamp.org/news/how-to-make-racing-game-using-python/][Racing game]] (this is the shortest and best for starters).
+
+  Colab will not be of use for developing these games because you need
+  an environment that can open and close windows - and Colab is
+  located in a virtual Linux world and has no access to your PC.
+
+  So you need to use another IDE like IDLE or PyCharm, or replit.com
+  (that's what I used).
 
 * July 10-13: Robotics (Snap! and Python)
 #+attr_latex: :width 400px

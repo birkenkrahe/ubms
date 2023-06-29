@@ -162,9 +162,43 @@ This concludes a quick demonstration of Colab's IPython capabilities
 and some of Python's data and plotting abilities. See here for the
 complete Colab notebook as a GitHub gist: [[https://bit.ly/3NS6sbu][bit.ly/3NS6sbu]].
 
+* Randomize ~babynames~ dataset
+
+#+begin_src python
+  import pandas as pd
+
+  # Load the CSV data into a pandas DataFrame
+  data = pd.read_csv('../data/babynames_original.csv')
+
+  # Randomize the DataFrame
+  data = data.sample(frac=1).reset_index(drop=True)
+
+  # Save the randomized DataFrame back to a CSV file
+  data.to_csv('../data/babynames.csv', index=False)
+
+  # Show data frame
+  print(data)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+        year     name   percent   sex
+0       1904    Selma  0.000790  girl
+1       2002  Xzavier  0.000112   boy
+2       2006    Kadyn  0.000094   boy
+3       1965      Von  0.000049   boy
+4       1974     Abel  0.000202   boy
+...      ...      ...       ...   ...
+257995  1920  Queenie  0.000053  girl
+257996  1982     Wade  0.000351   boy
+257997  1988   Lesley  0.000250  girl
+257998  1943     Vada  0.000061  girl
+257999  1942     Eloy  0.000039   boy
+
+[258000 rows x 4 columns]
+#+end_example
+
 * Practice yourself with ~babynames~
-
-
 
 Transfer the code from the previous section to a new dataset.
 
@@ -177,12 +211,12 @@ This practice file (without answers) is available in Colab as:
 2) Import the file from your ~Downloads~ directory to a data frame named
    ~baby~.
    #+name: baby
-   #+begin_src python
+   #+begin_src python :session *Python*
      import pandas as pd
      import matplotlib.pyplot as plt
      baby = pd.read_csv("../data/babynames.csv")
    #+end_src
-
+   
 3) Print the data frame to make sure the import worked - how many
    names does this data set contain?
    #+begin_src python
@@ -390,12 +424,83 @@ See here for a copy of the program ~SnapToPython~ as a [[https://gist.github.com
 * 6 ways to code in Python (online demo)
 
 1) In the command line terminal (Python must be installed)
+   #+attr_latex: :width 400px
+   [[../img/cmd.png]]
+
+   - Open a command line terminal in Windows (Search > CMD)
+
+   - Open the Python shell by entering ~python~ at the prompt
+  
 2) In Google Colaboratory (interactive Jupyter notebook)
+   #+attr_latex: :width 400px
+   [[../img/colaboratory.png]]
+
+   - Opening a browser to ~colab.research.google.com~ opens an IPython
+     console by default.
+
+   - Colab also offers R on a different address: ~colab.to/r~. 
+
 3) In replit.com (REPL)
+   #+attr_latex: :width 400px
+   [[../img/replit.png]]
+
+   - Open replit.com at the browser
+
+   - Click on "Start creating" then create a Replit account using your
+     lyon.edu Google address
+
+   - Click on ~+ Create Repl~ at the top left
+
+   - Select the ~Python~ template then ~+ Create Repl~ again
+
+   - In the ~main.py~ template, type ~print("hello world")~ in line one
+     and run with the ~Play~ button. You see the result in the ~Console~
+     window.
+
+   - There is also a (virtual) Linux shell under the ~Shell~ tab: open
+     it and type ~ls -l~ at the prompt (brings up the list of files).
+
+   - Enter ~cat main.py~ to see the code.
+
+   - Run the file with ~python main.py~ on the shell.
+
+   - The shell experiences delays.
+
 4) In the browser (extension)
-5) In the Python IDLE (Integrated Development Learning Environment)
-6) In an IDE (Integrated Development Environment): Emacs, VSCode etc.
+   #+attr_latex: :width 400px
+   [[../img/chrome.png]]
+  
+   - In Google chrome, at the top (three dots), open ~Extensions~ >
+     ~Visit Chrome Web Store~. Search for ~python~.
+
+   - Download the ~Python Shell~ extension. It will show up at the top
+     of your browser.
    
+5) In the Python IDLE (Integrated Development Learning Environment)
+   #+attr_latex: :width 400px
+   [[../img/idle.png]]
+
+   - Find and open IDLE in the Windows search bar
+
+   - It comes with an interactive Python shell, and with a file editor
+
+   - There are also Turtle demo animations and games (~Help~ tab)
+     #+attr_latex: :width 400px
+     [[../img/turtleDemo.png]]
+   
+6) In an IDE (Integrated Development Environment): Emacs, VSCode etc.
+   #+attr_latex: :width 400px
+   #+caption: Emacs IDE: Org-mode (top) and Python shell (bottom)
+   [[../img/emacs.png]]
+
+   #+attr_latex: :width 400px
+   #+caption: 'Hello world' in the Visual Studio Code editor (Microsoft)
+   [[../img/vscode.png]]
+
+   #+attr_latex: :width 400px
+   #+caption: Turtle racing game in PyCharm
+   [[../img/pycharm.png]]
+
 * References
 
 - Birkenkrahe (2023). Introduction to programming in Python. URL:
