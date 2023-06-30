@@ -738,6 +738,17 @@ The Canvas page approach apparently did not work...
    12. ~plt.ylabel~ to label the y-axis of a ~plt~ object
    13. ~plt.title~ to title a ~plt~ object
    #+end_quote   
+
+6) What does this command do: ~df.iloc[:,5].sum()~ if ~df~ is the 1990 CA
+   housing prices data frame and column 5 is the ~population~ column?
+   #+attr_latex: :width 250px
+   [[../img/describe.png]]
+   #+begin_quote
+   This function call sums up the ~population~ field for all records in
+   the data frame - the result is the total population in the recorded
+   locations according to the 1990 census.
+   #+end_quote
+
 * 'Hello world' program in Python (15 min)
 * Demo: Guess the Number game in Python (30 min)
 
@@ -774,7 +785,8 @@ The Canvas page approach apparently did not work...
 * Links to explore making games in Python:
 
   1) Al Sweigart's free book "Invent your own computer games with
-     Python" (4e), 2016 contains games. URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
+     Python" (4e), 2016 contains many examples built with PyGame. URL:
+     [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
      
   2) The Python /Arcade/ Library - lots of example code. This will
      enable you do create a lot of the stuff that Snap! comes with

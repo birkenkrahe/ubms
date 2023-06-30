@@ -6,11 +6,14 @@
 * Ball and paddle game in Python
 
 - Games and animations are no small feat in Python. Compare the code
-  for the ball-and-paddle game [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball%20and%20paddle][in Snap!]] with the Python version
-  ([[https://replit.com/@birkenkrahe/BallAndPaddle][in replit.com]] - with ball changing colors):
+  for the modified ball-and-paddle game [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Ball%20and%20paddle%20Color][in Snap!]] with the Python
+  Turtle version (in [[https://replit.com/@birkenkrahe/BallAndPaddle][replit.com]]):
   #+attr_latex: :width 200px
-  [[../img/ballAndPaddle1.png]] [[../img/ballAndPaddle2.png]]
+  [[../img/ballAndPaddleColor.png]] [[../img/ballAndPaddle2.png]] 
 
+- Here's also a version with the ~PyGame~ library [[https://replit.com/@birkenkrahe/BallAndPaddlePyGame][in replit.com]] (but I
+  haven't got it work properly yet).
+  
 * Turtle graphics
 
 - Turtle graphics is a re-implementation of 1967 graphics for kids in
