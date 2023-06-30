@@ -630,6 +630,9 @@ The Canvas page approach apparently did not work...
 - This [[https://youtu.be/MAjobdDNqKY][platformer game tutorial (30 min)]] is in Scratch, but you can
   re-engineer it for Snap! (2022)
 
+- How to make a shooter game in Scratch (video tutorial in 2 parts)
+  from [[https://youtu.be/QXru0rSV2ZQ][freeCodeCamp.org]]. Needs updating (6 yrs old).
+
 - To make games with Python (or Scratch/Snap!), check out these free
   books by Al Sweigart: [[https://inventwithpython.com/][inventwithpython.com/]], [[https://inventwithscratch.com/][inventwithscratch.com/]]
 
@@ -657,40 +660,131 @@ The Canvas page approach apparently did not work...
   1) guessTheNumber game 
   2) hungrySnake game (?)
 
+
 * TODO Snap! & Python: Guessing Game (June 30)
 #+attr_latex: :width 200px
 [[../img/0_snap.png]] [[../img/python2.png]]
 
-- Quiz 8: Snap & Python
-
+- Sprint review: research essay progress
+- Review Snap! vs. Python
 - Exercise: explore and plot babynames dataset
-
 - Python 'hello world' program
-
 - 6 free ways to code in Python on your computer
-
-- Colab notebook for the Guess-the-Number game: [[https://tinyurl.com/guessUBMS][tinyurl.com/guessUBMS]]
-
 - Links to explore making games in Python:
 
-  1) Al Sweigart's "Invent your own computer games with Python" (4e),
-     2016 - URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
-
-  2) The Python Arcade Library - lots of example code. This will
+  1) Al Sweigart's free book "Invent your own computer games with
+     Python" (4e), 2016 contains games. URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
+     
+  2) The Python /Arcade/ Library - lots of example code. This will
      enable you do create a lot of the stuff that Snap! comes with
      (like sprites). The tutorials are very nice and easy to follow.
 
-  3) Turtle is the built-in graphics and gaming library. There are
+  3) /Turtle/ is the built-in graphics and gaming library. There are
      animation examples with code available via IDLE (look under the
      HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
-     [[https://www.freecodecamp.org/news/how-to-make-racing-game-using-python/][Racing game]] (this is the shortest and best for starters).
+     and [[https://replit.com/@birkenkrahe/BallAndPaddle][Ball and paddle]] (which we implemented in Snap! in class).
 
   Colab will not be of use for developing these games because you need
   an environment that can open and close windows - and Colab is
   located in a virtual Linux world and has no access to your PC.
 
-  So you need to use another IDE like IDLE or PyCharm, or replit.com
-  (that's what I used).
+  So you need to use another IDE like IDLE or PyCharm, or replit.com.
+  (that's what I use though IDLE is just as good).
+
+* Sprint Review (10 min)
+
+  - What did you achieve so far?
+  - What're you going to do next?
+  - Anything you're proud of?
+  - Anything else you want to share?
+  - Any questions for the "product owner"? (Me)
+    
+* Review/Preview Snap! vs. Python (5 min)
+
+1) What is ~plt~? What is ~pd~?
+   #+begin_quote
+   - ~plt~ is an alias for the ~matplotlib.pyplot~ module when the latter
+     is imported as ~import matplotlib.pyplot.plt~
+   - ~pd~ is an alias for the ~pandas~ library when the latter is imported
+     as ~import pandas as pd~.
+   #+end_quote
+
+2) What is ~plt~ used for? What is ~pd~ used for?
+   #+begin_quote
+   - ~plt~ is used to plot - e.g. boxplots or scatterplots
+   - ~pd~ is used to manipulated data in tabular form ('data frame')
+   #+end_quote  
+
+3) What does ~CSV~ stand for?
+   #+begin_quote
+   Comma-separated-values - in ~.csv~ files, data in different columns
+   are separated by commas.  
+   #+end_quote
+   
+4) What is IPython?
+   #+begin_quote
+   - IPython is a shell to run Python commands in a notebook.
+   - IPython runs in a code cell in a Jupyter notebook.
+   #+end_quote
+
+5) Which Python functions do you already know?
+   #+begin_quote
+   1. ~print~ to print
+   2. ~input~ to get keyboard input
+   3. ~len~ to return the length of a string
+   4. ~import~ to import Python libraries
+   5. ~df.read_csv~ to read a CSV file into a data frame
+   6. ~df.describe~ to summarize data frame stats
+   7. ~df.iloc~ to select rows,columns by index
+   8. ~plt.boxplot~ to plot a box plot (of one variable)
+   9. ~plt.scatter~ to plot a scatterplot (of two variables)
+   10. ~plt.show~ to display a ~plt~ object
+   11. ~plt.xlabel~ to label the x-axis of a ~plt~ object
+   12. ~plt.ylabel~ to label the y-axis of a ~plt~ object
+   13. ~plt.title~ to title a ~plt~ object
+   #+end_quote   
+* Exercise: explore/plot baby names data (15 min)
+
+- Open yesterday's Colab Demo file and transfer the answers from there
+  to a new data set: https://bit.ly/3NS6sbu.
+
+- The practice file (without answers) is available in Colab at
+  [[https://tinyurl.com/babyNamesColab][tinyurl.com/babyNamesColab]].
+
+- Time: 20 minutes - followed by post-mortem.
+
+* 'Hello world' program in Python (15 min)
+* Demo: Guess the Number game in Python (20 min)
+
+- Here is a Colab notebook for the Guess-the-Number game:
+  [[https://tinyurl.com/guessUBMS][tinyurl.com/guessUBMS]].
+
+- Open the notebook and follow my lead!
+
+- Includes:
+  1) importing random module
+  2) asking user for input
+  3) randomly picking a number
+  4) checking if user guess was right
+  5) storing and returning number of attempts
+
+- The complete notebook is here: [[https://tinyurl.com/guessTheNumberSolution][tinyurl.com/guessTheNumberSolution]].
+
+* Demo: Ball and paddle game in Python (30 min)
+
+- Open replit.com to a new Python REPL & code along.
+
+- You can play the game in the REPL.
+
+- Includes:
+  1) importing libraries
+  2) setting up the window for the game
+  3) creating sprites (ball, paddle)
+  4) creating paddle movements ('if on edge bounce')
+  5) main game loop ('forever')
+  6) paddle and game collisions ('touching')
+
+- The complete game is here: [[https://tinyurl.com/ballAndPaddleTurtle][tinyurl.com/ballAndPaddleTurtle]].
 
 * July 10-13: Robotics (Snap! and Python)
 #+attr_latex: :width 400px

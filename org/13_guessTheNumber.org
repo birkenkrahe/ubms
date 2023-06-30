@@ -1,9 +1,11 @@
 #+title: From Snap! to Python - Number guessing game
 #+subtitle: UBMS Snap! Programming Summer 2023
 #+startup: overview hideblocks indent inlineimages
-#+property: header-args:python :results output :noweb yes
+#+property: header-args:python :results output :noweb yes :exports both
 #+options: toc:nil num:nil ^:nil
 * Short program: Guess the Number
+
+Colab solution link: [[https://tinyurl.com/guessTheNumberSolution][tinyurl.com/guessTheNumberSolution]].
 
 - This example also demonstrates an exemplary solution path:
   1. Understand what's asked from you (requirements)
@@ -49,12 +51,65 @@
   #+caption: Flow diagram for guessTheNumber.py
   [[../img/py_guessTheNumber.png]]
 
-* Prerequisites:
+* Prerequisites: ~random~, ~forever~, ~elif~, ~int~
 
 - The ~random~ module is a built-in library with functions that create
-  pseudo-random numbers, like ~random.randint~.
+  pseudo-random numbers, like ~random.randint~:
+  #+begin_src python
+    import random
+    # create a random integer between 1 and 20
+    print(random.randint(1,20))
+  #+end_src
 
+  #+RESULTS:
+  : 12
+
+- The ~forever~ loop from Snap! becomes a ~while True~ loop in Python:
+  #+begin_example python
+    while True:
+       print('It is true!')
+  #+end_example
   
+- The following loop breaks after 5 iterations because we made it:
+  #+begin_src python
+    i = 1
+    while True:
+        print('looping: ',i)
+        i+=1
+        if i > 5:
+            break
+  #+end_src
+
+- In Python, there's not only ~if~ and ~else~ but also ~elif~ to test a
+  series of conditions - with any number of ~elif~ following one
+  another. Example:
+  #+begin_src python
+    i = 9
+    if i < 5:
+        print('i is smaller than 5')
+    elif i > 5:
+        print('i is greater than 5')
+    else:
+        print('i is 5')
+  #+end_src
+
+  #+RESULTS:
+  : i is greater than 5
+
+- Input is always a string. If you want to work with it as a number,
+  it must be convertible and converted:
+  #+begin_src python
+    number = input('Enter a number: ')
+    print('Input data type: ', type(number))
+    try:
+        print('Integer from input:', int(number))
+    except ValueError:
+        print('Wrong input value - need integer.')
+  #+end_src
+
+- You know two conversion functions now: ~int~ and ~str~: ~int~ converts its
+  argument to an integer (if possible), and ~str~ converts its arguments
+  to a string (which is always possible).
 
 * Solution code
 
