@@ -661,7 +661,7 @@ The Canvas page approach apparently did not work...
   2) hungrySnake game (?)
 
 
-* TODO Snap! & Python: Guessing Game (June 30)
+* NEXT Snap! & Python: Guessing Game (June 30)
 #+attr_latex: :width 200px
 [[../img/0_snap.png]] [[../img/python2.png]]
 
@@ -670,28 +670,9 @@ The Canvas page approach apparently did not work...
 - Exercise: explore and plot babynames dataset
 - Python 'hello world' program
 - 6 free ways to code in Python on your computer
-- Links to explore making games in Python:
-
-  1) Al Sweigart's free book "Invent your own computer games with
-     Python" (4e), 2016 contains games. URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
-     
-  2) The Python /Arcade/ Library - lots of example code. This will
-     enable you do create a lot of the stuff that Snap! comes with
-     (like sprites). The tutorials are very nice and easy to follow.
-
-  3) /Turtle/ is the built-in graphics and gaming library. There are
-     animation examples with code available via IDLE (look under the
-     HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
-     and [[https://replit.com/@birkenkrahe/BallAndPaddle][Ball and paddle]] (which we implemented in Snap! in class).
-
-  Colab will not be of use for developing these games because you need
-  an environment that can open and close windows - and Colab is
-  located in a virtual Linux world and has no access to your PC.
-
-  So you need to use another IDE like IDLE or PyCharm, or replit.com.
-  (that's what I use though IDLE is just as good).
-
-* Sprint Review (10 min)
+- Links to making Python games
+  
+* Sprint Review (5 min)
 
   - What did you achieve so far?
   - What're you going to do next?
@@ -699,7 +680,21 @@ The Canvas page approach apparently did not work...
   - Anything else you want to share?
   - Any questions for the "product owner"? (Me)
     
-* Review/Preview Snap! vs. Python (5 min)
+* Assignment: explore/plot baby names data
+#+attr_latex: :width 400px
+[[../img/babynames.jpg]]
+
+- Open Wednesday's Colab Demo file and transfer the answers from there
+  to a new data set: https://bit.ly/3NS6sbu.
+
+- The practice file (without answers) is available in Colab at
+  [[https://tinyurl.com/babyNamesColab][tinyurl.com/babyNamesColab]].
+
+- Submit the URL to your completed Colab notebook. Time: 30 minutes
+
+- After you've submitted, I will share my sample solution with you.
+
+* Review/Preview Snap! vs. Python (10 min)
 
 1) What is ~plt~? What is ~pd~?
    #+begin_quote
@@ -743,18 +738,8 @@ The Canvas page approach apparently did not work...
    12. ~plt.ylabel~ to label the y-axis of a ~plt~ object
    13. ~plt.title~ to title a ~plt~ object
    #+end_quote   
-* Exercise: explore/plot baby names data (15 min)
-
-- Open yesterday's Colab Demo file and transfer the answers from there
-  to a new data set: https://bit.ly/3NS6sbu.
-
-- The practice file (without answers) is available in Colab at
-  [[https://tinyurl.com/babyNamesColab][tinyurl.com/babyNamesColab]].
-
-- Time: 20 minutes - followed by post-mortem.
-
 * 'Hello world' program in Python (15 min)
-* Demo: Guess the Number game in Python (20 min)
+* Demo: Guess the Number game in Python (30 min)
 
 - Here is a Colab notebook for the Guess-the-Number game:
   [[https://tinyurl.com/guessUBMS][tinyurl.com/guessUBMS]].
@@ -785,6 +770,28 @@ The Canvas page approach apparently did not work...
   6) paddle and game collisions ('touching')
 
 - The complete game is here: [[https://tinyurl.com/ballAndPaddleTurtle][tinyurl.com/ballAndPaddleTurtle]].
+
+* Links to explore making games in Python:
+
+  1) Al Sweigart's free book "Invent your own computer games with
+     Python" (4e), 2016 contains games. URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
+     
+  2) The Python /Arcade/ Library - lots of example code. This will
+     enable you do create a lot of the stuff that Snap! comes with
+     (like sprites). The tutorials are very nice and easy to follow.
+
+  3) /Turtle/ is the built-in graphics and gaming library. There are
+     animation examples with code available via IDLE (look under the
+     HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
+     and [[https://replit.com/@birkenkrahe/BallAndPaddle][Ball and paddle]] (which we implemented in Snap! in class).
+
+  Colab will not be of use for developing these games because you need
+  an environment that can open and close windows - and Colab is
+  located in a virtual Linux world and has no access to your PC.
+
+  So you need to use another IDE like IDLE or PyCharm, or replit.com.
+  (that's what I use though IDLE is just as good).
+
 
 * July 10-13: Robotics (Snap! and Python)
 #+attr_latex: :width 400px
