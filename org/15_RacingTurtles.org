@@ -1,0 +1,97 @@
+#+title: From Snap! to Python (practice) 
+#+subtitle: UBMS Snap! Programming Summer 2023
+#+options: toc:nil num:nil ^:nil
+#+startup: overview hideblocks indent inlineimages
+#+property: header-args:python :results output :noweb yes
+* Racing Turtles
+
+- Turtle graphics is a re-implementation of 1967 graphics for kids in
+  Python that works much like the Snap! turtle.
+
+- At the start, the turtle is positioned at (0,0) of an x-y-grid. The
+  turtle draws as it moves across the canvas:
+  #+begin_src python
+    import turtle as t   
+    s = t.getscreen() # build the window
+    t.right(90)
+    t.forward(100)
+    t.left(90)
+    t.backward(100)
+    t.goto(100,100)
+    t.delay(100)
+    t.circle(60)
+    t.delay(100)
+    t.dot(20)
+  #+end_src
+
+* Prerequisites
+
+- Import the turtle and the screen modules:
+  #+name: turtle_screen
+  #+begin_src python
+    from turtle import Turtle, Screen
+
+    screen = Screen()   # call the Screen with `screen`
+    screen.exitonclick()  # stop program when we click on screen
+  #+end_src
+
+- 
+
+
+* Full program
+
+- [[https://replit.com/@birkenkrahe/BallAndPaddle][See also: replit.com]]
+
+- Full code ([[https://github.com/codewithshahan/python-racing-game/blob/main/main.py][from GitHub]]): 39 lines 
+  #+begin_src python :results silent
+    from turtle import Turtle, Screen
+    import random
+
+    screen = Screen()
+    screen.setup(width=800, height=600)
+    screen.bgpic('../img/road.gif')
+
+    ALIGN = "right"
+    FONT = ("Courier", 28, "bold")
+
+    y_positions = [-260, -172, -85, 2, 85, 172, 260]
+    colors = ["white", "red", "orange", "pink", "tomato", "dodgerblue", "yellow"]
+    all_turtle = []
+    user_bet = screen.textinput('Enter your bet', prompt='Which turtle (color): ')
+
+    for index in range(0, 7):
+        new_tur = Turtle(shape="turtle")
+        new_tur.shapesize(2)
+        new_tur.speed('fastest')
+        new_tur.penup()
+        new_tur.goto(x=-350, y=y_positions[index])
+        new_tur.color(colors[index])
+        all_turtle.append(new_tur)
+
+    is_on = True
+
+    while is_on:
+        for turtle in all_turtle:
+            if turtle.xcor() > 330:
+                is_on = False
+                winner = turtle.pencolor()
+                if winner == user_bet:
+                    turtle.write(f'Winner! The {winner} is winner', font=FONT, align=ALIGN)
+                else:
+                    turtle.write(f'Lost! The {winner} is winner', font=FONT, align=ALIGN)
+                    random_pace = random.randint(0, 7)
+                    turtle.forward(random_pace)
+
+    screen.exitonclick()
+  #+end_src
+
+* References
+
+- Chowdhury, S. (Feb 1, 2022). Python Game Development – How to Make a
+  Turtle Racing Game with PyCharm. URL: [[https://www.freecodecamp.org/news/how-to-make-racing-game-using-python/][freecodecamp.org]].
+- Van Rossum, G., Drake, F. L. (2009). Python 3 Reference Manual. URL:
+  https://docs.python.org/3/reference/.
+- Silaparasetty, N. (Feb 26, 2020). The Beginner's Guide to Python
+  Turtle. URL: [[https://realpython.com/beginners-guide-python-turtle/][realpython.com.]]
+- Turtle graphics. URL: [[https://docs.python.org/3/library/turtle.html][docs.python.org/3/library/turtle.html]]
+  

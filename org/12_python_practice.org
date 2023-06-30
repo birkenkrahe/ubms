@@ -1,4 +1,4 @@
-#+title: From Snap! to Python (practice) 
+#+title: From Snap! to Python (practice)
 #+subtitle: UBMS Snap! Programming Summer 2023
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
@@ -91,7 +91,7 @@ You find the solution [[https://gist.github.com/birkenkrahe/2921e5c3afc0ee495bd6
     4. The : operator to slice off rows and columns
     5. The ~iloc[]~ method to identify a data frame value based on index
     6. The ~describe()~ method to compute a stats summary
-    
+
 19) In IPython, you can quickly make plots using the ~matplotlib~
     library, which contains a module ~pyplot~, which in turn contains
     plotting functions like ~boxplot~ or ~scatter~:
@@ -205,18 +205,20 @@ Transfer the code from the previous section to a new dataset.
 This practice file (without answers) is available in Colab as:
 [[https://tinyurl.com/babyNamesColab][tinyurl.com/babyNamesColab]].
 
+The solution file is here: [[https://tinyurl.com/babyNamesNotebook][tinyurl.com/babyNamesNotebook]].
+
 1) Download this file of baby names to your PC as ~babynames.csv~:
-   [[https://tinyurl.com/babyNamesPractice][tinyurl.com/babyNamesPractice]]
+   [[https://tinyurl.com/babyNamesRandomized][tinyurl.com/babyNamesRandomized]]
 
 2) Import the file from your ~Downloads~ directory to a data frame named
    ~baby~.
    #+name: baby
-   #+begin_src python :session *Python*
+   #+begin_src python :results silent
      import pandas as pd
      import matplotlib.pyplot as plt
      baby = pd.read_csv("../data/babynames.csv")
    #+end_src
-   
+
 3) Print the data frame to make sure the import worked - how many
    names does this data set contain?
    #+begin_src python
@@ -226,23 +228,23 @@ This practice file (without answers) is available in Colab as:
 
    #+RESULTS:
    #+begin_example
-           year      name   percent   sex
-   0       1880      John  0.081541   boy
-   1       1880   William  0.080511   boy
-   2       1880     James  0.050057   boy
-   3       1880   Charles  0.045167   boy
-   4       1880    George  0.043292   boy
-   ...      ...       ...       ...   ...
-   257995  2008  Carleigh  0.000128  girl
-   257996  2008     Iyana  0.000128  girl
-   257997  2008    Kenley  0.000127  girl
-   257998  2008    Sloane  0.000127  girl
-   257999  2008   Elianna  0.000127  girl
+           year     name   percent   sex
+   0       1904    Selma  0.000790  girl
+   1       2002  Xzavier  0.000112   boy
+   2       2006    Kadyn  0.000094   boy
+   3       1965      Von  0.000049   boy
+   4       1974     Abel  0.000202   boy
+   ...      ...      ...       ...   ...
+   257995  1920  Queenie  0.000053  girl
+   257996  1982     Wade  0.000351   boy
+   257997  1988   Lesley  0.000250  girl
+   257998  1943     Vada  0.000061  girl
+   257999  1942     Eloy  0.000039   boy
 
    [258000 rows x 4 columns]
    #+end_example
 
-4) There is only one numeric column, the ~percent~ (of records that 
+4) There is only one numeric column, the ~percent~ (of records that
    #+begin_src python
      <<baby>>
      print(baby.iloc[:,2].describe())
@@ -259,16 +261,31 @@ This practice file (without answers) is available in Colab as:
    : max           0.081541
    : Name: percent, dtype: float64
 
-5) Make a /horizontal/ boxplot of the first 10 ~percent~ values of the
+5) Make a /horizontal/ boxplot of ~percent~ values of the
    data set (remember that you need to import the graphics library and
    its plotting module):
    #+begin_src python :results silent
      <<baby>>
-     plt.boxplot(baby[:10]['percent'],vert=False)
+     plt.boxplot(baby[:100]['percent'],vert=False)
      plt.show()
    #+end_src
 
-6) Make a /scatterplot/ of the ~percent~ values: for the x-argument of the
+6) I had randomized the ~babynames~ data set and removed the groupings
+   of years and sex - from the result, you can see that, at least
+   among the first 100 names, there are a few outliers - names that
+   are massively more popular than the lot, while the rest of the
+   names are close together. To see better, one can transform the
+   values logarithmically using the ~numpy~ package:
+   #+begin_src python :results silent
+     <<baby>>
+     import numpy as np
+     baby_log = baby
+     baby_log['percent'] = np.log10(baby['percent'])
+     plt.boxplot(baby_log[:100]['percent'],vert=False)
+     plt.show()
+   #+end_src
+
+7) Make a /scatterplot/ of the ~percent~ values: for the x-argument of the
    ~plt.scatter~ function use the ~index~, which is stored in ~baby.index~:
    #+begin_src python :results silent
      <<baby>>
@@ -276,27 +293,33 @@ This practice file (without answers) is available in Colab as:
      plt.show()
    #+end_src
 
-7) It's very hard to see any trends with so many data points! Plot
+8) It's very hard to see any trends with so many data points! Plot
    again but this time limit the number of data points to 100:
-   #+begin_src python
+   #+begin_src python :results silent
      <<baby>>
      plt.scatter(baby.index[:100],baby.percent[:100])
      plt.show()
    #+end_src
 
-8) You can clearly see how a few names are very popular while a bunch
-   of other names are not. To really test trends, you'd have to
-   randomize your sample though (a look at the original dataset shows
-   that you only picked the boy names in the year 1880.
-
-9) Print the functions that you used with the corresponding magic
-   command.
-   #+begin_src ipython
-     %whos
+9) To see this better, you can sort the values in descending order
+   using ~sort_values~:
+   #+begin_src python :results silent
+     <<baby>>
+     baby = baby.sort_values(by='percent',ascending=False).reset_index(drop=True)
+     baby_top100 = baby[:100]
+     plt.scatter(baby_top100.index,baby_top100.percent)
+     plt.show()
    #+end_src
 
-10) Lastly, save a Python (~.py~) version of your code to your PC.
-   
+10) Print the functions that you used with the corresponding magic
+    command.
+    #+begin_example ipython
+      %whos
+    #+end_example
+
+11) Lastly, save a Python (~.py~) version of your code to your PC. You
+    can now run this code from the terminal or from within IDLE.
+
 * The 'hello world' program
 
 1) Open a ~New notebook~ in the ~File~ menu at the top.
@@ -410,7 +433,7 @@ This practice file (without answers) is available in Colab as:
 24) Here are two alternative printing ways:
     #+begin_src ipython
         print("You're going to be", str(int(age)+1), "years old.")
-        print("You're going to be " + str(int(age)+1) + " years old.")      
+        print("You're going to be " + str(int(age)+1) + " years old.")
     #+end_src
 
 25) To save the code blocks as one Python program ~hello.py~, select
@@ -430,7 +453,7 @@ See here for a copy of the program ~SnapToPython~ as a [[https://gist.github.com
    - Open a command line terminal in Windows (Search > CMD)
 
    - Open the Python shell by entering ~python~ at the prompt
-  
+
 2) In Google Colaboratory (interactive Jupyter notebook)
    #+attr_latex: :width 400px
    [[../img/colaboratory.png]]
@@ -438,7 +461,7 @@ See here for a copy of the program ~SnapToPython~ as a [[https://gist.github.com
    - Opening a browser to ~colab.research.google.com~ opens an IPython
      console by default.
 
-   - Colab also offers R on a different address: ~colab.to/r~. 
+   - Colab also offers R on a different address: ~colab.to/r~.
 
 3) In replit.com (REPL)
    #+attr_latex: :width 400px
@@ -469,13 +492,13 @@ See here for a copy of the program ~SnapToPython~ as a [[https://gist.github.com
 4) In the browser (extension)
    #+attr_latex: :width 400px
    [[../img/chrome.png]]
-  
+
    - In Google chrome, at the top (three dots), open ~Extensions~ >
      ~Visit Chrome Web Store~. Search for ~python~.
 
    - Download the ~Python Shell~ extension. It will show up at the top
      of your browser.
-   
+
 5) In the Python IDLE (Integrated Development Learning Environment)
    #+attr_latex: :width 400px
    [[../img/idle.png]]
@@ -487,7 +510,7 @@ See here for a copy of the program ~SnapToPython~ as a [[https://gist.github.com
    - There are also Turtle demo animations and games (~Help~ tab)
      #+attr_latex: :width 400px
      [[../img/turtleDemo.png]]
-   
+
 6) In an IDE (Integrated Development Environment): Emacs, VSCode etc.
    #+attr_latex: :width 400px
    #+caption: Emacs IDE: Org-mode (top) and Python shell (bottom)
