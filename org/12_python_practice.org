@@ -248,18 +248,24 @@ The solution file is here: [[https://tinyurl.com/babyNamesNotebook][tinyurl.com/
    #+begin_src python
      <<baby>>
      print(baby.iloc[:,2].describe())
+     print(baby.loc[:,'year'].min())
+     print(baby.loc[:,'year'].max())
    #+end_src
 
    #+RESULTS:
-   : count    258000.000000
-   : mean          0.000894
-   : std           0.003016
-   : min           0.000026
-   : 25%           0.000081
-   : 50%           0.000164
-   : 75%           0.000507
-   : max           0.081541
-   : Name: percent, dtype: float64
+   #+begin_example
+   count    258000.000000
+   mean          0.000894
+   std           0.003016
+   min           0.000026
+   25%           0.000081
+   50%           0.000164
+   75%           0.000507
+   max           0.081541
+   Name: percent, dtype: float64
+   1880
+   2008
+   #+end_example
 
 5) Make a /horizontal/ boxplot of ~percent~ values of the
    data set (remember that you need to import the graphics library and

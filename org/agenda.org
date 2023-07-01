@@ -605,6 +605,23 @@ The Canvas page approach apparently did not work...
 - Mouse interaction and push buttons (cat and mouse animation)
 - Preview: introduction to Python / course / Colab notebooks
 
+** DONE Over the holidays: Introduction to Python
+
+- Introduced on Tuesday, 27-June (see also Snap!Chat in Google).
+
+- To get a headstart on Python (we won't have much time), listen to
+  the first 4 hours of [[https://youtu.be/nLRL_NcnK-4][this YouTube course]].
+
+- This is a very engagingly presented course by a Harvard professor
+  but to get the most out of it, don't just listen to it.
+
+- Instead use your Chromebooks to open an IPython notebook at
+  colab.research.google.com and type along with the presenter:
+  #+attr_latex: :width 400px
+  [[../img/cs50.png]]
+
+- Feel free to contact me in the Snap!Chat ANY TIME with question on
+  Python or on the colab online platform! I won't leave you hanging!
 * DONE Cat-and-mouse and Game of maze (June 28)
 #+attr_latex: :width 400px
 [[../img/maze.png]]
@@ -660,8 +677,7 @@ The Canvas page approach apparently did not work...
   1) guessTheNumber game 
   2) hungrySnake game (?)
 
-
-* NEXT Snap! & Python: Guessing Game (June 30)
+* DONE Snap! & Python: Hello World! (June 30)
 #+attr_latex: :width 200px
 [[../img/0_snap.png]] [[../img/python2.png]]
 
@@ -672,7 +688,7 @@ The Canvas page approach apparently did not work...
 - 6 free ways to code in Python on your computer
 - Links to making Python games
   
-* Sprint Review (5 min)
+** Sprint Review (5 min)
 
   - What did you achieve so far?
   - What're you going to do next?
@@ -680,7 +696,7 @@ The Canvas page approach apparently did not work...
   - Anything else you want to share?
   - Any questions for the "product owner"? (Me)
     
-* Assignment: explore/plot baby names data
+** Assignment: explore/plot baby names data
 #+attr_latex: :width 400px
 [[../img/babynames.jpg]]
 
@@ -694,7 +710,7 @@ The Canvas page approach apparently did not work...
 
 - After you've submitted, I will share my sample solution with you.
 
-* Review/Preview Snap! vs. Python (10 min)
+** Review/Preview Snap! vs. Python (10 min)
 
 1) What is ~plt~? What is ~pd~?
    #+begin_quote
@@ -749,8 +765,13 @@ The Canvas page approach apparently did not work...
    locations according to the 1990 census.
    #+end_quote
 
-* 'Hello world' program in Python (15 min)
-* Demo: Guess the Number game in Python (30 min)
+** 'Hello world' program in Python (15 min)
+
+* July 10-13: Python Games / Robotics with Snap!
+#+attr_latex: :width 400px
+[[../img/finchsnap.png]] [[../img/finchpython.png]]
+
+** Demo: Guess the Number game in Python (30 min)
 
 - Here is a Colab notebook for the Guess-the-Number game:
   [[https://tinyurl.com/guessUBMS][tinyurl.com/guessUBMS]].
@@ -766,7 +787,7 @@ The Canvas page approach apparently did not work...
 
 - The complete notebook is here: [[https://tinyurl.com/guessTheNumberSolution][tinyurl.com/guessTheNumberSolution]].
 
-* Demo: Ball and paddle game in Python (30 min)
+** Demo: Ball and paddle game in Python (30 min)
 
 - Open replit.com to a new Python REPL & code along.
 
@@ -782,7 +803,7 @@ The Canvas page approach apparently did not work...
 
 - The complete game is here: [[https://tinyurl.com/ballAndPaddleTurtle][tinyurl.com/ballAndPaddleTurtle]].
 
-* Links to explore making games in Python:
+** Links to explore making games in Python:
 
   1) Al Sweigart's free book "Invent your own computer games with
      Python" (4e), 2016 contains many examples built with PyGame. URL:
@@ -805,24 +826,5 @@ The Canvas page approach apparently did not work...
   (that's what I use though IDLE is just as good).
 
 
-* July 10-13: Robotics (Snap! and Python)
-#+attr_latex: :width 400px
-[[../img/finchsnap.png]] [[../img/finchpython.png]]
 
-* DONE Over the holidays: Introduction to Python
 
-- Introduced on Tuesday, 27-June (see also Snap!Chat in Google).
-
-- To get a headstart on Python (we won't have much time), listen to
-  the first 4 hours of [[https://youtu.be/nLRL_NcnK-4][this YouTube course]].
-
-- This is a very engagingly presented course by a Harvard professor
-  but to get the most out of it, don't just listen to it.
-
-- Instead use your Chromebooks to open an IPython notebook at
-  colab.research.google.com and type along with the presenter:
-  #+attr_latex: :width 400px
-  [[../img/cs50.png]]
-
-- Feel free to contact me in the Snap!Chat ANY TIME with question on
-  Python or on the colab online platform! I won't leave you hanging!
