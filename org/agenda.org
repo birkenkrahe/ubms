@@ -809,6 +809,7 @@ The Canvas page approach apparently did not work...
 
 ** Links to explore making games in Python:
 
+
   1) Al Sweigart's free book "Invent your own computer games with
      Python" (4e), 2016 contains many examples built with PyGame. URL:
      [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
@@ -828,7 +829,4 @@ The Canvas page approach apparently did not work...
 
   So you need to use another IDE like IDLE or PyCharm, or replit.com.
   (that's what I use though IDLE is just as good).
-
-
-
 
