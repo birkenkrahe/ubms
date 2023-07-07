@@ -715,7 +715,7 @@ The Canvas page approach apparently did not work...
 1) What is ~plt~? What is ~pd~?
    #+begin_quote
    - ~plt~ is an alias for the ~matplotlib.pyplot~ module when the latter
-     is imported as ~import matplotlib.pyplot.plt~
+     is imported as ~import matplotlib.pyplot as plt~
    - ~pd~ is an alias for the ~pandas~ library when the latter is imported
      as ~import pandas as pd~.
    #+end_quote
@@ -764,8 +764,12 @@ The Canvas page approach apparently did not work...
    the data frame - the result is the total population in the recorded
    locations according to the 1990 census.
    #+end_quote
-
+    
 ** 'Hello world' program in Python (15 min)
+
+#+attr_latex: :width 400px
+[[../img/snaptopythonsnap.png]] [[../img/snaptopython.png]]
+
 
 * July 10-13: Python Games / Robotics with Snap!
 #+attr_latex: :width 400px

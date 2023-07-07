@@ -338,6 +338,8 @@ The solution file is here: [[https://tinyurl.com/babyNamesNotebook][tinyurl.com/
 
 5) Open this Snap! file, ~edit~ the code and extract a picture of the
    code block: [[https://tinyurl.com/SnapToPython][tinyurl.com/SnapToPython]] to your PC.
+   #+attr_latex: :width 400px
+   [[../img/snaptopythonsnap.png]]
 
 6) Create another text block and open the image symbol to ~insert
    image~, then insert the PNG image that you downloaded.
@@ -448,7 +450,21 @@ The solution file is here: [[https://tinyurl.com/babyNamesNotebook][tinyurl.com/
 26) Open the terminal and run the Python file on the command line:
 
 See here for a copy of the program ~SnapToPython~ as a [[https://gist.github.com/birkenkrahe/2921e5c3afc0ee495bd64b23ff6df645][GitHub gist]]:
-[[https://tinyurl.com/helloWorldColab][tinyurl.com/helloWorldColab]].
+[[https://tinyurl.com/helloWorldColab][tinyurl.com/helloWorldColab]]. Here is the full Python program:
+#+begin_src python
+  print('Hello, world!')
+  print("What's your name?")
+  name = input("What's your name? ")
+  print('Your name has', len(name), 'characters.')
+  print('Your name has ' + str(len(name)) + ' characters.')
+  print('a' + str(2))
+  print(f'Your name has {len(name)} characters.')
+  age = input('What is your age? ')
+  print('You are going to be', str(int(age) + 1), 'years old.')
+  print(f'You are going to be {int(age) + 1} years old.')
+  Age = int(age)
+  print(f'You are going to be {Age+1} years old')
+#+end_src
 
 * 6 ways to code in Python (online demo)
 
