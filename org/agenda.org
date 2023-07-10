@@ -775,7 +775,46 @@ The Canvas page approach apparently did not work...
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
 
-** Demo: Guess the Number game in Python (30 min)
+** Quiz 8: Snap! blocks and Python basics (20 min)
+
+** Challenge: Guess the Number game in Snap (20 min)
+#+attr_latex: :width 400px
+[[../img/guessTheNumberInput.png]]
+
+- Turn this pseudocode into a Snap! game:
+  #+begin_example
+  // Create a variable to store the random number
+  set number to pick random(1, 100)
+
+  // Create a forever loop to keep the game running
+  forever:
+
+     // Ask the user to guess the number
+     ask("Guess a number between 1 and 100:")
+
+      // Get the user's guess
+      set guess to answer
+
+      // Compare the user's guess to the random number
+      if guess = number:
+          // The user guessed correctly
+          say("Your guess is correct!")
+          stop
+      else:
+          if (guess < number):
+              // The user's guess is too low
+              say("Your guess is too low!")
+          else:
+              // The user's guess is too high
+              say("Your guess is too high!")
+  #+end_example
+
+- [[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=guessTheNumber][Here is a Snap! solution to the challenge]]:
+  [[../img/guessTheNumber.png]]
+
+** Demo: Guess the Number game in Python (20 min)
+#+attr_latex: :width 400px
+[[../img/guessTheNumberOutput.png]]
 
 - Here is a Colab notebook for the Guess-the-Number game:
   [[https://tinyurl.com/guessUBMS][tinyurl.com/guessUBMS]].
@@ -791,7 +830,9 @@ The Canvas page approach apparently did not work...
 
 - The complete notebook is here: [[https://tinyurl.com/guessTheNumberSolution][tinyurl.com/guessTheNumberSolution]].
 
-** Demo: Ball and paddle game in Python (30 min)
+** Demo: Ball and paddle game in Python (20 min)
+#+attr_latex: :width 400px
+[[../img/paddleSnapReplit.png]]
 
 - Open replit.com to a new Python REPL & code along.
 
@@ -808,7 +849,8 @@ The Canvas page approach apparently did not work...
 - The complete game is here: [[https://tinyurl.com/ballAndPaddleTurtle][tinyurl.com/ballAndPaddleTurtle]].
 
 ** Links to explore making games in Python:
-
+#+attr_latex: :width 400px
+[[../img/pygames.jpg]]
 
   1) Al Sweigart's free book "Invent your own computer games with
      Python" (4e), 2016 contains many examples built with PyGame. URL:
@@ -823,10 +865,74 @@ The Canvas page approach apparently did not work...
      HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
      and [[https://replit.com/@birkenkrahe/BallAndPaddle][Ball and paddle]] (which we implemented in Snap! in class).
 
+  4) [[https://youtu.be/XGf2GcyHPhc][Learn Python by building 5 games]] - Pong, Snake, Connect Four,
+     Tetris and an Online Multiplayer Game (freeCodeCamp.org,
+     2019). Full code and materials available online. 6-7 hrs.
+
   Colab will not be of use for developing these games because you need
   an environment that can open and close windows - and Colab is
   located in a virtual Linux world and has no access to your PC.
 
   So you need to use another IDE like IDLE or PyCharm, or replit.com.
-  (that's what I use though IDLE is just as good).
+  (that's what I use though IDLE is just as good and much faster).
 
+** The micro:bit Python online editor
+
+- The "brain" of the Finch 2.0 robot is a /[[https://en.wikipedia.org/wiki/Microcontroller][microcontroller]]/, a small
+  single-chip computer in an /[[https://en.wikipedia.org/wiki/Embedded_system][embedded system]]/ to control a single
+  function or a set of functions, the [[https://microbit.org/get-started/user-guide/overview/][BBC micro:bit]].
+  #+attr_latex: :width 400px
+  #+caption: micro:bit v2 front and back
+  [[../img/microbit.png]]
+  
+- Even cooler than the device is the fact that you can simulate the
+  micro:bit online - here is the Python editor: [[https://python.microbit.org/v/3][python.microbit.org]].
+  #+attr_latex: :width 400px
+  #+caption: Microbit Python editor and debugger (source: microbit.org)
+  [[../img/microbitPythonEditor.png]]   [[../img/microbitPythonDebugger.png]] 
+  
+- But the easiest way to program the micro:bit (and, by implication,
+  also the robot) is with Microsoft's MakeCode, which is like a
+  micro-version of Scratch or Snap! [[https://makecode.microbit.org/][makecode.microbit.org/]].
+  #+attr_latex: :width 400px
+  #+caption: Microbit Microsoft Makecode editor (and debugger)
+  [[../img/microbitMakecode.png]]
+
+* July 11: The Finch with Snap!
+  #+attr_latex: :width 400px
+  [[../img/finch_blink.png]]
+
+  *Teams:*
+  1) Abby & Dustin
+  2) Jorden & Shytier
+  3) Gracie & Ashley & London
+  4) Mark & Brayden
+
+  *Open online:*
+  - [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap!]]
+  - Complete this on your own by Thursday 12 PM
+  
+* July 12: The Finch in Python!
+  #+attr_latex: :width 400px
+  [[../img/fpy_snap.png]]
+
+  *Open online:*
+  - [[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]
+  - Complete this on your own by Thursday 12 PM
+  
+* July 13: Finch Parade - show off your skills!
+  #+attr_latex: :width 400px
+  [[../img/FinchParade.jpg]]
+
+  [[https://lyon.instructure.com/courses/1721/assignments/15086][Canvas assignment]]: Make your Finch 2.0 robot stand out in the crowd
+  as part of a parade float. For example by one or more of:
+  - Playing a song
+  - Showing a fancy design
+  - Drawing a complicated figure
+  - Anything else
+
+  The parade interval should not be longer than a couple of minutes.
+
+  The final parade results will be showcased in video at the end. (You
+  can also create intermediate documentation, upload and share .py or
+  .hex or Snap! files leading to the final result).
