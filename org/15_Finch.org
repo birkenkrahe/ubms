@@ -82,13 +82,21 @@
 
 3) In the simulator, run the code.
 
-4) In the code editor, complete the code for the lullaby.
+4) In the code editor, complete the code for the lullaby. If you can't
+   read music, this is the sequence of the notes [[https://github.com/birkenkrahe/ubms/blob/main/img/frere_jacques_lyrics.png][shown in the image]]:
+   #+begin_example
+   F G A F - F G A F - A B C - A B C - C D C B A F - C D C B A F - F C F - F C F
+   #+end_example
+   The black crotchets are quarter length (~:4~), the open crotchets are
+   2 x quarter length (~:8~), and the crotchets with the bars between
+   them are 1/2 quarter length (~:2~).
 
 5) Check using the simulator that you succeeded.
 
 6) Save the final code as .hex and .py on your PC.
 
-Here is a solution as video, and here is the Python code.
+Here is a [[https://drive.google.com/file/d/1liEEgg9xYNMy0oGdXvfLMKvEZYB3P98S/view?usp=sharing][video with the solution]] (after flashing the hex file to the
+Finch micro:bit), and [[https://github.com/birkenkrahe/ubms/blob/main/py/frere_jacques.py][here is the Python file]].
 
 * TODO Loading the ~microbit~ library on your PC
 
