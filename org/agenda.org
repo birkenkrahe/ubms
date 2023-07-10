@@ -654,15 +654,15 @@ The Canvas page approach apparently did not work...
   books by Al Sweigart: [[https://inventwithpython.com/][inventwithpython.com/]], [[https://inventwithscratch.com/][inventwithscratch.com/]]
 
 ** Sprint Review on Friday
-  #+attr_latex: :width 400px
-  [[../img/sprintreview.png]]
+#+attr_latex: :width 400px
+[[../img/sprintreview.png]]
 
-  - What did you achieve so far?
-  - What're you going to do next?
-  - Anything you're proud of?
-  - Anything else you want to share?
-  - Any questions for the "product owner"? (Me)
-  
+- What did you achieve so far?
+- What're you going to do next?
+- Anything you're proud of?
+- Anything else you want to share?
+- Any questions for the "product owner"? (Me)
+
 * DONE From Snap! to Python (June 29)
 #+attr_latex: :width 400px
 [[../img/monty_python.png]]
@@ -674,7 +674,7 @@ The Canvas page approach apparently did not work...
   2) First Python program: 'hello world'.
 
 - Tomorrow we'll code a couple of games in Python:
-  1) guessTheNumber game 
+  1) guessTheNumber game
   2) hungrySnake game (?)
 
 * DONE Snap! & Python: Hello World! (June 30)
@@ -687,15 +687,15 @@ The Canvas page approach apparently did not work...
 - Python 'hello world' program
 - 6 free ways to code in Python on your computer
 - Links to making Python games
-  
+
 ** Sprint Review (5 min)
 
-  - What did you achieve so far?
-  - What're you going to do next?
-  - Anything you're proud of?
-  - Anything else you want to share?
-  - Any questions for the "product owner"? (Me)
-    
+- What did you achieve so far?
+- What're you going to do next?
+- Anything you're proud of?
+- Anything else you want to share?
+- Any questions for the "product owner"? (Me)
+
 ** Assignment: explore/plot baby names data
 #+attr_latex: :width 400px
 [[../img/babynames.jpg]]
@@ -724,14 +724,14 @@ The Canvas page approach apparently did not work...
    #+begin_quote
    - ~plt~ is used to plot - e.g. boxplots or scatterplots
    - ~pd~ is used to manipulated data in tabular form ('data frame')
-   #+end_quote  
+   #+end_quote
 
 3) What does ~CSV~ stand for?
    #+begin_quote
    Comma-separated-values - in ~.csv~ files, data in different columns
-   are separated by commas.  
+   are separated by commas.
    #+end_quote
-   
+
 4) What is IPython?
    #+begin_quote
    - IPython is a shell to run Python commands in a notebook.
@@ -753,7 +753,7 @@ The Canvas page approach apparently did not work...
    11. ~plt.xlabel~ to label the x-axis of a ~plt~ object
    12. ~plt.ylabel~ to label the y-axis of a ~plt~ object
    13. ~plt.title~ to title a ~plt~ object
-   #+end_quote   
+   #+end_quote
 
 6) What does this command do: ~df.iloc[:,5].sum()~ if ~df~ is the 1990 CA
    housing prices data frame and column 5 is the ~population~ column?
@@ -764,14 +764,14 @@ The Canvas page approach apparently did not work...
    the data frame - the result is the total population in the recorded
    locations according to the 1990 census.
    #+end_quote
-    
+
 ** 'Hello world' program in Python (15 min)
 
 #+attr_latex: :width 400px
 [[../img/snaptopythonsnap.png]] [[../img/snaptopython.png]]
 
 
-* July 10-13: Python Games / Robotics with Snap!
+* July 10: Python Games
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
 
@@ -852,87 +852,80 @@ The Canvas page approach apparently did not work...
 #+attr_latex: :width 400px
 [[../img/pygames.jpg]]
 
-  1) Al Sweigart's free book "Invent your own computer games with
-     Python" (4e), 2016 contains many examples built with PyGame. URL:
-     [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
-     
-  2) The Python /Arcade/ Library - lots of example code. This will
-     enable you do create a lot of the stuff that Snap! comes with
-     (like sprites). The tutorials are very nice and easy to follow.
-     
-  3) /Turtle/ is the built-in graphics and gaming library. There are
-     animation examples with code available via IDLE (look under the
-     HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
-     and [[https://replit.com/@birkenkrahe/BallAndPaddle][Ball and paddle]] (which we implemented in Snap! in class).
+1) Al Sweigart's free book "Invent your own computer games with
+   Python" (4e), 2016 contains many examples built with PyGame. URL:
+   [[https://inventwithpython.com/invent4thed/][inventwithpython.com]].
 
-  4) [[https://youtu.be/XGf2GcyHPhc][Learn Python by building 5 games]] - Pong, Snake, Connect Four,
-     Tetris and an Online Multiplayer Game (freeCodeCamp.org,
-     2019). Full code and materials available online. 6-7 hrs.
+2) The Python /Arcade/ Library - lots of example code. This will
+   enable you do create a lot of the stuff that Snap! comes with
+   (like sprites). The tutorials are very nice and easy to follow.
 
-  Colab will not be of use for developing these games because you need
-  an environment that can open and close windows - and Colab is
-  located in a virtual Linux world and has no access to your PC.
+3) /Turtle/ is the built-in graphics and gaming library. There are
+   animation examples with code available via IDLE (look under the
+   HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
+   and [[https://replit.com/@birkenkrahe/BallAndPaddle][Ball and paddle]] (which we implemented in Snap! in class).
 
-  So you need to use another IDE like IDLE or PyCharm, or replit.com.
-  (that's what I use though IDLE is just as good and much faster).
+4) [[https://youtu.be/XGf2GcyHPhc][Learn Python by building 5 games]] - Pong, Snake, Connect Four,
+   Tetris and an Online Multiplayer Game (freeCodeCamp.org,
+   2019). Full code and materials available online. 6-7 hrs.
 
-** The micro:bit Python online editor
+   Colab will not be of use for developing these games because you need
+   an environment that can open and close windows - and Colab is
+   located in a virtual Linux world and has no access to your PC.
 
-- The "brain" of the Finch 2.0 robot is a /[[https://en.wikipedia.org/wiki/Microcontroller][microcontroller]]/, a small
-  single-chip computer in an /[[https://en.wikipedia.org/wiki/Embedded_system][embedded system]]/ to control a single
-  function or a set of functions, the [[https://microbit.org/get-started/user-guide/overview/][BBC micro:bit]].
-  #+attr_latex: :width 400px
-  #+caption: micro:bit v2 front and back
-  [[../img/microbit.png]]
-  
-- Even cooler than the device is the fact that you can simulate the
-  micro:bit online - here is the Python editor: [[https://python.microbit.org/v/3][python.microbit.org]].
-  #+attr_latex: :width 400px
-  #+caption: Microbit Python editor and debugger (source: microbit.org)
-  [[../img/microbitPythonEditor.png]]   [[../img/microbitPythonDebugger.png]] 
-  
-- But the easiest way to program the micro:bit (and, by implication,
-  also the robot) is with Microsoft's MakeCode, which is like a
-  micro-version of Scratch or Snap! [[https://makecode.microbit.org/][makecode.microbit.org/]].
-  #+attr_latex: :width 400px
-  #+caption: Microbit Microsoft Makecode editor (and debugger)
-  [[../img/microbitMakecode.png]]
+   So you need to use another IDE like IDLE or PyCharm, or replit.com.
+   (that's what I use though IDLE is just as good and much faster).
 
 
 * July 11: The Finch with Snap!
-  #+attr_latex: :width 400px
-  [[../img/finch_blink.png]]
+#+attr_latex: :width 200px
+#+caption: micro:bit v2 in the tail of a Finch 2.0 robot
+[[../img/finch_tail.png]]
 
-  *Teams:*
-  1) Abby & Dustin
-  2) Jorden & Shytier
-  3) Gracie & Ashley & London
-  4) Mark & Brayden
+** The micro:bit Python online editor
+#+attr_latex: :width 400px
+#+caption: micro:bit v2 front and back
+[[../img/microbit.png]]
 
-  *Open online:*
-  - [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap!]]
-  - Complete this on your own by Thursday 12 PM
-  
+- What is the micro:bit?
+- How to code for the micro:bit using MicroPython
+- How to flash .hex and .py code to the micro:bit
+- Practice 1: display "Pacman"
+- Practice 2: display clock
+- Practice 3: play "Frere Jacques"
+
+** Getting started with the Finch
+#+attr_latex: :width 400px
+[[../img/finch_blink.png]]
+
+*Teams:*
+1) Abby & Dustin
+2) Jorden & Shytier
+3) Gracie & Ashley & London
+4) Mark & Brayden
+
+*Open online later today (see Snap!Chat):*
+- [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap!]]
+- Complete this on your own by Thursday 12 PM
 
 * July 12: The Finch in Python!
-  #+attr_latex: :width 400px
-  [[../img/fpy_snap.png]]
+#+attr_latex: :width 400px
+[[../img/fpy_snap.png]]
 
-  *Open online:*
-  - [[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]
-  - Complete this on your own by Thursday 12 PM
-  
+*Open online later today (see Snap!Chat):*
+- [[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]
+- Complete this on your own by Thursday 12 PM
 
 * July 13: Finch Parade - show off your skills!
-  #+attr_latex: :width 400px
-  [[../img/FinchParade.jpg]]
+#+attr_latex: :width 400px
+[[../img/FinchParade.jpg]]
 
-  [[https://lyon.instructure.com/courses/1721/assignments/15086][Canvas assignment]]: Make your Finch 2.0 robot stand out in the crowd
-  as part of a parade float. For example by one or more of:
-  - Playing a song
-  - Showing a fancy design
-  - Drawing a complicated figure
-  - Anything else
+[[https://lyon.instructure.com/courses/1721/assignments/15086][Canvas assignment]]: Make your Finch 2.0 robot stand out in the crowd
+as part of a parade float. For example by one or more of:
+- Playing a song
+- Showing a fancy design
+- Drawing a complicated figure
+- Anything else
 
   The parade interval should not be longer than a couple of minutes.
 
