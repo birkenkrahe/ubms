@@ -1,0 +1,5 @@
+#+title: The Finch 2.0 Robot
+#+subtitle: UBMS Snap! Programming Summer 2023
+#+options: toc:nil num:nil ^:nil
+#+startup: overview hideblocks indent inlineimages
+#+property: header-args:python :results output :noweb yes

@@ -1,12 +1,15 @@
-#+title: The Finch 2.0 Robot
+#+title: The micro:bit micro-controller
 #+subtitle: UBMS Snap! Programming Summer 2023
 #+options: toc:nil num:nil ^:nil
 #+startup: overview hideblocks indent inlineimages
 #+property: header-args:python :results output :noweb yes
 * Tail of the Finch: the micro:bit
-  #+attr_latex: :width 200px
-  #+caption: micro:bit v2 in the tail of a Finch 2.0 robot
-  [[../img/finch_tail.png]]
+  #+attr_latex: :width 300px
+  #+caption: micro:bit v2 in the tail of a Finch 2.0 robot Encased micro:bit v1
+  [[../img/finch_tail.png]] 
+  #+attr_latex: :width 300px
+  #+caption: Encased micro:bit v1
+  [[../img/microbitv1.jpg]]
 
 - The "brain" of the Finch 2.0 robot is a /[[https://en.wikipedia.org/wiki/Microcontroller][microcontroller]]/, a small
   single-chip computer in an /[[https://en.wikipedia.org/wiki/Embedded_system][embedded system]]/ to control a single
@@ -71,6 +74,17 @@
 - Open the ~Reference > Display~ in the sidebar and find the correct
   image descriptor for "pacman". Fix the code and run it on the
   simulator.
+
+* Practice: Clock with four hands
+
+- Look for ~Display > Images: make your own~ in the reference manual.
+
+- Create a clock that moves a hand clock-wise changing position once
+  per second.
+
+- Solution video.
+
+- Solution code.
 
 * Practice: Frère Jacques
 #+attr_latex: :width 400px
