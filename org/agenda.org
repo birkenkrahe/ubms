@@ -775,7 +775,7 @@ The Canvas page approach apparently did not work...
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
 
-** Quiz 8: Snap! blocks and Python basics (20 min)
+** [[https://lyon.instructure.com/courses/1721/assignments/15507/edit?quiz_lti][Quiz 8: Snap! blocks and Python basics]] (20 min)
 
 ** Challenge: Guess the Number game in Snap (20 min)
 #+attr_latex: :width 400px
@@ -859,7 +859,7 @@ The Canvas page approach apparently did not work...
   2) The Python /Arcade/ Library - lots of example code. This will
      enable you do create a lot of the stuff that Snap! comes with
      (like sprites). The tutorials are very nice and easy to follow.
-
+     
   3) /Turtle/ is the built-in graphics and gaming library. There are
      animation examples with code available via IDLE (look under the
      HELP tab). For game tutorials, see e.g.: [[https://www.geeksforgeeks.org/create-a-snake-game-using-turtle-in-python/][Snake Game]], [[https://www.javatpoint.com/ping-pong-game-using-turtle-in-python][Pong game]],
@@ -898,6 +898,7 @@ The Canvas page approach apparently did not work...
   #+caption: Microbit Microsoft Makecode editor (and debugger)
   [[../img/microbitMakecode.png]]
 
+
 * July 11: The Finch with Snap!
   #+attr_latex: :width 400px
   [[../img/finch_blink.png]]
@@ -912,6 +913,7 @@ The Canvas page approach apparently did not work...
   - [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap!]]
   - Complete this on your own by Thursday 12 PM
   
+
 * July 12: The Finch in Python!
   #+attr_latex: :width 400px
   [[../img/fpy_snap.png]]
@@ -920,6 +922,7 @@ The Canvas page approach apparently did not work...
   - [[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]
   - Complete this on your own by Thursday 12 PM
   
+
 * July 13: Finch Parade - show off your skills!
   #+attr_latex: :width 400px
   [[../img/FinchParade.jpg]]
