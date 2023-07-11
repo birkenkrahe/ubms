@@ -115,5 +115,13 @@ Solutions:
 - [[https://github.com/birkenkrahe/ubms/blob/main/py/frere_jacques.py][Python code]]
 
 * [[https://microbit.org/projects/make-it-code-it/?filters=makecode,python][More activities with the BBC micro:bit]]
+* Also on the [Android] phone
 
+Samsung app for micro:bit (also other Android phones):
+#+attr_latex: :width 200px
+[[../img/androidApp.jpg]] [[../img/androidApp1.jpg]] [[../img/androidApp2.jpg]]
+
+- Pair with any micro:bit.
+- Code in MakeCode, JavaScript or Python.
+- Simulate code in app and flash to micro:bit.
 
