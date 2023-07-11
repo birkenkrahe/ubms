@@ -47,7 +47,7 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
   2) "Think": Microbit controls actions
   3) "Act": LEDs, motors, buzzer, moves, draw etc.
 
-* Setting the Finch robot 2.0 up with Snap!
+* DONE Setting the Finch robot 2.0 up with Snap!
 
 - Microbit input: sensor data (light, acceleration, temperature,
   magnetism, sound) - see [[https://microbit.org/get-started/user-guide/overview/][user guide]].
@@ -156,7 +156,7 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
   1) decomposition (drawing the triangle step by step)
   2) evaluation (testing to see if you got what you wanted)
 
-* Drawing a spiral ([[https://learn.birdbraintechnologies.com/finch1/activities/finch-spirals/][project]])
+* Practice: Drawing a spiral
 
 1) When the Finch's two motors move at the same speed, it moves in a
    straight line. When they move at different speeds, it moves in a
@@ -260,14 +260,92 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
   2) decomposition = parallel blocks
   3) evaluation = match goal to result
 
-* TODO Sounds
+* Finch sounds
 #+attr_latex: :width 400px
 [[../img/soundFinch.png]]
 
-* TODO Sensors
-#+attr_latex: :width 400px
-[[../img/sensorFinch.png]]
+- There is only one Finch-specific sound command:
+  #+attr_latex: :width 250px
+  [[../img/finch_play_sound.png]]
+  
+- The notes corresponds to a MIDI keyboard:
+  #+attr_latex: :width 350px
+  [[../img/finch_sound.png]]
+  #+begin_quote
+  A MIDI (Musical Instrument Digital Interface) keyboard is an
+  electronic instrument that sends MIDI signals to other devices like
+  computers, synthesizers, or drum machines. It doesn't produce sound
+  itself but triggers sounds stored in digital devices. MIDI keyboards
+  come in different sizes, can have additional control features like
+  pads and knobs, and usually connect via USB or MIDI cables. They are
+  essential tools for digital music production and performance.
+  #+end_quote
 
+- Practice: create the 'Frere Jacques' with disco lights (for a video,
+  see: [[https://tinyurl.com/frereJacquesDisco][tinyurl.com/frereJacquesDisco]]) - lyrics are here:
+  [[https://tinyurl.com/BrotherJack][tinyurl.com/BrotherJack]].
+
+- Solution ([[https://snap.berkeley.edu/project?username=birkenkrahe&projectname=Frere_Jacques][cloud file]]):
+  #+attr_latex: :width 400px
+  [[../img/frereJacquesDisco.png]]
+
+- Challenge: make the Finch play the song and dance to it. Here is a
+  fancy example, the "Finch chorus line" - https://youtu.be/qouVW_oVDPs
+
+* Sensors: distance, lights, lines (numeric)
+#+attr_latex: :width 400px
+[[../img/finch_line.jpg]]
+
+- The Finch can measure distance using the two sensors in front -
+  click on this command to get the current reading:
+  [[../img/finch_distance.png]]
+
+- To continuously update the distance reading, use the output as the
+  string in a ~say~ command and wrap it in a ~forever~ loop:
+  [[../img/finch_distance_forever.png]]
+  
+- Data gathering mission: use the other blocks inside this code.
+  [[../img/finch_left_light.png]]   [[../img/finch_right_light.png]]
+
+- Sensor overview video on the [[https://learn.birdbraintechnologies.com/finch/snap/program/10-1][Snap/sensor programming page]] -
+  especially for registering the minimum/maximum values.
+
+- Practice: use the value of the light sensor as a dimmer for LED
+  where the LED gets brighter in proportion to increasing light
+  falling on one of the sensors.
+
+- Write a script that turns the beak BLUE when the left, and RED when
+  the right light sensor are covered.
+
+- Solution:
+  [[../img/finch_dimmer.png]]
+
+- Modify the script to include that the beak goes GREEN when BOTH
+  light sensors are covered.
+
+- Solution:
+  [[../img/finch_dimmer_RGB.png]]
+
+* Sensors: buttons, orientation (Boolean)
+#+attr_latex: :width 400px
+[[../img/buttons.jpg]]
+
+- Practice: write a script that shows a button "A" whenever the left
+  A-button of the Finch is pressed, and a button "B" whenever the
+  right B-button of the Finch is pressed.
+
+- Solution:
+  [[../img/abutton.png]]  [[../img/bbutton.png]]  
+
+- Practice: write a script that plays the different sounds of a scale
+  depending on the orientation of the Finch's beak, and try to play
+  "Frère Jacques" with the Finch.
+
+- Solution: the playing reminds me of the "bamboo Katana challenge" in
+  "Ghost of Tsushima":
+   [[../img/finch_orientation_scale.png]]
+
+* TODO Compass, acceleration, sound, temperature (numeric)
 * TODO Finch with Python - what changes?
 #+attr_latex: :width 400px
 [[../img/fpy_snap.png]]
