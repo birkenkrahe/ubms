@@ -771,7 +771,7 @@ The Canvas page approach apparently did not work...
 [[../img/snaptopythonsnap.png]] [[../img/snaptopython.png]]
 
 
-* July 10: Python Games
+* July 10: Python Games with Turtle
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
 
@@ -876,11 +876,14 @@ The Canvas page approach apparently did not work...
    So you need to use another IDE like IDLE or PyCharm, or replit.com.
    (that's what I use though IDLE is just as good and much faster).
 
-
-* July 11: The Finch with Snap!
+* July 11: The Finch with Snap!: motion and looks
 #+attr_latex: :width 200px
 #+caption: micro:bit v2 in the tail of a Finch 2.0 robot
 [[../img/finch_tail.png]]
+
+** VERY IMPRESSIVE: YOU KEPT YOUR QUIZ AVERAGE!!!
+#+attr_latex: :width 400px
+[[../img/quizDensity.png]] [[../img/quizBoxplot.png]]
 
 ** The micro:bit Python online editor
 #+attr_latex: :width 400px
@@ -894,7 +897,7 @@ The Canvas page approach apparently did not work...
 - Practice 2: display clock
 - Practice 3: play "Frere Jacques"
 
-** Getting started with the Finch
+** Getting started with the Finch in Snap! 
 #+attr_latex: :width 400px
 [[../img/finch_blink.png]]
 
@@ -905,15 +908,17 @@ The Canvas page approach apparently did not work...
 4) Mark & Brayden
 
 *Open online later today (see Snap!Chat):*
-- [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap!]]
+- [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap: motion and looks!]]
 - Complete this on your own by Thursday 12 PM
 
-* July 12: The Finch in Python!
+
+* July 12: The Finch with Snap!: sound and sensing
 #+attr_latex: :width 400px
 [[../img/fpy_snap.png]]
 
 *Open online later today (see Snap!Chat):*
-- [[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]
+- Quiz 10: The Finch with Snap!: sound and sensing
+- +[[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]+
 - Complete this on your own by Thursday 12 PM
 
 * July 13: Finch Parade - show off your skills!
