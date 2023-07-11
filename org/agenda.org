@@ -771,7 +771,7 @@ The Canvas page approach apparently did not work...
 [[../img/snaptopythonsnap.png]] [[../img/snaptopython.png]]
 
 
-* July 10: Python Games with Turtle
+* DONE July 10: Python Games with Turtle
 #+attr_latex: :width 400px
 [[../img/finchsnap.png]] [[../img/finchpython.png]]
 
@@ -876,12 +876,12 @@ The Canvas page approach apparently did not work...
    So you need to use another IDE like IDLE or PyCharm, or replit.com.
    (that's what I use though IDLE is just as good and much faster).
 
-* July 11: The Finch with Snap!: motion and looks
+* NEXT July 11: The Finch with Snap!: motion and looks
 #+attr_latex: :width 200px
 #+caption: micro:bit v2 in the tail of a Finch 2.0 robot
 [[../img/finch_tail.png]]
 
-** VERY IMPRESSIVE: YOU KEPT YOUR QUIZ AVERAGE!!!
+** VERY IMPRESSIVE: YOU KEPT YOUR QUIZ AVERAGE POST BREAK!!!
 #+attr_latex: :width 400px
 [[../img/quizDensity.png]] [[../img/quizBoxplot.png]]
 
@@ -894,7 +894,7 @@ The Canvas page approach apparently did not work...
 - How to code for the micro:bit using MicroPython
 - How to flash .hex and .py code to the micro:bit
 - Practice 1: display "Pacman"
-- Practice 2: display clock
+- Practice 2: display [alarm] clock
 - Practice 3: play "Frere Jacques"
 
 ** Getting started with the Finch in Snap! 
@@ -905,16 +905,15 @@ The Canvas page approach apparently did not work...
 1) Abby & Dustin
 2) Jorden & Shytier
 3) Gracie & Ashley & London
-4) Mark & Brayden
+4) Mark & Braydenclear
 
 *Open online later today (see Snap!Chat):*
 - [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap: motion and looks!]]
 - Complete this on your own by Thursday 12 PM
 
-
 * July 12: The Finch with Snap!: sound and sensing
 #+attr_latex: :width 400px
-[[../img/fpy_snap.png]]
+[[../img/soundFinch.png]]
 
 *Open online later today (see Snap!Chat):*
 - Quiz 10: The Finch with Snap!: sound and sensing
