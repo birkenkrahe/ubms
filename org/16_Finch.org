@@ -8,3 +8,240 @@
 #+caption: Five ways to program the Finch 2.0 robot
 [[../img/finch_programming.png]]
 
+You need to match language, purpose and platform ([[https://learn.birdbraintechnologies.com/software-guidance-chart/#finchrobot2][guidance chart]]).
+
+* Welcome ([[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/1][video]])
+
+- Computational thinking:
+  1) Abstraction
+  2) Evaluation
+  3) Algorithms
+  4) Decomposition
+  5) Pattern recognition
+
+- What is a robot?
+  [[./img/finch_robot.png]]
+
+- As "Artificial Intelligence", robots are "rational agents":
+  [[./img/agents.png]]
+  1) Upper left: machines that act like humans ("Turing test")
+  2) Lower left: machines that think like humans (Neural nets)
+  3) Upper right: machines that act rationally (unlike humans)
+  4) Lower right: machines that think rationally (not emotionally) -
+     the robot arrives at conclusions after computing them.
+  
+- How does it work with the Finch?
+  [[./img/finch_robot1.png]]
+
+  1) "Sense": Finch sensors at the front
+  2) "Think": Microbit controls actions
+  3) "Act": LEDs, motors, buzzer, moves, draw etc.
+
+* Setting up with Snap! ([[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/2][video]])
+
+- [[https://learn.birdbraintechnologies.com/downloads/installers/BlueBirdConnector.msi][Bluebird Connection Web app]] or Snap! Web app.
+  
+- Microbit input: sensor data (light, acceleration, temperature,
+  magnetism, sound) - see [[https://microbit.org/get-started/user-guide/overview/][user guide]].
+  [[./img/microbit.png]]
+  
+- Install the micro:bit by sliding it into the tail of the Finch and
+  make sure it is charged:
+  #+attr_latex: :width 400px
+  [[./img/finch_find_robots.png]]
+
+- Choose a device and a language:
+  #+attr_latex: :width 400px
+  [[./img/finch_selection.png]]
+
+- Program & Activities & Printables
+  #+attr_latex: :width 400px
+  [[./img/finch_windows_snap.png]]
+
+- Full charge lasts ca. 8 hrs and takes 8 hrs to charge. Green lights
+  when turning it on indicate the charging state (4 lights = full).
+
+- Updating the firmware with a ~.hex~ file for the micro:bit:
+  1) connect the micro:bit to your computer.
+  2) get the file [[https://learn.birdbraintechnologies.com/downloads/installers/BBTFirmware.hex][from here]].
+  3) drag the file on to the micro:bit's drive in the explorer.
+  4) once uploaded, the micro:bit responds directly by giving three
+     letters (DAT - "Deluxe Apricot Tyrannosaurus") followed by
+     pound # sign and its number, e.g. FNC3929.
+
+- Wireless connection 
+  1) go to snap.birdbraintechnologies.com or open BlueBird Connector.
+  2) connect to the finch's number and pair it.
+  3) the Snap editor opens.
+
+- The BlueBird Connector App always finds robots by name, too:
+  #+attr_latex: :width 400px
+  [[./img/finch_connect1.png]]
+  [[./img/finch_connect2.png]]
+
+- Try moving the Finch after connecting to it:
+  [[./img/finch_move.png]]
+
+- [[https://learn.birdbraintechnologies.com/finch/snap/program/1-14][14 Programming videos here]].  
+  
+* Moving and turning ([[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/3][video]])
+[[./img/finch_angles.png]]
+
+- Move forward 10 cm at 25% full speed, then backward by 20 cm at full
+  speed:
+  [[./img/finch_moving.png]]
+
+- Turn right by 20 degrees at 50% full speed, then left by 90 degrees
+  at 75% full speed:
+  [[./img/finch_turning.png]]
+
+- Repeat the turning motion 5 times:
+  [[./img/finch_repeat.png]]
+
+- Make the Finch move in a square, then play a sound:
+  [[./img/finch_square.png]]
+
+* Controlling wheels ([[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/4#][video]])
+
+- For a counter-clockwise spinning motion, make the left wheel go
+  backward and the right wheel go forward:
+  [[./img/finch_spin_left.png]]
+
+- For a clockwise spinning motion, make the right wheel go backward
+  and the left wheel go forward:
+  [[./img/finch_spin_right.png]]
+
+- To stop, use the "Finch Stop" block or the red STOP editor button:
+  [[./img/finch_wait_spin.png]]
+
+- To make the Finch move around in a circle, make the wheels go at
+  different speeds while moving forward:
+  [[./img/finch_circle.png]]
+
+- Challenge: how long to wait for an exact full circle? Circumference
+  of the circle is 2*Pi*r = f, and at speed v, the Finch needs t = f/v
+  seconds to travel round a circle of radius r once. What is v? It
+  takes the Finch ca. 7 sec at L=40% R=20% (clock-wise). Time to use
+  the drawing function to find the radius of the circle! (The speed is
+  also strongly dependent on the underground!)
+
+* Finch movement activities / CT concepts ([[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/5][video]])
+
+- Activity: finch jousting - known the ball off a cup using e.g. a
+  fork on a straw:
+  [[./img/finch_jousting.png]]
+
+- Computational thinking concepts:
+  1) algorithms - instructions for a computer
+  2) evaluation - modify until the result is satisfying
+
+- Others: drawing shapes, drawing shapes, complete a maze
+
+* Drawing shapes with the pen mount / CT concepts
+
+- Draw a right triangle (use Pythagoras to compute the length of the
+  hypothenuse):
+  [[./img/finch_right_triangle.png]]
+  
+- Drawing shapes activity:
+  1) decomposition (drawing the triangle step by step)
+  2) evaluation (testing to see if you got what you wanted)
+
+* Drawing a spiral ([[https://learn.birdbraintechnologies.com/finch1/activities/finch-spirals/][project]])
+
+1) When the Finch's two motors move at the same speed, it moves in a
+   straight line. When they move at different speeds, it moves in a
+   circle. The following script works more or less - not quite sure
+   about the ~speed~ values - but it produces a spiral:
+   #+attr_html: :width 200px
+   [[./img/finch_spiral1.jpg]] [[./img/finch_spiral_code1.png]]
+   
+3) An alternative is to use the move + turn commands - this script
+   draws a spiral for the turtle:
+   #+attr_html: :width 210px
+   [[./img/finch_spiral_turtle.png]] [[./img/finch_spiral_turtle_code.png]]
+   
+4) This will produce a spiral:
+   #+attr_html: :width 200px
+   [[./img/finch_spiral.jpg]] [[./img/finch_spiral_code.png]]
+
+* Finch LEDs ([[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/8][video 1]] / [[https://learn.birdbraintechnologies.com/professional-development/video-courses/finch/snap/9][video 2]])
+#+attr_latex: :width 200px
+[[./img/finch_rgb.png]]
+
+- Red, blue and green are the primary colors of (white) light.
+
+- Turning the Finch's beak red, green then blue forever:
+    #+attr_latex: :width 400px
+  [[./img/finch_rgb_forever.png]]
+
+- Why do blue and green make yellow?
+  #+begin_quote
+  The combination of red and green to make yellow can be explained in
+  the context of additive color mixing, which is the way colors of
+  light combine. This is the method used by digital displays like
+  computer monitors, televisions, and projector screens.
+
+  In the additive color model, the primary colors are red, green, and
+  blue. When red light and green light combine, they create yellow
+  light. This may seem counterintuitive if you're used to the
+  subtractive color model (like mixing paints), where red and yellow
+  make orange.
+
+  The reason this happens has to do with how our eyes perceive
+  color. We have three types of color receptors, or cones, in our eyes
+  that are sensitive to short (blue), medium (green), and long (red)
+  wavelengths of light. When we see yellow, it's usually because an
+  object is reflecting both red and green light to our eyes,
+  stimulating both the long and medium wavelength cones. Our brains
+  interpret this combination as the color yellow.
+
+  So, when a screen wants to create the perception of yellow, it emits
+  both red and green light. Our eyes see this combination of red and
+  green light, and our brain interprets it as yellow.
+  #+end_quote
+
+- Create an LED disco effect ([[https://drive.google.com/file/d/1ktyLvQTbW9WwVLbVJkrksWgp6yOqHJc3/view?usp=sharing][see video]]): make LEDs 1,2,3,4 (from the
+  right)
+
+- Solution code:
+  #+attr_latex: :width 400px
+  [[./img/finch_led_disco.png]]
+
+- You get white light by mixing all colors with the same weight - the
+  lower the number the fainter the light: try setting it to 1%
+  #+attr_latex: :width 400px
+  [[./img/finch_led_white.png]]
+
+- How does a prism work?
+  #+begin_quote
+  As sunlight (white light) enters a prism, its components travel with
+  different speeds (wavelengths) leading to refraction - as it exits,
+  it is dispersed - cp. Snell's law, which describes the relationship
+  between the angles of incidence and refraction for light or other
+  waves passing between two different isotropic media (e.g. water,
+  glass, air where no direction is privileged over another).
+  #+end_quote
+
+- Challenge:
+  1) Make every LED in tail and beak show a different color
+  2) Turn all LED's white at the same time
+  3) Make them blink off/on three times before turning all of them
+     off.
+
+- Solution code:
+  #+attr_latex: :width 400px
+  [[./img/finch_led_challenge.png]]   
+
+- Or with a "blink N times" Finch block:
+  #+attr_latex: :width 400px
+  [[./img/finch_led_challenge_block.png]] [[./img/finch_blink.png]]
+
+- Activity: "Finch parade" - turn a Finch in a parade float using
+  Lego bricks, blinking lights and movement mixes.
+
+- Computational thinking:
+  1) algorithm = order of things
+  2) decomposition = parallel blocks
+  3) evaluation = match goal to result
+  
