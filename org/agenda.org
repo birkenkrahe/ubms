@@ -1,3 +1,4 @@
+
 #+TITLE: Game and Robotics Programming with Snap! and Python
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE: UBMS - SUMMER 2023
@@ -902,10 +903,6 @@ The Canvas page approach apparently did not work...
 [[../img/finch_blink.png]]
 
 *Teams:*
-1) Abby & Dustin
-2) Jorden & Shytier
-3) Gracie & Ashley & London
-4) Mark & Braydenclear
 
 *Open online later today (see Snap!Chat):*
 - [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap: motion and looks!]]

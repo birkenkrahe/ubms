@@ -103,7 +103,7 @@ Colab solution link: [[https://tinyurl.com/guessTheNumberSolution][tinyurl.com/g
        print('It is true!')
   #+end_example
 
-- The following loop breaks after 5 iterations because we made it:
+- The following loop breaks after 5 iterations:
   #+begin_src python
     i = 1
     while True:
