@@ -62,7 +62,7 @@
   2) ~sleep~ to pause for a given number of microseconds (100 \mu s = 1 s)
   3) ~display.scroll~ to scroll a string argument on the display
 
-* Practice: Pacman
+* Practice 1: Pacman
 [[../img/pacman.png]]
 
 - Open the simulator and run it for the sample program that appears
@@ -75,18 +75,18 @@
   image descriptor for "pacman". Fix the code and run it on the
   simulator.
 
-* Practice: Alarm Clock with four hands
+* Practice 2: Alarm Clock with four hands
 
 - Look for ~Display > Images: make your own~ in the reference manual.
 
 - Create a clock that moves a hand clock-wise changing position once
   per second, and that makes a 'Ba-ding' sound when the hand changes.
 
-- Solution video (micro:bit v1).
+- [[https://drive.google.com/file/d/1mPjhzL04T6ungjOBGolpYHVLaxiH0spo/view?usp=sharing][Solution video (micro:bit v1)]].
 
-- Solution code (Python).
+- [[https://github.com/birkenkrahe/ubms/blob/main/py/alarmClock.py][Solution code (Python)]].
 
-* Practice: Frère Jacques
+* Practice 3: Frère Jacques
 #+attr_latex: :width 400px
 [[../img/frere_jacques_lyrics.png]]
 
@@ -114,7 +114,6 @@ Solutions:
 - [[https://drive.google.com/file/d/1m1J5A9WP54_G0BzIWqNXvFkrXynv3sbK/view?usp=sharing][video with micro-bit v1]]
 - [[https://github.com/birkenkrahe/ubms/blob/main/py/frere_jacques.py][Python code]]
 
-* TODO Loading the ~microbit~ library on your PC
+* [[https://microbit.org/projects/make-it-code-it/?filters=makecode,python][More activities with the BBC micro:bit]]
 
-[[https://sharegpt.com/c/VQca1C8][Follow these online Instructions]]
 
