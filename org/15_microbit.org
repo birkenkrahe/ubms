@@ -75,16 +75,16 @@
   image descriptor for "pacman". Fix the code and run it on the
   simulator.
 
-* Practice: Clock with four hands
+* Practice: Alarm Clock with four hands
 
 - Look for ~Display > Images: make your own~ in the reference manual.
 
 - Create a clock that moves a hand clock-wise changing position once
-  per second.
+  per second, and that makes a 'Ba-ding' sound when the hand changes.
 
-- Solution video.
+- Solution video (micro:bit v1).
 
-- Solution code.
+- Solution code (Python).
 
 * Practice: Frère Jacques
 #+attr_latex: :width 400px
@@ -109,8 +109,10 @@
 
 6) Save the final code as .hex and .py on your PC.
 
-Here is a [[https://drive.google.com/file/d/1liEEgg9xYNMy0oGdXvfLMKvEZYB3P98S/view?usp=sharing][video with the solution]] (after flashing the hex file to the
-Finch micro:bit), and [[https://github.com/birkenkrahe/ubms/blob/main/py/frere_jacques.py][here is the Python file]].
+Solutions:
+- [[https://drive.google.com/file/d/1liEEgg9xYNMy0oGdXvfLMKvEZYB3P98S/view?usp=sharing][video with Finch]],
+- [[https://drive.google.com/file/d/1m1J5A9WP54_G0BzIWqNXvFkrXynv3sbK/view?usp=sharing][video with micro-bit v1]]
+- [[https://github.com/birkenkrahe/ubms/blob/main/py/frere_jacques.py][Python code]]
 
 * TODO Loading the ~microbit~ library on your PC
 
