@@ -10,7 +10,7 @@ def cover():
 
 def song():
     for x in range(2):
-        music.play(['F4','G4','A4','C4'])
+        music.play(['F4','G4','A4','F4'])
     for x in range(2):
         music.play(['A4:4','Bb4:4','C5:8'])
     for x in range(2):
