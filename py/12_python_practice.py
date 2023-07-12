@@ -98,19 +98,12 @@ age = input("What's your age? ")
     can type the name followed by a question mark. For more detailed
     help, use `help(input)`:
 
-
-"""
-
-input?
-
-"""1.  Like Snap!, Python has data types (string, number, Boolean), and
+1.  Like Snap!, Python has data types (string, number, Boolean), and
     like in Snap! you do not have to declare them but they are
     dynamically assigned when they are created by you.
 
 2.  The next line checks the data type of `age`, which we entered as a
     number, so it's reasonable to assume that it's an integer:
-
-
 """
 
 type(age)
