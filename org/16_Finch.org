@@ -294,9 +294,11 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
 
 * Sensors: distance, lights, lines (numeric)
 #+attr_latex: :width 400px
-[[../img/finch_line.jpg]]
+[[../img/finch_sensors.png]]
+- Finch sensors include: light, line, distance, buttons A/B,
+  accelerometer, compass, temperature, orientation, and sound.
 
-- The Finch can measure distance using the two sensors in front -
+- The Finch can measure DISTANCE using the two sensors in front -
   click on this command to get the current reading:
   [[../img/finch_distance.png]]
 
@@ -310,7 +312,7 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
 - Sensor overview video on the [[https://learn.birdbraintechnologies.com/finch/snap/program/10-1][Snap/sensor programming page]] -
   especially for registering the minimum/maximum values.
 
-- Practice: use the value of the light sensor as a dimmer for LED
+- PRACTICE: use the value of the light sensor as a dimmer for LED
   where the LED gets brighter in proportion to increasing light
   falling on one of the sensors.
 
@@ -320,8 +322,8 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
 - Solution:
   [[../img/finch_dimmer.png]]
 
-- Modify the script to include that the beak goes GREEN when BOTH
-  light sensors are covered.
+- PRACTICE: Modify the script to include that the beak goes GREEN when
+  BOTH light sensors are covered.
 
 - Solution:
   [[../img/finch_dimmer_RGB.png]]
@@ -351,7 +353,7 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
 [[../img/fpy_snap.png]]
 
 - Different setup
-- Different course (must register)
+- Different course to learn how to (must register)
 
 * TODO Play with the Finch robot remotely
 #+attr_latex: :width 400px

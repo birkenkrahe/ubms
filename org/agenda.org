@@ -1,4 +1,3 @@
-
 #+TITLE: Game and Robotics Programming with Snap! and Python
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE: UBMS - SUMMER 2023
@@ -877,7 +876,7 @@ The Canvas page approach apparently did not work...
    So you need to use another IDE like IDLE or PyCharm, or replit.com.
    (that's what I use though IDLE is just as good and much faster).
 
-* NEXT July 11: The Finch with Snap!: motion and looks
+* DONE July 11: Brain of the Finch: micro:bit
 #+attr_latex: :width 200px
 #+caption: micro:bit v2 in the tail of a Finch 2.0 robot
 [[../img/finch_tail.png]]
@@ -904,16 +903,16 @@ The Canvas page approach apparently did not work...
 
 *Teams:*
 
-*Open online later today (see Snap!Chat):*
-- [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: The Finch with Snap: motion and looks!]]
+*Open online later today (see Snap!Chat/Email):*
+- [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: Microbit and The Finch]]
 - Complete this on your own by Thursday 12 PM
 
-* July 12: The Finch with Snap!: sound and sensing
+* July 12: The Finch with Snap!
 #+attr_latex: :width 400px
 [[../img/soundFinch.png]]
 
 *Open online later today (see Snap!Chat):*
-- Quiz 10: The Finch with Snap!: sound and sensing
+- Quiz 10: The Finch with Snap! summary quiz
 - +[[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]+
 - Complete this on your own by Thursday 12 PM
 
@@ -923,13 +922,8 @@ The Canvas page approach apparently did not work...
 
 [[https://lyon.instructure.com/courses/1721/assignments/15086][Canvas assignment]]: Make your Finch 2.0 robot stand out in the crowd
 as part of a parade float. For example by one or more of:
-- Playing a song
-- Showing a fancy design
+- Playing a song while dancing to it 
+- Showing a fancy design on top (without falling over)
 - Drawing a complicated figure
-- Anything else
-
-  The parade interval should not be longer than a couple of minutes.
-
-  The final parade results will be showcased in video at the end. (You
-  can also create intermediate documentation, upload and share .py or
-  .hex or Snap! files leading to the final result).
+- Anything else that doesn't break the bird!
+- No explosions, no brutalizations of the bird!
