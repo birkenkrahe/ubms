@@ -5,10 +5,12 @@
 #+property: header-args:python :results output :noweb yes
 * Programming the Finch 2.0
 #+attr_latex: :width 400px
-#+caption: Five ways to program the Finch 2.0 robot in 9 languages
+#+caption: 5 Ways to program the Finch 2.0 robot
 [[../img/finch_programming.png]]
 
-You need to match language, purpose and platform ([[https://learn.birdbraintechnologies.com/software-guidance-chart/#finchrobot2][guidance chart]]).
+- You need to match language, purpose and platform ([[https://learn.birdbraintechnologies.com/software-guidance-chart/#finchrobot2][guidance chart]]).
+
+- The Finch can actually be programmed with 9 different languages.
 
 * Robots and AI
 
@@ -28,8 +30,7 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
     a 1920 Czech-language play [[https://en.wikipedia.org/wiki/R.U.R.][R.U.R.]] (Rossumovi Univerzální Roboti –
     Rossum's Universal Robots) by Karel Čapek ("The new Adam and Eve")
 
-  - Technically, a robot is a non-virtual "rational agent".
-  #+end_quote
+- Technically, a robot is a non-virtual "rational agent".
 
 - As "Artificial Intelligence", robots are "rational agents":
   #+attr_latex: :width 400px
@@ -47,7 +48,7 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
   2) "Think": Microbit controls actions
   3) "Act": LEDs, motors, buzzer, moves, draw etc.
 
-* DONE Setting the Finch robot 2.0 up with Snap!
+* Setting the Finch robot 2.0 up with Snap!
 
 - Microbit input: sensor data (light, acceleration, temperature,
   magnetism, sound) - see [[https://microbit.org/get-started/user-guide/overview/][user guide]].
@@ -58,11 +59,11 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
   #+attr_latex: :width 400px
   [[../img/finch_find_robots.png]]
 
-- [[device (platform) and a language:][You can choose a platform and a programming language]]:
+- You can choose a platform and a language:
   #+attr_latex: :width 400px
   [[../img/finch_selection.png]]
 
-- [[https://learn.birdbraintechnologies.com/finch/snap/][There are many programming activities available:]]
+- There are many different activities available:
   #+attr_latex: :width 400px
   [[../img/finch_windows_snap.png]]
 
@@ -352,8 +353,10 @@ You need to match language, purpose and platform ([[https://learn.birdbraintechn
 #+attr_latex: :width 400px
 [[../img/fpy_snap.png]]
 
-- Different setup
-- Different course to learn how to (must register)
+- Different setup: [[https://brython.birdbraintechnologies.com/][use this web app to connect]].
+- Different course to learn how to (must register).
+- More and different ways to work with numeric and Boolean data.
+- Good for using the Finch as a data gathering device (data science).
 
 * TODO Play with the Finch robot remotely
 #+attr_latex: :width 400px
