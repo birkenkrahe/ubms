@@ -897,7 +897,7 @@ The Canvas page approach apparently did not work...
 - Practice 2: display [alarm] clock
 - Practice 3: play "Frere Jacques"
 
-** Getting started with the Finch in Snap! 
+** Getting started with the Finch in Snap!
 #+attr_latex: :width 400px
 [[../img/finch_blink.png]]
 
@@ -922,13 +922,35 @@ The Canvas page approach apparently did not work...
 
 [[https://lyon.instructure.com/courses/1721/assignments/15086][Canvas assignment]]: Make your Finch 2.0 robot stand out in the crowd
 as part of a parade float. For example by one or more of:
-- Playing a song while dancing to it 
+- Playing a song while dancing to it
 - Showing a fancy design on top (without falling over)
 - Drawing a complicated figure
 - Anything else that doesn't break the bird!
 - No explosions, no brutalizations of the bird!
 
-TIMING  
+TIMING
 - Build parade until 10:30 am
 - Show parade: 10:30-10:40 am
 - Summary and good-bye: 10:40-10:45 am
+
+
+* Summary and outlook
+#+attr_latex: :width 400px
+[[../img/penguins.jpg]]
+
+- What you (should/could have) learnt in this class:
+  1) The value of and place for visual programming
+  2) How to make animations and games with simple means
+  3) How to program a robot with Snap!
+  4) Basics of Python vs. Snap!
+
+- What I most appreciated about this course:
+  1) Performance: how you immerse yourself in activities
+  2) Progress: how much we got done in this course
+  3) Patience: how you politely tolerated my ramblings
+
+- What I could improve about this course: you tell me!
+
+  1) More robot time!
+  2) More Python!
+  3) ???? [send me more comments via email or in the chat]
