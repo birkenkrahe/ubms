@@ -145,8 +145,6 @@
   #+attr_latex: :width 400px
   [[../img/finch_jousting.png]]
 
-- For more intricate movements with the wheels, you need 
-  
 * Drawing shapes with the pen mount
 
 - Draw a right triangle (use Pythagoras to compute the length of the
@@ -349,7 +347,7 @@
    [[../img/finch_orientation_scale.png]]
 
 * TODO Compass, acceleration, sound, temperature (numeric)
-* TODO Finch with Python - what changes?
+* Finch with Python - what changes?
 #+attr_latex: :width 400px
 [[../img/fpy_snap.png]]
 
@@ -357,8 +355,8 @@
 - Different course to learn how to (must register).
 - More and different ways to work with numeric and Boolean data.
 - Good for using the Finch as a data gathering device (data science).
-
-* TODO Play with the Finch robot remotely
+  
+* SOMEDAY Play with the Finch robot remotely
 #+attr_latex: :width 400px
 [[../img/remoteFinch.png]]
 
