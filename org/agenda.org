@@ -907,12 +907,12 @@ The Canvas page approach apparently did not work...
 - [[https://lyon.instructure.com/courses/1721/assignments/15511/edit?quiz_lti][Quiz 9: Microbit and The Finch]]
 - Complete this on your own by Thursday 12 PM
 
-* July 12: The Finch with Snap!
+* DONE July 12: The Finch with Snap!
 #+attr_latex: :width 400px
 [[../img/soundFinch.png]]
 
 *Open online later today (see Snap!Chat):*
-- Quiz 10: The Finch with Snap! summary quiz
+- [[https://lyon.instructure.com/courses/1721/assignments/15521/edit?quiz_lti][Quiz 10: The Finch with Snap! summary quiz]]
 - +[[https://lyon.instructure.com/courses/1721/assignments/15512/edit?quiz_lti][Quiz 10: The Finch with Python]]+
 - Complete this on your own by Thursday 12 PM
 
@@ -927,3 +927,8 @@ as part of a parade float. For example by one or more of:
 - Drawing a complicated figure
 - Anything else that doesn't break the bird!
 - No explosions, no brutalizations of the bird!
+
+TIMING  
+- Build parade until 10:30 am
+- Show parade: 10:30-10:40 am
+- Summary and good-bye: 10:40-10:45 am
